@@ -16,6 +16,19 @@ public class SpawnCharacter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        StartCoroutine(StartSpawning());
+    }
+
+    IEnumerator StartSpawning()
+    {
+
+        yield return new WaitForSeconds(4);
+
+        for (int i =0; i < 3; i++)
+        {
+            Instantiate(Dinosaurs[i], spawnPoints[i].position, Quaternion.identity);
+        }
+
+        StartCoroutine(StartSpawning());
     }
 }
