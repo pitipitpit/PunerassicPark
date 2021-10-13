@@ -6,14 +6,21 @@ public class ShootScript : MonoBehaviour
 {
     public GameObject arCamera;
     public GameObject dinosaurPrefab;
-    public AudioSource dinoDie;
+    public AudioSource dieSound;
+
+    public bool dinoDie;
     
     public void Shoot() {
         RaycastHit hit;
 
         if(Physics.Raycast(arCamera.transform.position, arCamera.transform.forward, out hit)){
             if(hit.transform.name == "trex(Clone)"){
-                // dinoDie.Play();
+                // if (!dieSound.isPlaying)
+                //     {
+                //         dieSound.Play();
+                //         Debug.Log("sound on");
+                //     }
+                playAudio();
                 Destroy(hit.transform.gameObject);
                 float a = Random.Range(-5f, 5f);
                 float b = Random.Range(-5f, 5f);
@@ -21,5 +28,15 @@ public class ShootScript : MonoBehaviour
                 // dinoDie.Stop();
             }
         }
+    }
+    IEnumerator playAudio()
+    {
+        //Play Audio
+        dieSound.Play();
+
+        //Wait until it's done playing
+        while (dieSound.isPlaying)
+            yield return null;
+        Debug.Log("sound on");
     }
 }
