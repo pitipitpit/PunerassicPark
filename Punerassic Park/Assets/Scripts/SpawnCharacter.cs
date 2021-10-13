@@ -6,6 +6,7 @@ public class SpawnCharacter : MonoBehaviour
 {
     [SerializeField] Transform[] spawnPoints;
     [SerializeField] GameObject[] Dinosaurs;
+    public int counter;
 
     // Start is called before the first frame update
     void Start()
@@ -20,18 +21,24 @@ public class SpawnCharacter : MonoBehaviour
         
     }
 
+
     IEnumerator StartSpawning()
     {
 
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(1);
+        
+            for (int i =0; i < 3; i++)
+            {
+                Instantiate(Dinosaurs[i], spawnPoints[i].position, Quaternion.identity);
+                counter++;
+                
+            }
+        
+        while(counter < 3){
+            StartCoroutine(StartSpawning());
 
-        for (int i =0; i < 3; i++)
-        {
-            Instantiate(Dinosaurs[i], spawnPoints[i].position, Quaternion.identity);
         }
-
-        StartCoroutine(StartSpawning());
-
+        
  
     }
 }
