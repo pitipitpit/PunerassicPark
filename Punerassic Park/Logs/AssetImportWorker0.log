@@ -1141,3 +1141,1600 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021923 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f9e526ef800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e69ac00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e526ef800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4dc49e00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50714000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50a2a4c0 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4dc76400 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4d6e2300 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e69d000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5076a000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5426bc00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5076a000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e54270e00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4dc79400 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5265e600 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50f45000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e52660c00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5265e600 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5265e600 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51641000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51641000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e52660c00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5426e800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51641000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.418 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3421ms)
+		BeginReloadAssembly (573ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (26ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (373ms)
+		EndReloadAssembly (2592ms)
+			LoadAssemblies (350ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (782ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (153ms)
+			SetupLoadedEditorAssemblies (982ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (256ms)
+				ProcessInitializeOnLoadAttributes (697ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 214.8 MB.
+System memory in use after: 215.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2313.
+Total: 11.788922 ms (FindLiveObjects: 1.094690 ms CreateObjectMapping: 0.322691 ms MarkObjects: 10.232574 ms  DeleteObjects: 0.135178 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008700 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f9e51c37a00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51cc1a00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51c38200 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51c38200 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50714000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50575720 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4f2b2400 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5053e2f0 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51c3dc00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5076a000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51c38200 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5076a000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4f2b2400 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4f2b3800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4f203600 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50f45000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51c3dc00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4f205400 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e54425a00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51641000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51641000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51c4aa00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51dd4800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51641000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.337 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2337ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (113ms)
+		EndReloadAssembly (2022ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (621ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (114ms)
+			SetupLoadedEditorAssemblies (925ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (255ms)
+				ProcessInitializeOnLoadAttributes (653ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.1 MB.
+System memory in use after: 215.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2316.
+Total: 5.643350 ms (FindLiveObjects: 0.395222 ms CreateObjectMapping: 0.168288 ms MarkObjects: 5.050667 ms  DeleteObjects: 0.026955 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005974 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f9e4ee05a00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ee0d400 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ee05a00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ee0c000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50714000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4d6e1b70 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4de0f200 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5055e720 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4de30800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5076a000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e543f8200 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5076a000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4de33000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4de35800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4de36800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50f45000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ee00600 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4de1ba00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ee00600 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51641000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51641000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4de36800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e3e2600 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51641000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.494 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2495ms)
+		BeginReloadAssembly (321ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (165ms)
+		EndReloadAssembly (2036ms)
+			LoadAssemblies (240ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (652ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (807ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (225ms)
+				ProcessInitializeOnLoadAttributes (562ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.2 MB.
+System memory in use after: 215.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2319.
+Total: 8.373227 ms (FindLiveObjects: 0.408447 ms CreateObjectMapping: 0.139267 ms MarkObjects: 7.788710 ms  DeleteObjects: 0.035135 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007741 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f9e4f7bd000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4f76aa00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4f7bd000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4f7c3600 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50714000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5012b1f0 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4f79d200 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50a672d0 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4f7bd000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5076a000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e52cc1a00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5076a000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51d31600 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51d3fe00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4f79d200 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50f45000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51d48400 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51d08c00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4f76b200 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51641000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51641000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4f76b200 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51d09400 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51641000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.311 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2312ms)
+		BeginReloadAssembly (267ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (124ms)
+		EndReloadAssembly (1891ms)
+			LoadAssemblies (236ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (698ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (677ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (163ms)
+				ProcessInitializeOnLoadAttributes (497ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.5 MB.
+System memory in use after: 215.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2322.
+Total: 7.546032 ms (FindLiveObjects: 0.415098 ms CreateObjectMapping: 0.180983 ms MarkObjects: 6.921979 ms  DeleteObjects: 0.026026 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2531.457934 seconds.
+  path: Assets/Prefabs/trex.prefab
+  artifactKey: Guid(09fea0e041ae74d7a9b77bc0f6ec5904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/trex.prefab using Guid(09fea0e041ae74d7a9b77bc0f6ec5904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e336cd83adc4ff5047b9851993271a37') in 0.176605 seconds 
+  Import took 0.186144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.558607 seconds.
+  path: Assets/Prefabs/trex.prefab
+  artifactKey: Guid(09fea0e041ae74d7a9b77bc0f6ec5904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/trex.prefab using Guid(09fea0e041ae74d7a9b77bc0f6ec5904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05cf3487530913a4eb75c97414120aa5') in 0.049428 seconds 
+  Import took 0.054823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.689029 seconds.
+  path: Assets/Prefabs/trex.prefab
+  artifactKey: Guid(09fea0e041ae74d7a9b77bc0f6ec5904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/trex.prefab using Guid(09fea0e041ae74d7a9b77bc0f6ec5904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06ea052bfafb3f4bc0a0c4d36d0471b') in 0.049570 seconds 
+  Import took 0.057806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.584819 seconds.
+  path: Assets/Prefabs/trex.prefab
+  artifactKey: Guid(09fea0e041ae74d7a9b77bc0f6ec5904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/trex.prefab using Guid(09fea0e041ae74d7a9b77bc0f6ec5904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af8f186fc02dda9e73a90fa717fa929') in 0.040588 seconds 
+  Import took 0.046883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.541099 seconds.
+  path: Assets/Prefabs/trex.prefab
+  artifactKey: Guid(09fea0e041ae74d7a9b77bc0f6ec5904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/trex.prefab using Guid(09fea0e041ae74d7a9b77bc0f6ec5904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928b1a2bb1d43d08726758c6139403fd') in 0.039660 seconds 
+  Import took 0.056891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011430 seconds.
+  path: Assets/Prefabs/trex.prefab
+  artifactKey: Guid(09fea0e041ae74d7a9b77bc0f6ec5904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/trex.prefab using Guid(09fea0e041ae74d7a9b77bc0f6ec5904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928b1a2bb1d43d08726758c6139403fd') in 0.130105 seconds 
+  Import took 0.140688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.493368 seconds.
+  path: Assets/Prefabs/trex.prefab
+  artifactKey: Guid(09fea0e041ae74d7a9b77bc0f6ec5904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/trex.prefab using Guid(09fea0e041ae74d7a9b77bc0f6ec5904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ccf0577f8babb550f0146d43796232b') in 0.042734 seconds 
+  Import took 0.049382 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010848 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f9e4e6b2200 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e632800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e515d0000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e6b2200 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e515d0000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e545c3800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e515d0000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5070b000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e503933e0 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e545c3800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50129380 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e6b2200 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50761000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e545c3800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50761000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e632800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e625400 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e545cec00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50f45000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e545d5800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e632800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e545cf400 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e515f0000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e515f0000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e634000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e44c200 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e515f0000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.176 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3177ms)
+		BeginReloadAssembly (289ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (142ms)
+		EndReloadAssembly (2729ms)
+			LoadAssemblies (347ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (811ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (127ms)
+			SetupLoadedEditorAssemblies (1110ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (230ms)
+				ProcessInitializeOnLoadAttributes (855ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.7 MB.
+System memory in use after: 215.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2326.
+Total: 5.009543 ms (FindLiveObjects: 0.312872 ms CreateObjectMapping: 0.097910 ms MarkObjects: 4.563622 ms  DeleteObjects: 0.033544 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 34.681874 seconds.
+  path: Assets/Prefabs/trex.prefab
+  artifactKey: Guid(09fea0e041ae74d7a9b77bc0f6ec5904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/trex.prefab using Guid(09fea0e041ae74d7a9b77bc0f6ec5904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a909d68ac48930e55de51ac07ea1a48') in 0.120524 seconds 
+  Import took 0.125124 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011873 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f9e4de38a00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e52cc8200 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51851c00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4de38a00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5070b000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e503a7070 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51d2f800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e503b6520 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4de38a00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50761000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51851c00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50761000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5184ea00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5184e200 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51851c00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50f45000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51d2f800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4deda000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4f0c1200 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e515f0000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e515f0000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4dd22600 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4dedb800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e515f0000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.008 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3009ms)
+		BeginReloadAssembly (243ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (119ms)
+		EndReloadAssembly (2570ms)
+			LoadAssemblies (222ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1019ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (164ms)
+			SetupLoadedEditorAssemblies (872ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (221ms)
+				ProcessInitializeOnLoadAttributes (622ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.9 MB.
+System memory in use after: 216.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2330.
+Total: 6.468025 ms (FindLiveObjects: 0.315629 ms CreateObjectMapping: 0.100072 ms MarkObjects: 6.018994 ms  DeleteObjects: 0.031520 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 38.945338 seconds.
+  path: Assets/Prefabs/trex.prefab
+  artifactKey: Guid(09fea0e041ae74d7a9b77bc0f6ec5904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/trex.prefab using Guid(09fea0e041ae74d7a9b77bc0f6ec5904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2d2a6ec1be10dca9dc794cf120bf07') in 0.122684 seconds 
+  Import took 0.127765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.426246 seconds.
+  path: Assets/Prefabs/trex.prefab
+  artifactKey: Guid(09fea0e041ae74d7a9b77bc0f6ec5904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/trex.prefab using Guid(09fea0e041ae74d7a9b77bc0f6ec5904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2d2a6ec1be10dca9dc794cf120bf07') in 0.016024 seconds 
+  Import took 0.022231 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016609 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f9e4e563800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ee4ac00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e563800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5406fa00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5070b000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5059afd0 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e54587a00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e503dcad0 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ee4ac00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50761000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5406fa00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50761000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5458aa00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e54070200 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e527cb800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50f45000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e563800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e588000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e567c00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e515f0000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e515f0000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e54076a00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e54682800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e515f0000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.734 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2734ms)
+		BeginReloadAssembly (262ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (130ms)
+		EndReloadAssembly (2358ms)
+			LoadAssemblies (258ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (741ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (115ms)
+			SetupLoadedEditorAssemblies (937ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (204ms)
+				ProcessInitializeOnLoadAttributes (707ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.1 MB.
+System memory in use after: 216.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2334.
+Total: 5.117067 ms (FindLiveObjects: 0.274415 ms CreateObjectMapping: 0.284915 ms MarkObjects: 4.529039 ms  DeleteObjects: 0.027191 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 42.971460 seconds.
+  path: Assets/Prefabs/trex.prefab
+  artifactKey: Guid(09fea0e041ae74d7a9b77bc0f6ec5904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/trex.prefab using Guid(09fea0e041ae74d7a9b77bc0f6ec5904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3272df7c91de4850ba854d9496f938') in 0.146949 seconds 
+  Import took 0.151235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.701331 seconds.
+  path: Assets/Prefabs/trex.prefab
+  artifactKey: Guid(09fea0e041ae74d7a9b77bc0f6ec5904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/trex.prefab using Guid(09fea0e041ae74d7a9b77bc0f6ec5904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3272df7c91de4850ba854d9496f938') in 0.030476 seconds 
+  Import took 0.036784 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018142 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f9e4ef72400 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51b30a00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4f5ed800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51b16a00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5070b000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e503e8920 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4f5cb600 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e503ac8a0 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51b30a00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50761000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51b16a00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50761000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4f5cb600 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4f5cca00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51b30a00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50f45000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4f5f6000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51b32800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51b30a00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e515f0000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e515f0000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4df25400 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4efc7e00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e515f0000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.790 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4791ms)
+		BeginReloadAssembly (522ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (39ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (322ms)
+		EndReloadAssembly (4111ms)
+			LoadAssemblies (513ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1252ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (131ms)
+			SetupLoadedEditorAssemblies (1670ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (323ms)
+				ProcessInitializeOnLoadAttributes (1313ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (72ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.3 MB.
+System memory in use after: 216.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2338.
+Total: 8.545128 ms (FindLiveObjects: 0.608866 ms CreateObjectMapping: 0.413740 ms MarkObjects: 7.482906 ms  DeleteObjects: 0.035270 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15.968661 seconds.
+  path: Assets/Prefabs/trex.prefab
+  artifactKey: Guid(09fea0e041ae74d7a9b77bc0f6ec5904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/trex.prefab using Guid(09fea0e041ae74d7a9b77bc0f6ec5904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f9cc1b84266e26962c5e9e53832da2') in 0.256751 seconds 
+  Import took 0.273106 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018942 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f9e4e399600 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e525a1600 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e3a1000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e525a3a00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5070b000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e503ad3a0 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e7e7400 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e500c95f0 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e399600 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50761000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e39f800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50761000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e52ed3600 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e7e7c00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e52edcc00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50f45000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e6f9a00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e3a5e00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e52ecea00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e515f0000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e515f0000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e3a5e00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e52ec1e00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e515f0000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.411 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2412ms)
+		BeginReloadAssembly (282ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (146ms)
+		EndReloadAssembly (2001ms)
+			LoadAssemblies (253ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (742ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (725ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (199ms)
+				ProcessInitializeOnLoadAttributes (507ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.6 MB.
+System memory in use after: 216.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2342.
+Total: 6.654036 ms (FindLiveObjects: 0.655679 ms CreateObjectMapping: 0.385628 ms MarkObjects: 5.583356 ms  DeleteObjects: 0.026895 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 50.862760 seconds.
+  path: Assets/Prefabs/trex 1.prefab
+  artifactKey: Guid(98b1427f15cc94cb4b89be938485430f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/trex 1.prefab using Guid(98b1427f15cc94cb4b89be938485430f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0048afd8ddc5404ef92c5de06dca534') in 0.176031 seconds 
+  Import took 0.181780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.403836 seconds.
+  path: Assets/Prefabs/trex 1.prefab
+  artifactKey: Guid(98b1427f15cc94cb4b89be938485430f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/trex 1.prefab using Guid(98b1427f15cc94cb4b89be938485430f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0048afd8ddc5404ef92c5de06dca534') in 0.053829 seconds 
+  Import took 0.058683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.034219 seconds.
+  path: Assets/Prefabs/trex.prefab
+  artifactKey: Guid(98b1427f15cc94cb4b89be938485430f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/trex.prefab using Guid(98b1427f15cc94cb4b89be938485430f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34e7a55a4a607d6910ea21080612850') in 0.046640 seconds 
+  Import took 0.055014 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013786 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f9e5442d800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51df5200 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51f5ec00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51df5200 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5070b000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4d6d1ff0 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51dcee00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50572240 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51f5ec00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50761000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51df5200 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50761000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51df0e00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4dcd5600 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5442d800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50f45000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51dcf600 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51df0e00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51f6c000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e515f0000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e515f0000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5217fa00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51d87200 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e515f0000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.736 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2738ms)
+		BeginReloadAssembly (291ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (169ms)
+		EndReloadAssembly (2256ms)
+			LoadAssemblies (209ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (650ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (144ms)
+			SetupLoadedEditorAssemblies (970ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (205ms)
+				ProcessInitializeOnLoadAttributes (728ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.8 MB.
+System memory in use after: 216.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2346.
+Total: 4.778485 ms (FindLiveObjects: 0.283934 ms CreateObjectMapping: 0.094917 ms MarkObjects: 4.373399 ms  DeleteObjects: 0.024803 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006883 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f9e4e450400 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e547a2800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e515d0000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e457e00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e515d0000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e547a8a00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51617000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50714000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e500b6d10 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51617000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e543ab200 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50541840 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e52f64400 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50e6a000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e522ad400 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50e6a000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e581a00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e52f5f600 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e452000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50fe7000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e543afa00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e52f60600 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e585200 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51641000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51641000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e585200 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e585200 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51641000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.332 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3332ms)
+		BeginReloadAssembly (322ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (171ms)
+		EndReloadAssembly (2863ms)
+			LoadAssemblies (453ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (895ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (106ms)
+			SetupLoadedEditorAssemblies (1080ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (239ms)
+				ProcessInitializeOnLoadAttributes (809ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 217.0 MB.
+System memory in use after: 217.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2349.
+Total: 5.717067 ms (FindLiveObjects: 0.706664 ms CreateObjectMapping: 0.218093 ms MarkObjects: 4.763054 ms  DeleteObjects: 0.025799 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005749 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f9e4dcfc600 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4dd99800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4dcfc600 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ee03200 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50714000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50045390 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4f1a9e00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5054f2b0 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5433c200 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e507cd000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e5433c200 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e507cd000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e543e0e00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e54340e00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e54341e00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50f83000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4f6b9800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4f198a00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4f7d2000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51641000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51641000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e543e0e00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e543e1a00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51641000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.496 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2498ms)
+		BeginReloadAssembly (250ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (134ms)
+		EndReloadAssembly (2121ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (688ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (111ms)
+			SetupLoadedEditorAssemblies (839ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (208ms)
+				ProcessInitializeOnLoadAttributes (608ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 217.2 MB.
+System memory in use after: 217.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2352.
+Total: 6.102209 ms (FindLiveObjects: 0.349947 ms CreateObjectMapping: 0.138981 ms MarkObjects: 5.584454 ms  DeleteObjects: 0.026975 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017186 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f9e54686a00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e52c53400 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e52b98800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e52b98800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50714000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50398400 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4ffdb000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e52b98800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e503f4bb0 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e52b98800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e507b4000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e52b9ea00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e507b4000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e52b9b000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e52b9b000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e52b9fe00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e50f6e000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e52b9fe00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e547fc800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e52b9c400 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51641000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51641000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e4a3c00 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e4e5c5800 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f9e51641000 doesn't match image /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.049 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3049ms)
+		BeginReloadAssembly (211ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (96ms)
+		EndReloadAssembly (2721ms)
+			LoadAssemblies (216ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1276ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (851ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (198ms)
+				ProcessInitializeOnLoadAttributes (630ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 217.4 MB.
+System memory in use after: 217.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2355.
+Total: 5.514809 ms (FindLiveObjects: 0.347640 ms CreateObjectMapping: 0.122652 ms MarkObjects: 5.015096 ms  DeleteObjects: 0.027971 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
