@@ -26,17 +26,16 @@ public class SpawnCharacter : MonoBehaviour
     {
 
         yield return new WaitForSeconds(1);
-        
+            
             for (int i =0; i < 3; i++)
             {
-                Instantiate(Dinosaurs[i], spawnPoints[i].position, Quaternion.identity);
+                Instantiate(Dinosaurs[i], spawnPoints[i].position, Quaternion.identity); //spawn each dinosaur at each position
                 counter++;
                 
             }
         
-        while(counter < 3){
+        while(counter < 3){ //only spawn 3 dinosaurs
             StartCoroutine(StartSpawning());
-
         }
         
  
