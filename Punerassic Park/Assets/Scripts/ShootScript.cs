@@ -5,6 +5,11 @@ using UnityEngine.UI;
 
 public class ShootScript : MonoBehaviour
 {
+    public GameObject goodComplete;
+    public GameObject failMission;
+    public GameObject greatComplete;
+    public GameObject perfectComplete;
+
     public GameObject arCamera;
     public GameObject dinosaurPrefab;
     public AudioSource dieSound;
@@ -22,6 +27,10 @@ public class ShootScript : MonoBehaviour
         timesUpText.SetActive(false);
         // timerBar = GetComponent<Image>();
         timeLeft = maxTime;
+        perfectComplete.SetActive(false);
+        greatComplete.SetActive(false);
+        goodComplete.SetActive(false);
+        failMission.SetActive(false);
     }
 
     // Update is called once per frame
@@ -34,6 +43,15 @@ public class ShootScript : MonoBehaviour
         } else {
             timesUpText.SetActive(true);
             Time.timeScale = 0;
+            if (currentScore >= 30) {
+                perfectComplete.SetActive(true);
+            } else if (currentScore >= 20) {
+                greatComplete.SetActive(true);
+            } else if ( currentScore >= 10) {
+                goodComplete.SetActive(true);
+            } else if (currentScore < 10) {
+                failMission.SetActive(true);
+            }
         }
     }
 
