@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-Base path: '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents', plugins path '/Applications/Unity/Hub/Editor/2020.3.17f1/PlaybackEngines'
-=======
-Base path: '/Applications/Unity/Unity.app/Contents', plugins path '/Applications/Unity/Unity.app/Contents/PlaybackEngines'
->>>>>>> 3fbf45a90a08728fbe9caa7254f5b48b86e303c2
-=======
-Base path: '/Applications/Unity/Unity.app/Contents', plugins path '/Applications/Unity/Unity.app/Contents/PlaybackEngines'
->>>>>>> 3fbf45a90a08728fbe9caa7254f5b48b86e303c2
+Base path: 'C:/Program Files/Unity/Editor/Data', plugins path 'C:/Program Files/Unity/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
 
 Unhandled exception: Protocol error - failed to read magic number (error -2147483644, transferred 0/4)
