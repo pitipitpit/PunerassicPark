@@ -12,6 +12,7 @@ public class StartScript : MonoBehaviour
     [SerializeField] GameObject logo;
     [SerializeField] GameObject startButton;
     [SerializeField] GameObject howto;
+    [SerializeField] GameObject level;
     
     [SerializeField] Text CountdownText;
     
@@ -28,7 +29,7 @@ public class StartScript : MonoBehaviour
         currentTime -= 1 * Time.deltaTime;
         CountdownText.text = currentTime.ToString("0");
 
-        if (currentTime <=0){
+        if (currentTime <= 0){
             CountdownText.text = "GO!";
             Application.LoadLevel(lvltoload);
         }
@@ -39,6 +40,7 @@ public class StartScript : MonoBehaviour
         logo.SetActive(false);
         startButton.SetActive(false);
         howto.SetActive(false);
+        level.SetActive(false);
     }
 
 }

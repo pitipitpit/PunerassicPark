@@ -977,6 +977,7 @@ MonoBehaviour:
   logo: {fileID: 1305884155}
   startButton: {fileID: 1404422708}
   howto: {fileID: 1886329767}
+  level: {fileID: 1610146932}
   CountdownText: {fileID: 864238201}
   lvltoload: Scene 1
 --- !u!4 &1562752933
@@ -1239,7 +1240,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 64664d1103c684d89ba0ae64966048dc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6404ee57f310d4d6bbbb81c3ec1f8e27, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
