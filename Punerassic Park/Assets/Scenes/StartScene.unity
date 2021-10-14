@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 1173523}
   - component: {fileID: 1173522}
   m_Layer: 0
-  m_Name: howToPlayScript
+  m_Name: SceneChangeScript
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -164,7 +164,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &29133275
 GameObject:
@@ -937,7 +937,7 @@ RectTransform:
   - {fileID: 1886329768}
   - {fileID: 1305884156}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -973,9 +973,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e080657a3dfd4264b7e1442fc0d73c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameName: {fileID: 444024491}
+  logo: {fileID: 1305884155}
   startButton: {fileID: 1404422708}
+  howto: {fileID: 1886329767}
   CountdownText: {fileID: 864238201}
+  lvltoload: Scene 1
 --- !u!4 &1562752933
 Transform:
   m_ObjectHideFlags: 0
@@ -988,7 +990,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1886329767
 GameObject:
