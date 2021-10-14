@@ -129,6 +129,8 @@ struct RectMask2D_tD909811991B341D752E4C978C89EFB80FA7A2B15;
 struct RectTransform_t8A6A306FB29A6C8C22010CF9040E319753571072;
 // System.Runtime.Serialization.SafeSerializationManager
 struct SafeSerializationManager_tDE44F029589A028F8A3053C5C06153FAB4AAE29F;
+// SelectLevel
+struct SelectLevel_t3D6E2EF10CBDA4CB38C6FF6FE022CF9F4E145F3C;
 // ShootScript
 struct ShootScript_tC86312B51DE3ECF1011916A16609FE31D943EF61;
 // SpawnCharacter
@@ -4417,6 +4419,15 @@ public:
 
 // HowToPlayScript
 struct HowToPlayScript_t9BE76874633B072FFBED259EA979549BA46C5EE3  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+{
+public:
+
+public:
+};
+
+
+// SelectLevel
+struct SelectLevel_t3D6E2EF10CBDA4CB38C6FF6FE022CF9F4E145F3C  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
 public:
 
@@ -8843,6 +8854,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HowToPlayScript_btn_change_scene_m578C3E
 }
 // System.Void HowToPlayScript::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HowToPlayScript__ctor_mEA4F0B3C56414C30EF514145A059D7CC41F29843 (HowToPlayScript_t9BE76874633B072FFBED259EA979549BA46C5EE3 * __this, const RuntimeMethod* method)
+{
+	{
+		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void SelectLevel::loadScene(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SelectLevel_loadScene_m34A73AB4B5272D93AD91CA719B19FEEDF4970ADE (SelectLevel_t3D6E2EF10CBDA4CB38C6FF6FE022CF9F4E145F3C * __this, String_t* ___sceneName0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// SceneManager.LoadScene(sceneName);
+		String_t* L_0 = ___sceneName0;
+		IL2CPP_RUNTIME_CLASS_INIT(SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_m7DAF30213E99396ECBDB1BD40CC34CCF36902092(L_0, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void SelectLevel::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SelectLevel__ctor_m733A9ADEA8A7F6FA1E4B56EA1D73EA3AED0563AE (SelectLevel_t3D6E2EF10CBDA4CB38C6FF6FE022CF9F4E145F3C * __this, const RuntimeMethod* method)
 {
 	{
 		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
