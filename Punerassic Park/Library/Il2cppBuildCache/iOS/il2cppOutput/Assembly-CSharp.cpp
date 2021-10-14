@@ -129,6 +129,8 @@ struct RectTransform_t8A6A306FB29A6C8C22010CF9040E319753571072;
 struct SafeSerializationManager_tDE44F029589A028F8A3053C5C06153FAB4AAE29F;
 // SceneController
 struct SceneController_t8611277038809278C31AE35555719D7AE5438CA9;
+// SelectLevel
+struct SelectLevel_t3D6E2EF10CBDA4CB38C6FF6FE022CF9F4E145F3C;
 // ShootScript
 struct ShootScript_tC86312B51DE3ECF1011916A16609FE31D943EF61;
 // SpawnCharacters
@@ -4417,6 +4419,15 @@ public:
 
 // SceneController
 struct SceneController_t8611277038809278C31AE35555719D7AE5438CA9  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+{
+public:
+
+public:
+};
+
+
+// SelectLevel
+struct SelectLevel_t3D6E2EF10CBDA4CB38C6FF6FE022CF9F4E145F3C  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
 public:
 
@@ -8987,6 +8998,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneController__ctor_mD43BE19257E8699CF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void SelectLevel::loadScene(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SelectLevel_loadScene_m34A73AB4B5272D93AD91CA719B19FEEDF4970ADE (SelectLevel_t3D6E2EF10CBDA4CB38C6FF6FE022CF9F4E145F3C * __this, String_t* ___sceneName0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// SceneManager.LoadScene(sceneName);
+		String_t* L_0 = ___sceneName0;
+		IL2CPP_RUNTIME_CLASS_INIT(SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_m7DAF30213E99396ECBDB1BD40CC34CCF36902092(L_0, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void SelectLevel::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SelectLevel__ctor_m733A9ADEA8A7F6FA1E4B56EA1D73EA3AED0563AE (SelectLevel_t3D6E2EF10CBDA4CB38C6FF6FE022CF9F4E145F3C * __this, const RuntimeMethod* method)
+{
+	{
+		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void ShootScript::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShootScript_Start_m692D59C7CE8D0B1C53C6B6E3E65B9D2FEEDFF070 (ShootScript_tC86312B51DE3ECF1011916A16609FE31D943EF61 * __this, const RuntimeMethod* method)
 {
@@ -9368,6 +9413,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SpawnCharacters_StartSpawning_
 		NullCheck(L_1);
 		L_1->set_U3CU3E4__this_2(__this);
 		return L_1;
+	}
+}
+// System.Void SpawnCharacters::rerun()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpawnCharacters_rerun_m357DCBD61C15F0585D7F2B9553326DB56351CFEF (SpawnCharacters_t03F076837CEA920FA1F24CFD32C51306A75A299A * __this, const RuntimeMethod* method)
+{
+	{
+		// StartCoroutine(StartSpawning());
+		RuntimeObject* L_0;
+		L_0 = SpawnCharacters_StartSpawning_m3231F8D6DFF729E1C62A6E71E6B48CE5E1E2D4E2(__this, /*hidden argument*/NULL);
+		Coroutine_t899D5232EF542CB8BA70AF9ECEECA494FAA9CCB7 * L_1;
+		L_1 = MonoBehaviour_StartCoroutine_m3E33706D38B23CDD179E99BAD61E32303E9CC719(__this, L_0, /*hidden argument*/NULL);
+		// }
+		return;
 	}
 }
 // System.Void SpawnCharacters::.ctor()

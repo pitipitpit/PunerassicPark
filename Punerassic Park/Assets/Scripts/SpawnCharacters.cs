@@ -40,4 +40,10 @@ public class SpawnCharacters : MonoBehaviour
         
  
     }
+
+    public void rerun()
+    {
+
+        StartCoroutine(StartSpawning());
+    }
 }

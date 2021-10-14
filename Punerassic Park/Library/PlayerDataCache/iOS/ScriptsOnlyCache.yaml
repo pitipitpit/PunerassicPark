@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - DinosaurScript
     - SceneController
+    - SelectLevel
     - ShootScript
     - SpawnCharacters
     - StartScript
@@ -65,33 +66,33 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1536}
+      Script: {instanceID: 1622}
     - Class: 114
-      Script: {instanceID: 1630}
+      Script: {instanceID: 1716}
     - Class: 114
-      Script: {instanceID: 1854}
+      Script: {instanceID: 1940}
     - Class: 114
-      Script: {instanceID: 2460}
+      Script: {instanceID: 2546}
     - Class: 114
-      Script: {instanceID: 2488}
+      Script: {instanceID: 2574}
     - Class: 114
-      Script: {instanceID: 2572}
+      Script: {instanceID: 2658}
     - Class: 114
-      Script: {instanceID: 2766}
+      Script: {instanceID: 2852}
     - Class: 114
-      Script: {instanceID: 2982}
+      Script: {instanceID: 3070}
     - Class: 114
-      Script: {instanceID: 3090}
+      Script: {instanceID: 3178}
     - Class: 114
-      Script: {instanceID: 3272}
+      Script: {instanceID: 3360}
     - Class: 114
-      Script: {instanceID: 3276}
+      Script: {instanceID: 3364}
     - Class: 114
-      Script: {instanceID: 3752}
+      Script: {instanceID: 3840}
     - Class: 114
-      Script: {instanceID: 4030}
+      Script: {instanceID: 4116}
     - Class: 114
-      Script: {instanceID: 4668}
+      Script: {instanceID: 4754}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -142,41 +143,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1536}
+      Script: {instanceID: 1622}
     - Class: 114
-      Script: {instanceID: 1630}
+      Script: {instanceID: 1716}
     - Class: 114
-      Script: {instanceID: 1790}
+      Script: {instanceID: 1876}
     - Class: 114
-      Script: {instanceID: 1854}
+      Script: {instanceID: 1940}
     - Class: 114
-      Script: {instanceID: 2460}
+      Script: {instanceID: 2546}
     - Class: 114
-      Script: {instanceID: 2488}
+      Script: {instanceID: 2574}
     - Class: 114
-      Script: {instanceID: 2572}
+      Script: {instanceID: 2658}
     - Class: 114
-      Script: {instanceID: 2622}
+      Script: {instanceID: 2708}
     - Class: 114
-      Script: {instanceID: 2766}
+      Script: {instanceID: 2852}
     - Class: 114
-      Script: {instanceID: 2982}
+      Script: {instanceID: 2980}
     - Class: 114
-      Script: {instanceID: 3090}
+      Script: {instanceID: 3070}
     - Class: 114
-      Script: {instanceID: 3272}
+      Script: {instanceID: 3178}
     - Class: 114
-      Script: {instanceID: 3276}
+      Script: {instanceID: 3360}
     - Class: 114
-      Script: {instanceID: 3370}
+      Script: {instanceID: 3364}
     - Class: 114
-      Script: {instanceID: 3752}
+      Script: {instanceID: 3458}
     - Class: 114
-      Script: {instanceID: 4030}
+      Script: {instanceID: 3840}
     - Class: 114
-      Script: {instanceID: 4246}
+      Script: {instanceID: 4116}
     - Class: 114
-      Script: {instanceID: 26984}
+      Script: {instanceID: 4332}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -219,45 +220,45 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1536}
+      Script: {instanceID: 1622}
     - Class: 114
-      Script: {instanceID: 1630}
+      Script: {instanceID: 1716}
     - Class: 114
-      Script: {instanceID: 1790}
+      Script: {instanceID: 1876}
     - Class: 114
-      Script: {instanceID: 1854}
+      Script: {instanceID: 1940}
     - Class: 114
-      Script: {instanceID: 2112}
+      Script: {instanceID: 2198}
     - Class: 114
-      Script: {instanceID: 2124}
+      Script: {instanceID: 2210}
     - Class: 114
-      Script: {instanceID: 2460}
+      Script: {instanceID: 2546}
     - Class: 114
-      Script: {instanceID: 2488}
+      Script: {instanceID: 2574}
     - Class: 114
-      Script: {instanceID: 2572}
+      Script: {instanceID: 2658}
     - Class: 114
-      Script: {instanceID: 2622}
+      Script: {instanceID: 2708}
     - Class: 114
-      Script: {instanceID: 2766}
+      Script: {instanceID: 2852}
     - Class: 114
-      Script: {instanceID: 2982}
+      Script: {instanceID: 3070}
     - Class: 114
-      Script: {instanceID: 3090}
+      Script: {instanceID: 3178}
     - Class: 114
-      Script: {instanceID: 3272}
+      Script: {instanceID: 3360}
     - Class: 114
-      Script: {instanceID: 3276}
+      Script: {instanceID: 3364}
     - Class: 114
-      Script: {instanceID: 3568}
+      Script: {instanceID: 3656}
     - Class: 114
-      Script: {instanceID: 3752}
+      Script: {instanceID: 3840}
     - Class: 114
-      Script: {instanceID: 4030}
+      Script: {instanceID: 4116}
     - Class: 114
-      Script: {instanceID: 4206}
+      Script: {instanceID: 4292}
     - Class: 114
-      Script: {instanceID: 4512}
+      Script: {instanceID: 4598}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -533,6 +534,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 0a00e52b8792046fa570efddf60a6a18
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpawnCharacters
   - hash:
       serializedVersion: 2
       Hash: 1268406d3f2e4b2c2b670b560b6db769
@@ -949,6 +956,12 @@ ScriptsOnlyBuild:
     className: ARFaceManager
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SelectLevel
+  - hash:
+      serializedVersion: 2
       Hash: c1aa24dc179be0cb7c6d49f66fc0db8a
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
@@ -995,12 +1008,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 0a00e52b8792046fa570efddf60a6a18
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SpawnCharacters
   platform: 9
   scenePathNames:
   - Assets/Scenes/StartScene.unity
