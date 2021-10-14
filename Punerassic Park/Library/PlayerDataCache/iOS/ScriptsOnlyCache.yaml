@@ -39,53 +39,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
-    - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/HowToPlayScene.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 2200}
-    - Class: 114
-      Script: {instanceID: 2536}
-    - Class: 114
-      Script: {instanceID: 2648}
-    - Class: 114
-      Script: {instanceID: 2842}
-    - Class: 114
-      Script: {instanceID: 3058}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
     Assets/Scenes/Scene 1.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -118,45 +72,45 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1614}
+      Script: {instanceID: 1534}
     - Class: 114
-      Script: {instanceID: 1708}
+      Script: {instanceID: 1628}
     - Class: 114
-      Script: {instanceID: 1868}
+      Script: {instanceID: 1788}
     - Class: 114
-      Script: {instanceID: 2188}
+      Script: {instanceID: 2110}
     - Class: 114
-      Script: {instanceID: 2536}
+      Script: {instanceID: 2458}
     - Class: 114
-      Script: {instanceID: 2564}
+      Script: {instanceID: 2486}
     - Class: 114
-      Script: {instanceID: 2648}
+      Script: {instanceID: 2570}
     - Class: 114
-      Script: {instanceID: 2698}
+      Script: {instanceID: 2620}
     - Class: 114
-      Script: {instanceID: 2842}
+      Script: {instanceID: 2764}
     - Class: 114
-      Script: {instanceID: 3058}
+      Script: {instanceID: 2980}
     - Class: 114
-      Script: {instanceID: 3166}
+      Script: {instanceID: 3088}
     - Class: 114
-      Script: {instanceID: 3348}
+      Script: {instanceID: 3270}
     - Class: 114
-      Script: {instanceID: 3352}
+      Script: {instanceID: 3274}
     - Class: 114
-      Script: {instanceID: 3446}
+      Script: {instanceID: 3368}
     - Class: 114
-      Script: {instanceID: 3828}
+      Script: {instanceID: 3750}
     - Class: 114
-      Script: {instanceID: 4024}
+      Script: {instanceID: 3946}
     - Class: 114
-      Script: {instanceID: 4106}
+      Script: {instanceID: 4028}
     - Class: 114
-      Script: {instanceID: 4282}
+      Script: {instanceID: 4204}
     - Class: 114
-      Script: {instanceID: 4322}
+      Script: {instanceID: 4244}
     - Class: 114
-      Script: {instanceID: 4588}
+      Script: {instanceID: 4510}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -272,6 +226,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HowToPlayScript
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -850,6 +810,12 @@ ScriptsOnlyBuild:
     className: ARFaceManager
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SelectLevel
+  - hash:
+      serializedVersion: 2
       Hash: c1aa24dc179be0cb7c6d49f66fc0db8a
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
@@ -896,14 +862,7 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HowToPlayScript
   platform: 9
   scenePathNames:
   - Assets/Scenes/Scene 1.unity
-  - Assets/Scenes/HowToPlayScene.unity
-  playerPath: /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Builds
+  playerPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/builds
