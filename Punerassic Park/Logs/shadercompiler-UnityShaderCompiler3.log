@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-Base path: '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents', plugins path '/Applications/Unity/Hub/Editor/2020.3.17f1/PlaybackEngines'
-=======
 Base path: '/Applications/Unity/Unity.app/Contents', plugins path '/Applications/Unity/Unity.app/Contents/PlaybackEngines'
->>>>>>> 3fbf45a90a08728fbe9caa7254f5b48b86e303c2
-=======
-Base path: '/Applications/Unity/Unity.app/Contents', plugins path '/Applications/Unity/Unity.app/Contents/PlaybackEngines'
->>>>>>> 3fbf45a90a08728fbe9caa7254f5b48b86e303c2
 Cmd: initializeCompiler
 
 Cmd: shutdown
