@@ -10,6 +10,10 @@ public class ShootScript : MonoBehaviour
     public GameObject greatComplete;
     public GameObject perfectComplete;
 
+    public GameObject replayButton;
+    public GameObject NextGameButton;
+    public GameObject ExitButton;
+
     public GameObject arCamera;
     public GameObject dinosaurPrefab;
     public AudioSource dieSound;
@@ -31,6 +35,9 @@ public class ShootScript : MonoBehaviour
         greatComplete.SetActive(false);
         goodComplete.SetActive(false);
         failMission.SetActive(false);
+        replayButton.SetActive(false);
+        NextGameButton.SetActive(false);
+        ExitButton.SetActive(false);
     }
 
     // Update is called once per frame
@@ -45,12 +52,26 @@ public class ShootScript : MonoBehaviour
             Time.timeScale = 0;
             if (currentScore >= 30) {
                 perfectComplete.SetActive(true);
+                replayButton.SetActive(true);
+                NextGameButton.SetActive(true);
+                ExitButton.SetActive(true);
+
             } else if (currentScore >= 20) {
                 greatComplete.SetActive(true);
+                replayButton.SetActive(true);
+                NextGameButton.SetActive(true);
+                ExitButton.SetActive(true);
+
             } else if ( currentScore >= 10) {
                 goodComplete.SetActive(true);
+                replayButton.SetActive(true);
+                NextGameButton.SetActive(true);
+                ExitButton.SetActive(true);
+
             } else if (currentScore < 10) {
                 failMission.SetActive(true);
+                replayButton.SetActive(true);
+                ExitButton.SetActive(true);
             }
         }
     }
@@ -59,7 +80,7 @@ public class ShootScript : MonoBehaviour
         RaycastHit hit;
         if (timeLeft > 0){
             if(Physics.Raycast(arCamera.transform.position, arCamera.transform.forward, out hit)){
-                if(hit.transform.name == "trex(Clone)"){
+                if(hit.transform.name == "trex2(Clone)"){
                     // if (!dieSound.isPlaying)
                     //     {
                     //         dieSound.Play();

@@ -9,4 +9,9 @@ public class SceneController : MonoBehaviour
        SceneManager.LoadScene(scene_name);
 
    }
+
+   public void reload(string SceneName)
+    {
+        SceneManager.LoadScene(SceneName);
+    }
 }
