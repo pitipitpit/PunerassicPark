@@ -4,18 +4,17 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class TimeScript : MonoBehaviour
-
-
 {
-    Image timerBar;
+    // Start is called before the first frame update
+    public Image timerBar;
     public float maxTime = 5f;
     float timeLeft;
     public GameObject timesUpText;
-    // Start is called before the first frame update
+    
     void Start()
     {
         timesUpText.SetActive(false);
-        timerBar = GetComponent<Image>();
+        // timerBar = GetComponent<Image>();
         timeLeft = maxTime;
     }
 
@@ -25,6 +24,7 @@ public class TimeScript : MonoBehaviour
         if (timeLeft > 0) {
             timeLeft -= Time.deltaTime;
             timerBar.fillAmount = timeLeft / maxTime;
+            
         } else {
             timesUpText.SetActive(true);
             Time.timeScale = 0;
