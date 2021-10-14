@@ -12,8 +12,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
-    Unity.Timeline.Editor.dll:
-    - TimelinePreferences
     Unity.XR.ARFoundation.dll:
     - UnityEngine.XR.ARFoundation.ARCameraBackground
     - UnityEngine.XR.ARFoundation.ARCameraManager
@@ -41,7 +39,53 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
   sceneClasses:
+    Assets/Scenes/HowToPlayScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 2200}
+    - Class: 114
+      Script: {instanceID: 2536}
+    - Class: 114
+      Script: {instanceID: 2648}
+    - Class: 114
+      Script: {instanceID: 2842}
+    - Class: 114
+      Script: {instanceID: 3058}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/Scene 1.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -67,8 +111,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
-    - Class: 90
-      Script: {instanceID: 0}
     - Class: 95
       Script: {instanceID: 0}
     - Class: 104
@@ -76,45 +118,45 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1506}
+      Script: {instanceID: 1614}
     - Class: 114
-      Script: {instanceID: 1600}
+      Script: {instanceID: 1708}
     - Class: 114
-      Script: {instanceID: 1760}
+      Script: {instanceID: 1868}
     - Class: 114
-      Script: {instanceID: 2080}
+      Script: {instanceID: 2188}
     - Class: 114
-      Script: {instanceID: 2428}
+      Script: {instanceID: 2536}
     - Class: 114
-      Script: {instanceID: 2456}
+      Script: {instanceID: 2564}
     - Class: 114
-      Script: {instanceID: 2540}
+      Script: {instanceID: 2648}
     - Class: 114
-      Script: {instanceID: 2590}
+      Script: {instanceID: 2698}
     - Class: 114
-      Script: {instanceID: 2734}
-    - Class: 114
-      Script: {instanceID: 2950}
+      Script: {instanceID: 2842}
     - Class: 114
       Script: {instanceID: 3058}
     - Class: 114
-      Script: {instanceID: 3240}
+      Script: {instanceID: 3166}
     - Class: 114
-      Script: {instanceID: 3244}
+      Script: {instanceID: 3348}
     - Class: 114
-      Script: {instanceID: 3714}
+      Script: {instanceID: 3352}
     - Class: 114
-      Script: {instanceID: 3910}
+      Script: {instanceID: 3446}
     - Class: 114
-      Script: {instanceID: 3992}
+      Script: {instanceID: 3828}
     - Class: 114
-      Script: {instanceID: 4168}
+      Script: {instanceID: 4024}
     - Class: 114
-      Script: {instanceID: 4472}
+      Script: {instanceID: 4106}
     - Class: 114
-      Script: {instanceID: 16404}
+      Script: {instanceID: 4282}
     - Class: 114
-      Script: {instanceID: 16406}
+      Script: {instanceID: 4322}
+    - Class: 114
+      Script: {instanceID: 4588}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -490,10 +532,22 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
+      Hash: 7a3775b5a1757cce891f333907195537
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShootScript
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 5bdab795d469d94fe6897b6e92474fc8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TimeScript
   - hash:
       serializedVersion: 2
       Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
@@ -548,6 +602,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: d971e8d025b4b221a13b6814743fa16f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StartScript
   - hash:
       serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
@@ -712,6 +772,12 @@ ScriptsOnlyBuild:
     className: ARHumanBody
   - hash:
       serializedVersion: 2
+      Hash: 5e030d317ed369cacf4b0642e6506822
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DinosaurScript
+  - hash:
+      serializedVersion: 2
       Hash: ef705ae677d649d6c0ff3b4060963abd
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
@@ -835,14 +901,9 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: DinosaurScript
-  - hash:
-      serializedVersion: 2
-      Hash: 491772971c68f2997ffdb4f78cd6eedc
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ShootScript
+    className: HowToPlayScript
   platform: 9
   scenePathNames:
   - Assets/Scenes/Scene 1.unity
-  playerPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/builds
+  - Assets/Scenes/HowToPlayScene.unity
+  playerPath: /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Builds
