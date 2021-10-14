@@ -12,8 +12,34 @@ public class ShootScript : MonoBehaviour
     public TMPro.TextMeshProUGUI textScore;
     public bool dinoDie;
 
+    public Image timerBar;
+    public float maxTime = 5f;
+    float timeLeft;
+    public GameObject timesUpText;
+
+    void Start()
+    {
+        timesUpText.SetActive(false);
+        // timerBar = GetComponent<Image>();
+        timeLeft = maxTime;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (timeLeft > 0) {
+            timeLeft -= Time.deltaTime;
+            timerBar.fillAmount = timeLeft / maxTime;
+            
+        } else {
+            timesUpText.SetActive(true);
+            Time.timeScale = 0;
+        }
+    }
+
     public void Shoot() {
         RaycastHit hit;
+        if (timeLeft > 0){
             if(Physics.Raycast(arCamera.transform.position, arCamera.transform.forward, out hit)){
                 if(hit.transform.name == "trex(Clone)"){
                     // if (!dieSound.isPlaying)
@@ -30,6 +56,7 @@ public class ShootScript : MonoBehaviour
                     textScore.text = "Score : " + currentScore;
                     // dinoDie.Stop();
                 }
+            }   
         }   
     }
     IEnumerator playAudio()

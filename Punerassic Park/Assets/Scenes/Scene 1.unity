@@ -391,7 +391,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1043041040}
         m_TargetAssemblyTypeName: ShootScript, Assembly-CSharp
         m_MethodName: Shoot
         m_Mode: 1
@@ -1153,6 +1153,9 @@ MonoBehaviour:
   currentScore: 0
   textScore: {fileID: 1042219411}
   dinoDie: 0
+  timerBar: {fileID: 1947124734}
+  maxTime: 5
+  timesUpText: {fileID: 432008106}
 --- !u!4 &1043041041
 Transform:
   m_ObjectHideFlags: 0
@@ -1364,7 +1367,6 @@ GameObject:
   - component: {fileID: 1947124733}
   - component: {fileID: 1947124735}
   - component: {fileID: 1947124734}
-  - component: {fileID: 1947124736}
   m_Layer: 5
   m_Name: Timebar
   m_TagString: Untagged
@@ -1429,21 +1431,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1947124732}
   m_CullTransparentMesh: 1
---- !u!114 &1947124736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1947124732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aad4034a03dc7594c8df923c2031c9b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timerBar: {fileID: 1947124734}
-  maxTime: 5
-  timesUpText: {fileID: 432008106}
 --- !u!1 &1955646023
 GameObject:
   m_ObjectHideFlags: 0
