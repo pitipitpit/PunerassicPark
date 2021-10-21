@@ -28,15 +28,19 @@ public class Scene2Script : MonoBehaviour
     public Image timerBar;
     public float maxTime = 45f;
     float timeLeft;
-    public GameObject timesUpText;
 
     public GameObject[] Dinosaurs;
     public int counter;
     public GameObject star;
 
-    void Start()
+    public GameObject criteria;
+    public GameObject OK;
+
+    public bool running = false;
+
+    public void Run()
     {
-        timesUpText.SetActive(false);
+        running = true;
         // timerBar = GetComponent<Image>();
         timeLeft = maxTime;
         perfectComplete.SetActive(false);
@@ -48,17 +52,20 @@ public class Scene2Script : MonoBehaviour
         ExitButton.SetActive(false);
         StartCoroutine(StartSpawning());
 
+        criteria.SetActive(false);
+        OK.SetActive(false);
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(running){
         if (timeLeft > 0) {
             timeLeft -= Time.deltaTime;
             timerBar.fillAmount = timeLeft / maxTime;
             
         } else {
-            timesUpText.SetActive(true);
             Time.timeScale = 0;
             if (currentScore >= 30) {
                 perfectComplete.SetActive(true);
@@ -84,6 +91,8 @@ public class Scene2Script : MonoBehaviour
                 ExitButton.SetActive(true);
             }
         }
+        }
+        
     }
 
     public void Shoot() {
