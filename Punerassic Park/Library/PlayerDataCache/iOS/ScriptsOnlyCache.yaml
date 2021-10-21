@@ -438,7 +438,7 @@ ScriptsOnlyBuild:
     className: ARParticipantManager
   - hash:
       serializedVersion: 2
-      Hash: 5e01802fc47db6224adedce5a5917760
+      Hash: 791c8716f5362b5f599a3aa8aca2c5e1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Scene3Script
@@ -660,7 +660,7 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
-      Hash: 7a2196cd1e41d90c3d36c233c9e24bf6
+      Hash: ef8c6d2916abcc1a733b8665d3d8b598
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Scene1Script
@@ -708,10 +708,10 @@ ScriptsOnlyBuild:
     className: ARTrackedImage
   - hash:
       serializedVersion: 2
-      Hash: 33c67441a6bfd2ad586c6f32b4b3316f
+      Hash: e6a8668572f8bba409a4d0d1b320f154
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: ShootScript2
+    className: Scene2Script
   - hash:
       serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca

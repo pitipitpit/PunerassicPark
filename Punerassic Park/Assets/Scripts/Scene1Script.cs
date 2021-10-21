@@ -9,6 +9,8 @@ public class Scene1Script : MonoBehaviour
     [SerializeField] GameObject failMission;
     [SerializeField] GameObject greatComplete;
     [SerializeField] GameObject perfectComplete;
+    [SerializeField] GameObject criteria;
+    [SerializeField] GameObject ok;
 
     [SerializeField] GameObject replayButton;
     [SerializeField] GameObject NextGameButton;
@@ -23,11 +25,67 @@ public class Scene1Script : MonoBehaviour
     [SerializeField] Image timerBar;
     [SerializeField] float maxTime = 5f;
     float timeLeft;
+    private bool canRun = false;
 
-    void Awake()
+    // Update is called once per frame
+    void Update()
     {
+        if (canRun)
+        {
+            if (timeLeft > 0)
+            {
+                timeLeft -= Time.deltaTime;
+                timerBar.fillAmount = timeLeft / maxTime;
+
+            }
+            else
+            {
+                Time.timeScale = 0;
+                if (currentScore >= 30)
+                {
+                    perfectComplete.SetActive(true);
+                    replayButton.SetActive(true);
+                    NextGameButton.SetActive(true);
+                    ExitButton.SetActive(true);
+
+                }
+                else if (currentScore >= 20)
+                {
+                    greatComplete.SetActive(true);
+                    replayButton.SetActive(true);
+                    NextGameButton.SetActive(true);
+                    ExitButton.SetActive(true);
+
+                }
+                else if (currentScore >= 10)
+                {
+                    goodComplete.SetActive(true);
+                    replayButton.SetActive(true);
+                    NextGameButton.SetActive(true);
+                    ExitButton.SetActive(true);
+
+                }
+                else if (currentScore < 10)
+                {
+                    failMission.SetActive(true);
+                    replayButton.SetActive(true);
+                    ExitButton.SetActive(true);
+                }
+
+                canRun = false;
+            }
+
+        }
+        
+    }
+
+    public void Run()
+    {
+        canRun = true;
         // timerBar = GetComponent<Image>();
         timeLeft = maxTime;
+        criteria.SetActive(false);
+        ok.SetActive(false);
         perfectComplete.SetActive(false);
         greatComplete.SetActive(false);
         goodComplete.SetActive(false);
@@ -35,41 +93,6 @@ public class Scene1Script : MonoBehaviour
         replayButton.SetActive(false);
         NextGameButton.SetActive(false);
         ExitButton.SetActive(false);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (timeLeft > 0) {
-            timeLeft -= Time.deltaTime;
-            timerBar.fillAmount = timeLeft / maxTime;
-            
-        } else {
-            Time.timeScale = 0;
-            if (currentScore >= 30) {
-                perfectComplete.SetActive(true);
-                replayButton.SetActive(true);
-                NextGameButton.SetActive(true);
-                ExitButton.SetActive(true);
-
-            } else if (currentScore >= 20) {
-                greatComplete.SetActive(true);
-                replayButton.SetActive(true);
-                NextGameButton.SetActive(true);
-                ExitButton.SetActive(true);
-
-            } else if ( currentScore >= 10) {
-                goodComplete.SetActive(true);
-                replayButton.SetActive(true);
-                NextGameButton.SetActive(true);
-                ExitButton.SetActive(true);
-
-            } else if (currentScore < 10) {
-                failMission.SetActive(true);
-                replayButton.SetActive(true);
-                ExitButton.SetActive(true);
-            }
-        }
     }
 
     public void Shoot() {

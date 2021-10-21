@@ -2894,8 +2894,8 @@ extern void SceneManager_LoadScene_m6B3C9B5DDE6CDE2A041D05C4F3BE4A3D3D745B70 (vo
 extern void SceneManager_LoadScene_m7DAF30213E99396ECBDB1BD40CC34CCF36902092 (void);
 // 0x00000608 UnityEngine.SceneManagement.Scene UnityEngine.SceneManagement.SceneManager::LoadScene(System.String,UnityEngine.SceneManagement.LoadSceneParameters)
 extern void SceneManager_LoadScene_m84A1D8B405E365CFC372040E311669E497D12591 (void);
-// 0x00000609 System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.Int32)
-extern void SceneManager_LoadScene_m5550E6368A6D0E37DACEDA3C5E4BA331836BC3C5 (void);
+// 0x00000609 System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.Int32,UnityEngine.SceneManagement.LoadSceneMode)
+extern void SceneManager_LoadScene_m62031BCEF9B3C7179B005B8EA825989F696E6B76 (void);
 // 0x0000060A UnityEngine.SceneManagement.Scene UnityEngine.SceneManagement.SceneManager::LoadScene(System.Int32,UnityEngine.SceneManagement.LoadSceneParameters)
 extern void SceneManager_LoadScene_m26A2A5DA3CBD39F367587C89ADC7ACD3B2C223C7 (void);
 // 0x0000060B System.Void UnityEngine.SceneManagement.SceneManager::Internal_SceneLoaded(UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
@@ -5038,7 +5038,7 @@ static Il2CppMethodPointer s_methodPointers[1850] =
 	SceneManager_LoadScene_m6B3C9B5DDE6CDE2A041D05C4F3BE4A3D3D745B70,
 	SceneManager_LoadScene_m7DAF30213E99396ECBDB1BD40CC34CCF36902092,
 	SceneManager_LoadScene_m84A1D8B405E365CFC372040E311669E497D12591,
-	SceneManager_LoadScene_m5550E6368A6D0E37DACEDA3C5E4BA331836BC3C5,
+	SceneManager_LoadScene_m62031BCEF9B3C7179B005B8EA825989F696E6B76,
 	SceneManager_LoadScene_m26A2A5DA3CBD39F367587C89ADC7ACD3B2C223C7,
 	SceneManager_Internal_SceneLoaded_m3546B371F03BC8DC053FFF165AB25ADF44A183BE,
 	SceneManager_Internal_SceneUnloaded_m9A68F15B0FA483633F24E0E50574CFB6DD2D5520,
@@ -7392,7 +7392,7 @@ static const int32_t s_InvokerIndices[1850] =
 	3482,
 	3765,
 	3370,
-	3762,
+	3464,
 	3369,
 	3494,
 	3768,
