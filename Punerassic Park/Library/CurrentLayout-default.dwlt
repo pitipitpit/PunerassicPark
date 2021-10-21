@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 973
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -70,6 +70,7 @@ MonoBehaviour:
     x: 0
     y: 30
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1920
     height: 923
   m_MinSize: {x: 881, y: 492}
@@ -84,6 +85,14 @@ MonoBehaviour:
   vertical: 0
   controlID: 111
 >>>>>>> parent of 3b3008b4 (audio glass break)
+=======
+    width: 1920
+    height: 923
+  m_MinSize: {x: 881, y: 492}
+  m_MaxSize: {x: 16006, y: 14042}
+  vertical: 0
+  controlID: 15
+>>>>>>> parent of 00fa99dc (fix star not pop up)
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -102,12 +111,17 @@ MonoBehaviour:
     x: 1467
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 453
     height: 923
 =======
     width: 302
     height: 750
 >>>>>>> parent of 3b3008b4 (audio glass break)
+=======
+    width: 453
+    height: 923
+>>>>>>> parent of 00fa99dc (fix star not pop up)
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
@@ -133,16 +147,22 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 00fa99dc (fix star not pop up)
     width: 361
     height: 590
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
+<<<<<<< HEAD
 =======
     width: 240
     height: 416
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
 >>>>>>> parent of 3b3008b4 (audio glass break)
+=======
+>>>>>>> parent of 00fa99dc (fix star not pop up)
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -269,6 +289,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1467
     height: 923
   m_MinSize: {x: 605, y: 492}
@@ -283,6 +304,14 @@ MonoBehaviour:
   vertical: 1
   controlID: 112
 >>>>>>> parent of 3b3008b4 (audio glass break)
+=======
+    width: 1467
+    height: 923
+  m_MinSize: {x: 605, y: 492}
+  m_MaxSize: {x: 12005, y: 14042}
+  vertical: 1
+  controlID: 16
+>>>>>>> parent of 00fa99dc (fix star not pop up)
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -304,6 +333,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1467
     height: 590
   m_MinSize: {x: 605, y: 221}
@@ -318,6 +348,14 @@ MonoBehaviour:
   vertical: 0
   controlID: 113
 >>>>>>> parent of 3b3008b4 (audio glass break)
+=======
+    width: 1467
+    height: 590
+  m_MinSize: {x: 605, y: 221}
+  m_MaxSize: {x: 12005, y: 4021}
+  vertical: 0
+  controlID: 17
+>>>>>>> parent of 00fa99dc (fix star not pop up)
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -336,16 +374,22 @@ MonoBehaviour:
     x: 361
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 00fa99dc (fix star not pop up)
     width: 736
     height: 590
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
+<<<<<<< HEAD
 =======
     width: 491
     height: 416
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
 >>>>>>> parent of 3b3008b4 (audio glass break)
+=======
+>>>>>>> parent of 00fa99dc (fix star not pop up)
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -397,11 +441,16 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scenes
   m_LastFoldersGridSize: -1
+<<<<<<< HEAD
   m_LastProjectPath: /Users/gnnchya/Desktop/PunerassicPark/Punerassic Park
+=======
+  m_LastProjectPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park
+>>>>>>> parent of 00fa99dc (fix star not pop up)
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_SelectedIDs: cc420000
     m_LastClickedID: 17100
@@ -411,6 +460,11 @@ MonoBehaviour:
     m_LastClickedID: 17002
     m_ExpandedIDs: 00000000524200005442000000ca9a3b
 >>>>>>> parent of 3b3008b4 (audio glass break)
+=======
+    m_SelectedIDs: 1a420000
+    m_LastClickedID: 16922
+    m_ExpandedIDs: 00000000024200000442000000ca9a3b
+>>>>>>> parent of 00fa99dc (fix star not pop up)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -439,10 +493,14 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000ae420000b0420000
 =======
     m_ExpandedIDs: 000000005242000054420000
 >>>>>>> parent of 3b3008b4 (audio glass break)
+=======
+    m_ExpandedIDs: 000000000242000004420000
+>>>>>>> parent of 00fa99dc (fix star not pop up)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -564,6 +622,7 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: e0f9fffff6f9ffff0afaffff20faffffd2faffff
@@ -572,6 +631,11 @@ MonoBehaviour:
       m_LastClickedID: 18678
       m_ExpandedIDs: eef2ffff1af4ffffcef9ffffc0faffff
 >>>>>>> parent of 3b3008b4 (audio glass break)
+=======
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 4ae7ffff18e8ffff04e9ffffa4e9ffffeae9fffffae9ffffb8eaffff06ecffff7aedffff50eeffff1cefffff98f1ffff14f2fffffef4ffff0cf6ffff50f6fffff0f7ffff50fbffff04400000be4400003646000082470000f6480000c64a0000364d0000984e00006c500000ce5200004a550000a65600001a580000885b0000145d0000
+>>>>>>> parent of 00fa99dc (fix star not pop up)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -631,6 +695,7 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 389.75702, y: 1469.8958, z: 60.897583}
     speed: 2
 <<<<<<< HEAD
@@ -638,6 +703,11 @@ MonoBehaviour:
 =======
     m_Value: {x: -30.250422, y: 991.5031, z: 2895.515}
 >>>>>>> parent of 3b3008b4 (audio glass break)
+=======
+    m_Target: {x: 619.51044, y: 676.15845, z: -124.899536}
+    speed: 2
+    m_Value: {x: 619.51044, y: 676.15845, z: -124.899536}
+>>>>>>> parent of 00fa99dc (fix star not pop up)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -688,6 +758,7 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.11406056, y: -0.0023871746, z: 0.00027405043, w: -0.993471}
   m_Size:
+<<<<<<< HEAD
     m_Target: 1444.2126
     speed: 2
 <<<<<<< HEAD
@@ -695,6 +766,11 @@ MonoBehaviour:
 =======
     m_Value: 10.164829
 >>>>>>> parent of 3b3008b4 (audio glass break)
+=======
+    m_Target: 1826.9316
+    speed: 2
+    m_Value: 1725.9628
+>>>>>>> parent of 00fa99dc (fix star not pop up)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -788,7 +864,11 @@ MonoBehaviour:
       y: 21
       width: 368
       height: 548
+<<<<<<< HEAD
     m_Scale: {x: 0.23357964, y: 0.23357964}
+=======
+    m_Scale: {x: 0.22495896, y: 0.22495896}
+>>>>>>> parent of 00fa99dc (fix star not pop up)
     m_Translation: {x: 184, y: 274}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -796,12 +876,21 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -787.7399
       y: -1173.0475
       width: 1575.4799
       height: 2346.095
     m_MinimalGUI: 1
   m_defaultScale: 0.23357964
+=======
+      x: -817.927
+      y: -1218
+      width: 1635.854
+      height: 2436
+    m_MinimalGUI: 1
+  m_defaultScale: 0.22495896
+>>>>>>> parent of 00fa99dc (fix star not pop up)
   m_LastWindowPixelSize: {x: 368, y: 569}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1

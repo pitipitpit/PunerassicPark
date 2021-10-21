@@ -15,6 +15,7 @@ EditorUserSettings:
       value: 22424703114646680e0b0227036c6c1313191d6a7866333e243d04
       flags: 0
     RecentlyUsedScenePath-3:
+<<<<<<< HEAD
       value: 22424703114646680e0b0227036c6c1313191d6a7966333e243d04
       flags: 0
     RecentlyUsedScenePath-4:
@@ -28,6 +29,15 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedScenePath-7:
       value: 22424703114646680e0b0227036c6c0417050c192f2d2835633c133af6f9
+=======
+      value: 22424703114646680e0b0227036c6c1313191d6a7f66333e243d04
+      flags: 0
+    RecentlyUsedScenePath-4:
+      value: 22424703114646680e0b0227036c6c1313191d6a7e66333e243d04
+      flags: 0
+    RecentlyUsedScenePath-5:
+      value: 22424703114646680e0b0227036c6c1313191d6a7d66333e243d04
+>>>>>>> parent of 00fa99dc (fix star not pop up)
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
