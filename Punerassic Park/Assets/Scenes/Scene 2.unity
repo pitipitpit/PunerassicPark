@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -330,6 +330,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 80230133}
   m_CullTransparentMesh: 1
+--- !u!1 &82354127
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 82354128}
+  - component: {fileID: 82354129}
+  m_Layer: 0
+  m_Name: SpawnCharacter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &82354128
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82354127}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 865.7809, y: 1082.645, z: 501.21606}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &82354129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82354127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85d2c44626a35454fa1ed791a6fb72ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoints:
+  - {fileID: 771402891}
+  - {fileID: 1313381729}
+  - {fileID: 481490337}
+  Dinosaurs:
+  - {fileID: 3618064402224519781, guid: d199192b208e942a2bcc2f242cdaf11d, type: 3}
+  - {fileID: 3618064402224519781, guid: d199192b208e942a2bcc2f242cdaf11d, type: 3}
+  - {fileID: 3618064402224519781, guid: d199192b208e942a2bcc2f242cdaf11d, type: 3}
+  counter: 0
 --- !u!1 &147945102
 GameObject:
   m_ObjectHideFlags: 0
@@ -687,6 +739,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 396621254}
   m_CullTransparentMesh: 1
+--- !u!1 &404969383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 404969385}
+  - component: {fileID: 404969384}
+  m_Layer: 0
+  m_Name: StarSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &404969384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404969383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a78d5e187287e438ea038e94c92db696, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoints:
+  - {fileID: 771402891}
+  - {fileID: 1313381729}
+  - {fileID: 481490337}
+  Stars:
+  - {fileID: 919132149155446097, guid: 5723cb2442d7b4547996ad742038062c, type: 3}
+  - {fileID: 919132149155446097, guid: 5723cb2442d7b4547996ad742038062c, type: 3}
+  - {fileID: 919132149155446097, guid: 5723cb2442d7b4547996ad742038062c, type: 3}
+  counter: 0
+--- !u!4 &404969385
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404969383}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -30.307358, y: 991.53076, z: 2895.7795}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &433011285
 GameObject:
   m_ObjectHideFlags: 0
@@ -1010,7 +1114,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &655380079
 GameObject:
@@ -1137,7 +1241,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &771402890
 GameObject:
@@ -1931,7 +2035,7 @@ MonoBehaviour:
   ExitButton: {fileID: 433011285}
   arCamera: {fileID: 483090537}
   dinosaurPrefab: {fileID: 3618064402224519781, guid: d199192b208e942a2bcc2f242cdaf11d, type: 3}
-  starPrefab: {fileID: 6259664750807193191, guid: 69fde8a5fa4b2411eb2ee79018a7e80f, type: 3}
+  starPrefab: {fileID: 6259664750807193191, guid: 8f5906ee4ed65434ba919affd877b942, type: 3}
   dieSound: {fileID: 655380080}
   glassBreak: {fileID: 0}
   currentScore: 0
@@ -1944,7 +2048,7 @@ MonoBehaviour:
   - {fileID: 3618064402224519781, guid: d199192b208e942a2bcc2f242cdaf11d, type: 3}
   - {fileID: 3618064402224519781, guid: d199192b208e942a2bcc2f242cdaf11d, type: 3}
   counter: 0
-  star: {fileID: 6259664750807193191, guid: 69fde8a5fa4b2411eb2ee79018a7e80f, type: 3}
+  star: {fileID: 6259664750807193191, guid: 8f5906ee4ed65434ba919affd877b942, type: 3}
   criteria: {fileID: 1270993235}
   OK: {fileID: 1381775103}
   running: 0
