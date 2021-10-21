@@ -27,7 +27,6 @@ public class Scene3Script : MonoBehaviour
     public Image timerBar;
     public float maxTime = 5f;
     float timeLeft;
-    public GameObject timesUpText;
 
     public GameObject[] Dinosaurs;
     public int counter;
@@ -35,7 +34,6 @@ public class Scene3Script : MonoBehaviour
 
     void Start()
     {
-        timesUpText.SetActive(false);
         // timerBar = GetComponent<Image>();
         timeLeft = maxTime;
         perfectComplete.SetActive(false);
@@ -56,7 +54,6 @@ public class Scene3Script : MonoBehaviour
             timerBar.fillAmount = timeLeft / maxTime;
             
         } else {
-            timesUpText.SetActive(true);
             Time.timeScale = 0;
             if (currentScore >= 30) {
                 perfectComplete.SetActive(true);
