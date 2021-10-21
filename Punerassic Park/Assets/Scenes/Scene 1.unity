@@ -1738,7 +1738,7 @@ MonoBehaviour:
   NextGameButton: {fileID: 332484992}
   ExitButton: {fileID: 718210168}
   arCamera: {fileID: 116193752}
-  dinosaurPrefab: {fileID: 3618064402224519781, guid: a7333c518d675ff4da4f96027d5ce41b, type: 3}
+  dinosaurPrefab: {fileID: 3618064402224519781, guid: d199192b208e942a2bcc2f242cdaf11d, type: 3}
   dieSound: {fileID: 443913721}
   currentScore: 0
   textScore: {fileID: 1042219411}
@@ -1792,9 +1792,9 @@ MonoBehaviour:
   - {fileID: 474973115}
   - {fileID: 426288539}
   Dinosaurs:
-  - {fileID: 3618064402224519781, guid: a7333c518d675ff4da4f96027d5ce41b, type: 3}
-  - {fileID: 3618064402224519781, guid: a7333c518d675ff4da4f96027d5ce41b, type: 3}
-  - {fileID: 3618064402224519781, guid: a7333c518d675ff4da4f96027d5ce41b, type: 3}
+  - {fileID: 3618064402224519781, guid: d199192b208e942a2bcc2f242cdaf11d, type: 3}
+  - {fileID: 3618064402224519781, guid: d199192b208e942a2bcc2f242cdaf11d, type: 3}
+  - {fileID: 3618064402224519781, guid: d199192b208e942a2bcc2f242cdaf11d, type: 3}
   counter: 0
 --- !u!4 &1052147632
 Transform:

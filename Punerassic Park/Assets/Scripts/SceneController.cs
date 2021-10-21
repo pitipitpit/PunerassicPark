@@ -12,6 +12,6 @@ public class SceneController : MonoBehaviour
 
    public void reload()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex, LoadSceneMode.Single);
     }
 }

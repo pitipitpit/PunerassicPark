@@ -24,7 +24,7 @@ public class Scene1Script : MonoBehaviour
     [SerializeField] float maxTime = 5f;
     float timeLeft;
 
-    void Start()
+    void Awake()
     {
         // timerBar = GetComponent<Image>();
         timeLeft = maxTime;

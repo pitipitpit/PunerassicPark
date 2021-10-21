@@ -15,12 +15,6 @@ public class SpawnCharacters : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
 
     IEnumerator StartSpawning()
     {
