@@ -6,7 +6,7 @@ public class SpawnCharacters : MonoBehaviour
 {
     [SerializeField] Transform[] spawnPoints;
     [SerializeField] GameObject[] Dinosaurs;
-    public int counter;
+    [SerializeField] int counter;
 
     // Start is called before the first frame update
     void Start()
