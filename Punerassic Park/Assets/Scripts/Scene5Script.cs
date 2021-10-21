@@ -44,6 +44,7 @@ public class Scene5Script : MonoBehaviour
     public GameObject star;
 
     private bool canRun = false;
+    private bool canShoot = false;
 
 
     public void Run()
@@ -51,6 +52,7 @@ public class Scene5Script : MonoBehaviour
         trexTime = 3;
         Time.timeScale = 1;
         canRun = true;
+        canShoot = true;
         timeLeft = maxTime;
         criteria.SetActive(false);
         ok.SetActive(false);
@@ -67,6 +69,7 @@ public class Scene5Script : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (canRun) {
             if (timeLeft > 0) {
                 timeLeft -= Time.deltaTime;
                 timerBar.fillAmount = timeLeft / maxTime;
@@ -98,11 +101,12 @@ public class Scene5Script : MonoBehaviour
                 }
                 canRun = false;
             }
+        }  
        
     }
 
     public void Shoot() {
-        if (canRun) {
+        if (canShoot) {
             RaycastHit hit;
         if (timeLeft > 0){
             if(Physics.Raycast(arCamera.transform.position, arCamera.transform.forward, out hit)){
@@ -189,7 +193,7 @@ public class Scene5Script : MonoBehaviour
                     float a = Random.Range(-5f, 5f);
                     float b = Random.Range(-5f, 5f);
                     Instantiate(explodeEffect, hit.transform.position, Quaternion.identity);
-                    canRun = false;
+                    canShoot = false;
                     StartCoroutine(Explode());
                     Instantiate(dynamitePrefab, new Vector3(0f, 0f, 0f), Quaternion.identity);
                     currentScore = currentScore - 2;
@@ -254,6 +258,6 @@ public class Scene5Script : MonoBehaviour
     IEnumerator Explode()
     {
         yield return new WaitForSeconds(3);
-        canRun = true;
+        canShoot = true;
     }
 }
