@@ -28,14 +28,23 @@ public class Scene3Script : MonoBehaviour
     public float maxTime = 5f;
     float timeLeft;
 
+    public GameObject criteria;
+    public GameObject ok;
+
     public GameObject[] Dinosaurs;
     public int counter;
     public GameObject star;
 
-    void Start()
+    private bool canRun = false;
+
+
+    public void Run()
     {
+        canRun = true;
         // timerBar = GetComponent<Image>();
         timeLeft = maxTime;
+        criteria.SetActive(false);
+        ok.SetActive(false);
         perfectComplete.SetActive(false);
         greatComplete.SetActive(false);
         goodComplete.SetActive(false);
@@ -49,36 +58,40 @@ public class Scene3Script : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (timeLeft > 0) {
-            timeLeft -= Time.deltaTime;
-            timerBar.fillAmount = timeLeft / maxTime;
-            
-        } else {
-            Time.timeScale = 0;
-            if (currentScore >= 30) {
-                perfectComplete.SetActive(true);
-                replayButton.SetActive(true);
-                NextGameButton.SetActive(true);
-                ExitButton.SetActive(true);
+        if (canRun) {
+            if (timeLeft > 0) {
+                timeLeft -= Time.deltaTime;
+                timerBar.fillAmount = timeLeft / maxTime;
+                
+            } else {
+                Time.timeScale = 0;
+                if (currentScore >= 30) {
+                    perfectComplete.SetActive(true);
+                    replayButton.SetActive(true);
+                    NextGameButton.SetActive(true);
+                    ExitButton.SetActive(true);
 
-            } else if (currentScore >= 20) {
-                greatComplete.SetActive(true);
-                replayButton.SetActive(true);
-                NextGameButton.SetActive(true);
-                ExitButton.SetActive(true);
+                } else if (currentScore >= 20) {
+                    greatComplete.SetActive(true);
+                    replayButton.SetActive(true);
+                    NextGameButton.SetActive(true);
+                    ExitButton.SetActive(true);
 
-            } else if ( currentScore >= 10) {
-                goodComplete.SetActive(true);
-                replayButton.SetActive(true);
-                NextGameButton.SetActive(true);
-                ExitButton.SetActive(true);
+                } else if ( currentScore >= 10) {
+                    goodComplete.SetActive(true);
+                    replayButton.SetActive(true);
+                    NextGameButton.SetActive(true);
+                    ExitButton.SetActive(true);
 
-            } else if (currentScore < 10) {
-                failMission.SetActive(true);
-                replayButton.SetActive(true);
-                ExitButton.SetActive(true);
+                } else if (currentScore < 10) {
+                    failMission.SetActive(true);
+                    replayButton.SetActive(true);
+                    ExitButton.SetActive(true);
+                }
+                canRun = false;
             }
         }
+       
     }
 
     public void Shoot() {
