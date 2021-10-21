@@ -1933,6 +1933,7 @@ MonoBehaviour:
   dinosaurPrefab: {fileID: 3618064402224519781, guid: d199192b208e942a2bcc2f242cdaf11d, type: 3}
   starPrefab: {fileID: 6259664750807193191, guid: 69fde8a5fa4b2411eb2ee79018a7e80f, type: 3}
   dieSound: {fileID: 655380080}
+  glassBreak: {fileID: 0}
   currentScore: 0
   textScore: {fileID: 1047882221}
   dinoDie: 0
