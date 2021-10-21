@@ -30,6 +30,10 @@ public class Scene2Script : MonoBehaviour
     float timeLeft;
     public GameObject timesUpText;
 
+    public GameObject[] Dinosaurs;
+    public int counter;
+    public GameObject star;
+
     void Start()
     {
         timesUpText.SetActive(false);
@@ -42,6 +46,8 @@ public class Scene2Script : MonoBehaviour
         replayButton.SetActive(false);
         NextGameButton.SetActive(false);
         ExitButton.SetActive(false);
+        StartCoroutine(StartSpawning());
+
     }
 
     // Update is called once per frame
@@ -129,7 +135,35 @@ public class Scene2Script : MonoBehaviour
         Debug.Log("sound on");
     }
     
-    
+    IEnumerator StartSpawning()
+    {
+
+        yield return new WaitForSeconds(1);
+            
+            for (int i =0; i < Dinosaurs.Length; i++)
+            {
+                float a = Random.Range(-5f, 5f);
+                float b = Random.Range(-5f, 5f);
+                Instantiate(Dinosaurs[i], new Vector3(a, 0f, b), Quaternion.identity); //spawn each dinosaur at each position
+                float c = Random.Range(-5f, 5f);
+                float d = Random.Range(-5f, 5f);
+                Instantiate(star, new Vector3(c, 0f, d), Quaternion.identity);
+                counter++;
+                
+            }
+        
+        while(counter < 3){ //only spawn 3 dinosaurs
+            StartCoroutine(StartSpawning());
+        }
+        
+ 
+    }
+
+    public void rerun()
+    {
+
+        StartCoroutine(StartSpawning());
+    }
 
 
 }
