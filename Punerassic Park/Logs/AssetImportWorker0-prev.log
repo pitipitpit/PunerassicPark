@@ -15,11 +15,11 @@ D:/Google Drive/KMITL/3rd year/Term1/AR/PunerassicPark/Punerassic Park
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60295
+63435
 Successfully changed project path to: D:/Google Drive/KMITL/3rd year/Term1/AR/PunerassicPark/Punerassic Park
 D:/Google Drive/KMITL/3rd year/Term1/AR/PunerassicPark/Punerassic Park
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 29.19 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 28.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,132 +35,132 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001598 seconds.
+Registered in 0.001661 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 29.09 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 28.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.812 seconds
+- Completed reload, in  0.836 seconds
 Domain Reload Profiling:
-	ReloadAssembly (812ms)
+	ReloadAssembly (836ms)
 		BeginReloadAssembly (43ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (322ms)
+		EndReloadAssembly (326ms)
 			LoadAssemblies (41ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (116ms)
+			SetupTypeCache (119ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (24ms)
 			SetupLoadedEditorAssemblies (125ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (29ms)
-				BeforeProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (28ms)
+				BeforeProcessingInitializeOnLoad (7ms)
 				ProcessInitializeOnLoadAttributes (61ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002197 seconds.
+Registered in 0.002136 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027E03309400 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.XR.ARKit.dll
+Symbol file data-000001DC07FAA050 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.XR.ARKit.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E003A6040 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001DC062D9700 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E021C6020 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001DC0667FD30 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E02186230 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001DC066AA390 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E021A8C70 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001DC0812E240 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E02186230 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file data-000001DC096322A0 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E02095430 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001DC0815C430 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E0221A020 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001DC08373030 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E00618580 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file data-000001DC06650650 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E02248230 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001DC083A1240 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E02DD2020 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
+Symbol file data-000001DC062D9700 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E00234580 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file data-000001DC09C9E070 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E02186230 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001DC06636020 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E020CA020 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001DC08BF9020 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E020B1E50 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001DC09503C20 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E0236A020 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001DC06661B90 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E01ABB050 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file data-000001DC0630D060 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E02207850 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-000001DC063178B0 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E00614920 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file data-000001DC083B2E50 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E0236A020 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001DC08840020 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E03682030 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
+Symbol file data-000001DC066B4F40 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E0061A020 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file data-000001DC07E69080 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E03682030 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file data-000001DC066B4F40 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.XR.Management.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E02390230 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001DC0812E240 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E02390230 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
+Symbol file data-000001DC09479E20 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E0032F460 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
+Symbol file data-000001DC0625F030 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E0004D2C0 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file data-000001DC07E61FE0 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027E02390230 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
+Symbol file data-000001DC09479E20 doesn't match image D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic Park\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 
 Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
 
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 29.07 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 27.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.932 seconds
+- Completed reload, in  0.916 seconds
 Domain Reload Profiling:
-	ReloadAssembly (932ms)
-		BeginReloadAssembly (119ms)
+	ReloadAssembly (916ms)
+		BeginReloadAssembly (117ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (760ms)
-			LoadAssemblies (69ms)
+		EndReloadAssembly (747ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (218ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (331ms)
+			SetupLoadedEditorAssemblies (319ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (29ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (227ms)
+				RefreshPlugins (28ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (221ms)
 				ProcessInitializeOnLoadMethodAttributes (3ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
@@ -170,14 +170,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 79.6 MB.
 System memory in use after: 79.6 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2223.
-Total: 2.901000 ms (FindLiveObjects: 0.209900 ms CreateObjectMapping: 0.036200 ms MarkObjects: 2.581600 ms  DeleteObjects: 0.071100 ms)
+Total: 2.648400 ms (FindLiveObjects: 0.165800 ms CreateObjectMapping: 0.035600 ms MarkObjects: 2.386000 ms  DeleteObjects: 0.059800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -191,25 +191,17 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Scene 2.unity
-  artifactKey: Guid(bd26b3b376019446b8972a2d80b2424f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene 2.unity using Guid(bd26b3b376019446b8972a2d80b2424f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d6fb5ae9f9c1b102150bf1926a0f41') in 0.010716 seconds 
-  Import took 0.013563 seconds .
+  path: Assets/Scenes/HowToPlayScene.unity
+  artifactKey: Guid(43eb1df0b98e1449d8aa2001733b842c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/HowToPlayScene.unity using Guid(43eb1df0b98e1449d8aa2001733b842c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5737283910c30a8386e36d30d0fe0bad') in 0.010337 seconds 
+  Import took 0.012919 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.706616 seconds.
-  path: Assets/Scenes/Scene 1.unity
-  artifactKey: Guid(5aaf0ffa6d6844473a8f6fe8ea1ab1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene 1.unity using Guid(5aaf0ffa6d6844473a8f6fe8ea1ab1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcbeb067f72c1b7d0bb7f880a9f352b') in 0.001935 seconds 
-  Import took 0.004523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000497 seconds.
-  path: Assets/Scenes/Scene 1.unity
-  artifactKey: Guid(5aaf0ffa6d6844473a8f6fe8ea1ab1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene 1.unity using Guid(5aaf0ffa6d6844473a8f6fe8ea1ab1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcbeb067f72c1b7d0bb7f880a9f352b') in 0.001778 seconds 
-  Import took 0.003945 seconds .
+  Time since last request: 414.303712 seconds.
+  path: Assets/Scenes/LevelSelection.unity
+  artifactKey: Guid(02c770b2906344a3ea699c525cb74fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LevelSelection.unity using Guid(02c770b2906344a3ea699c525cb74fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba2f36eec69cfa1ee68c071f977f277') in 0.005628 seconds 
+  Import took 0.008475 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
