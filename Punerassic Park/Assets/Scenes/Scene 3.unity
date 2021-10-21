@@ -2383,8 +2383,8 @@ MonoBehaviour:
   - {fileID: 715992916}
   - {fileID: 52649612}
   Dinosaurs:
-  - {fileID: 8090944438066117116, guid: 9b3acf872b476204b8450374dd698c03, type: 3}
   - {fileID: 2359296932365712222, guid: e339f8965f8b93846bcf0fafacab316d, type: 3}
+  - {fileID: 8090944438066117116, guid: 9b3acf872b476204b8450374dd698c03, type: 3}
   - {fileID: 6514142553744219640, guid: 25eb61574ee5a434cbf9acbea48f0893, type: 3}
   counter: 0
 --- !u!4 &2137352768
