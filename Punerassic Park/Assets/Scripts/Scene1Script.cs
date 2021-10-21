@@ -81,6 +81,7 @@ public class Scene1Script : MonoBehaviour
 
     public void Run()
     {
+        Time.timeScale = 1;
         canRun = true;
         // timerBar = GetComponent<Image>();
         timeLeft = maxTime;
