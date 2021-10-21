@@ -20,6 +20,7 @@ public class Scene2Script : MonoBehaviour
     public GameObject starPrefab;
 
     public AudioSource dieSound;
+    public AudioSource glassBreak;
 
     public int currentScore = 0;
     public TMPro.TextMeshProUGUI textScore;
@@ -102,7 +103,6 @@ public class Scene2Script : MonoBehaviour
             
             if(Physics.Raycast(arCamera.transform.position, arCamera.transform.forward, out hit)){
                 if(hit.transform.name == "trex(Clone)"){
-                    Debug.Log("hit");
                     if (!dieSound.isPlaying)
                     {
                         dieSound.Play();
@@ -115,11 +115,15 @@ public class Scene2Script : MonoBehaviour
                     Instantiate(dinosaurPrefab, new Vector3(a, 0f, b), Quaternion.identity);
                     currentScore = currentScore + 1;
                     textScore.text = "Score : " + currentScore;
-                    // dinoDie.Stop();
                 }
 
                 if(hit.transform.name == "stars(Clone)"){
-                    Debug.Log("wowowowowowowoww");
+                    if (!glassBreak.isPlaying)
+                    {
+                        glassBreak.Play();
+                        Debug.Log("glass sound on");
+                    }
+                    // playAudio();
                     Destroy(hit.transform.gameObject);
                     float a = Random.Range(-5f, 5f);
                     float b = Random.Range(-5f, 5f);
