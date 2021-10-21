@@ -93,11 +93,11 @@ public class Scene2Script : MonoBehaviour
             if(Physics.Raycast(arCamera.transform.position, arCamera.transform.forward, out hit)){
                 if(hit.transform.name == "trex(Clone)"){
                     Debug.Log("hit");
-                    // if (!dieSound.isPlaying)
-                    //     {
-                    //         dieSound.Play();
-                    //         Debug.Log("sound on");
-                    //     }
+                    if (!dieSound.isPlaying)
+                    {
+                        dieSound.Play();
+                        Debug.Log("sound on");
+                    }
                     // playAudio();
                     Destroy(hit.transform.gameObject);
                     float a = Random.Range(-5f, 5f);

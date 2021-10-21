@@ -89,11 +89,11 @@ public class Scene3Script : MonoBehaviour
         if (timeLeft > 0){
             if(Physics.Raycast(arCamera.transform.position, arCamera.transform.forward, out hit)){
                 if(hit.transform.name == "trex(Clone)"){
-                    // if (!dieSound.isPlaying)
-                    //     {
-                    //         dieSound.Play();
-                    //         Debug.Log("sound on");
-                    //     }
+                    if (!dieSound.isPlaying)
+                    {
+                        dieSound.Play();
+                        Debug.Log("sound on");
+                    }
                     playAudio();
                     Destroy(hit.transform.gameObject);
                     float a = Random.Range(-5f, 5f);
@@ -104,11 +104,11 @@ public class Scene3Script : MonoBehaviour
                     // dinoDie.Stop();
                 }
                 if(hit.transform.name == "tri(Clone)"){
-                    // if (!dieSound.isPlaying)
-                    //     {
-                    //         dieSound.Play();
-                    //         Debug.Log("sound on");
-                    //     }
+                    if (!dieSound.isPlaying)
+                    {
+                        dieSound.Play();
+                        Debug.Log("sound on");
+                    }
                     playAudio();
                     Destroy(hit.transform.gameObject);
                     float a = Random.Range(-5f, 5f);
@@ -119,11 +119,11 @@ public class Scene3Script : MonoBehaviour
                     // dinoDie.Stop();
                 }
                 if(hit.transform.name == "long(Clone)"){
-                    // if (!dieSound.isPlaying)
-                    //     {
-                    //         dieSound.Play();
-                    //         Debug.Log("sound on");
-                    //     }
+                    if (!dieSound.isPlaying)
+                    {
+                        dieSound.Play();
+                        Debug.Log("sound on");
+                    }
                     playAudio();
                     Destroy(hit.transform.gameObject);
                     float a = Random.Range(-5f, 5f);
@@ -134,11 +134,11 @@ public class Scene3Script : MonoBehaviour
                     // dinoDie.Stop();
                 }
                 if(hit.transform.name == "stars(Clone)"){
-                    // if (!dieSound.isPlaying)
-                    //     {
-                    //         dieSound.Play();
-                    //         Debug.Log("sound on");
-                    //     }
+                    if (!dieSound.isPlaying)
+                    {
+                        dieSound.Play();
+                        Debug.Log("sound on");
+                    }
                     playAudio();
                     Destroy(hit.transform.gameObject);
                     float a = Random.Range(-5f, 5f);
