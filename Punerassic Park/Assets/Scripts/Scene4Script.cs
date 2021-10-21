@@ -20,6 +20,8 @@ public class Scene4Script : MonoBehaviour
     public GameObject triPrefab;
     public GameObject starPrefab;
     public AudioSource dieSound;
+    public AudioSource glassSound;
+
     public int currentScore = 0;
     public TMPro.TextMeshProUGUI textScore;
     public bool dinoDie;
@@ -27,17 +29,24 @@ public class Scene4Script : MonoBehaviour
     public Image timerBar;
     public float maxTime = 5f;
     float timeLeft;
-    public GameObject timesUpText;
+
+    public GameObject criteria;
+    public GameObject ok;
 
     public GameObject[] Dinosaurs;
     public int counter;
     public GameObject star;
+    private bool canRun = false;
 
-    void Start()
+    public void Run()
     {
-        timesUpText.SetActive(false);
         // timerBar = GetComponent<Image>();
+        Time.timeScale = 1;
+        canRun = true;
         timeLeft = maxTime;
+
+        criteria.SetActive(false);
+        ok.SetActive(false);
         perfectComplete.SetActive(false);
         greatComplete.SetActive(false);
         goodComplete.SetActive(false);
@@ -51,35 +60,50 @@ public class Scene4Script : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (timeLeft > 0) {
-            timeLeft -= Time.deltaTime;
-            timerBar.fillAmount = timeLeft / maxTime;
-            
-        } else {
-            timesUpText.SetActive(true);
-            Time.timeScale = 0;
-            if (currentScore >= 30) {
-                perfectComplete.SetActive(true);
-                replayButton.SetActive(true);
-                NextGameButton.SetActive(true);
-                ExitButton.SetActive(true);
+        if (canRun)
+        {
+            if (timeLeft > 0)
+            {
+                timeLeft -= Time.deltaTime;
+                timerBar.fillAmount = timeLeft / maxTime;
 
-            } else if (currentScore >= 20) {
-                greatComplete.SetActive(true);
-                replayButton.SetActive(true);
-                NextGameButton.SetActive(true);
-                ExitButton.SetActive(true);
+            }
+            else
+            {
+                Time.timeScale = 0;
+                if (currentScore >= 30)
+                {
+                    perfectComplete.SetActive(true);
+                    replayButton.SetActive(true);
+                    NextGameButton.SetActive(true);
+                    ExitButton.SetActive(true);
 
-            } else if ( currentScore >= 10) {
-                goodComplete.SetActive(true);
-                replayButton.SetActive(true);
-                NextGameButton.SetActive(true);
-                ExitButton.SetActive(true);
+                }
+                else if (currentScore >= 20)
+                {
+                    greatComplete.SetActive(true);
+                    replayButton.SetActive(true);
+                    NextGameButton.SetActive(true);
+                    ExitButton.SetActive(true);
 
-            } else if (currentScore < 10) {
-                failMission.SetActive(true);
-                replayButton.SetActive(true);
-                ExitButton.SetActive(true);
+                }
+                else if (currentScore >= 10)
+                {
+                    goodComplete.SetActive(true);
+                    replayButton.SetActive(true);
+                    NextGameButton.SetActive(true);
+                    ExitButton.SetActive(true);
+
+                }
+                else if (currentScore < 10)
+                {
+                    failMission.SetActive(true);
+                    replayButton.SetActive(true);
+                    ExitButton.SetActive(true);
+                }
+
+                canRun = false;
+
             }
         }
     }
@@ -145,9 +169,9 @@ public class Scene4Script : MonoBehaviour
                     // dinoDie.Stop();
                 }
                 if(hit.transform.name == "stars(Clone)"){
-                    if (!dieSound.isPlaying)
+                    if (!glassSound.isPlaying)
                     {
-                        dieSound.Play();
+                        glassSound.Play();
                         Debug.Log("sound on");
                     }
                     playAudio();
