@@ -114,7 +114,13 @@ public class Scene3Script : MonoBehaviour
                     float a = Random.Range(-5f, 5f);
                     float b = Random.Range(-5f, 5f);
                     Instantiate(triPrefab, new Vector3(a, 0f, b), Quaternion.identity);
-                    currentScore = currentScore + 1;
+                    if (timeLeft > 2){
+                        timeLeft = timeLeft - 2;
+                    } else {
+                        timeLeft = 0;
+                    }
+                    
+                    currentScore = currentScore + 2;
                     textScore.text = "Score : " + currentScore;
                     // dinoDie.Stop();
                 }
@@ -129,7 +135,12 @@ public class Scene3Script : MonoBehaviour
                     float a = Random.Range(-5f, 5f);
                     float b = Random.Range(-5f, 5f);
                     Instantiate(longPrefab, new Vector3(a, 0f, b), Quaternion.identity);
-                    currentScore = currentScore + 1;
+                    if (timeLeft > 3){
+                        timeLeft = timeLeft - 3;
+                    } else {
+                        timeLeft = 0;
+                    }
+                    currentScore = currentScore + 3;
                     textScore.text = "Score : " + currentScore;
                     // dinoDie.Stop();
                 }
@@ -172,11 +183,15 @@ public class Scene3Script : MonoBehaviour
                 float a = Random.Range(-5f, 5f);
                 float b = Random.Range(-5f, 5f);
                 Instantiate(Dinosaurs[i], new Vector3(a, 0f, b), Quaternion.identity); //spawn each dinosaur at each position
+                
+                counter++;
+                
+            }
+             for (int i =0; i < Dinosaurs.Length*2; i++) 
+            {
                 float c = Random.Range(-5f, 5f);
                 float d = Random.Range(-5f, 5f);
                 Instantiate(star, new Vector3(c, 0f, d), Quaternion.identity);
-                counter++;
-                
             }
         
         while(counter < 3){ //only spawn 3 dinosaurs
