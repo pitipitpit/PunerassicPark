@@ -108,100 +108,100 @@ public class Scene5Script : MonoBehaviour
     public void Shoot() {
         if (canShoot) {
             RaycastHit hit;
-        if (timeLeft > 0){
-            if(Physics.Raycast(arCamera.transform.position, arCamera.transform.forward, out hit)){
-                if(hit.transform.name == "trex(Clone)"){
-                    if (!dieSound.isPlaying)
+            if (timeLeft > 0){
+                if(Physics.Raycast(arCamera.transform.position, arCamera.transform.forward, out hit)){
+                    if(hit.transform.name == "trex5(Clone)"){
+                        if (!dieSound.isPlaying)
+                            {
+                                dieSound.Play();
+                                Debug.Log("sound on");
+                            }
+                        playAudio();
+                        Destroy(hit.transform.gameObject);
+                        float a = Random.Range(-5f, 5f);
+                        float b = Random.Range(-5f, 5f);
+                        Instantiate(trexPrefab, new Vector3(a, 0f, b), Quaternion.identity);
+                        currentScore = currentScore + 1;
+                        textScore.text = "Score : " + currentScore;
+                        // dinoDie.Stop();
+                    }
+                    
+                    if(hit.transform.name == "tri5(Clone)"){
+                        if (!dieSound.isPlaying)
                         {
                             dieSound.Play();
                             Debug.Log("sound on");
                         }
-                    playAudio();
-                    Destroy(hit.transform.gameObject);
-                    float a = Random.Range(-5f, 5f);
-                    float b = Random.Range(-5f, 5f);
-                    Instantiate(trexPrefab, new Vector3(a, 0f, b), Quaternion.identity);
-                    currentScore = currentScore + 1;
-                    textScore.text = "Score : " + currentScore;
-                    // dinoDie.Stop();
-                }
-                
-                if(hit.transform.name == "tri(Clone)"){
-                    if (!dieSound.isPlaying)
-                    {
-                        dieSound.Play();
-                        Debug.Log("sound on");
+                        playAudio();
+                        Destroy(hit.transform.gameObject);
+                        float a = Random.Range(-5f, 5f);
+                        float b = Random.Range(-5f, 5f);
+                        Instantiate(triPrefab, new Vector3(a, 0f, b), Quaternion.identity);
+                        if (timeLeft > 2){
+                            timeLeft = timeLeft - 2;
+                        } else {
+                            timeLeft = 0;
+                        }
+                        
+                        currentScore = currentScore + 2;
+                        textScore.text = "Score : " + currentScore;
+                        // dinoDie.Stop();
                     }
-                    playAudio();
-                    Destroy(hit.transform.gameObject);
-                    float a = Random.Range(-5f, 5f);
-                    float b = Random.Range(-5f, 5f);
-                    Instantiate(triPrefab, new Vector3(a, 0f, b), Quaternion.identity);
-                    if (timeLeft > 2){
-                        timeLeft = timeLeft - 2;
-                    } else {
-                        timeLeft = 0;
+                    if(hit.transform.name == "long5(Clone)"){
+                        if (!dieSound.isPlaying)
+                        {
+                            dieSound.Play();
+                            Debug.Log("sound on");
+                        }
+                        playAudio();
+                        Destroy(hit.transform.gameObject);
+                        float a = Random.Range(-5f, 5f);
+                        float b = Random.Range(-5f, 5f);
+                        Instantiate(longPrefab, new Vector3(a, 0f, b), Quaternion.identity);
+                        if (timeLeft > 3){
+                            timeLeft = timeLeft - 3;
+                        } else {
+                            timeLeft = 0;
+                        }
+                        currentScore = currentScore + 3;
+                        textScore.text = "Score : " + currentScore;
+                        // dinoDie.Stop();
                     }
-                    
-                    currentScore = currentScore + 2;
-                    textScore.text = "Score : " + currentScore;
-                    // dinoDie.Stop();
-                }
-                if(hit.transform.name == "long(Clone)"){
-                    if (!dieSound.isPlaying)
-                    {
-                        dieSound.Play();
-                        Debug.Log("sound on");
+                    if(hit.transform.name == "stars5(Clone)"){
+                        if (!dieSound.isPlaying)
+                        {
+                            dieSound.Play();
+                            Debug.Log("sound on");
+                        }
+                        playAudio();
+                        Destroy(hit.transform.gameObject);
+                        float a = Random.Range(-5f, 5f);
+                        float b = Random.Range(-5f, 5f);
+                        Instantiate(starPrefab, new Vector3(a, 0f, b), Quaternion.identity);
+                        currentScore = currentScore - 1;
+                        textScore.text = "Score : " + currentScore;
+                        // dinoDie.Stop();
                     }
-                    playAudio();
-                    Destroy(hit.transform.gameObject);
-                    float a = Random.Range(-5f, 5f);
-                    float b = Random.Range(-5f, 5f);
-                    Instantiate(longPrefab, new Vector3(a, 0f, b), Quaternion.identity);
-                    if (timeLeft > 3){
-                        timeLeft = timeLeft - 3;
-                    } else {
-                        timeLeft = 0;
+                    if(hit.transform.name == "dynamite5(Clone)"){
+                        if (!dieSound.isPlaying)
+                        {
+                            dieSound.Play();
+                            Debug.Log("sound on");
+                        }
+                        playAudio();
+                        Destroy(hit.transform.gameObject);
+                        float a = Random.Range(-5f, 5f);
+                        float b = Random.Range(-5f, 5f);
+                        Instantiate(explodeEffect, hit.transform.position, Quaternion.identity);
+                        canShoot = false;
+                        StartCoroutine(Explode());
+                        Instantiate(dynamitePrefab, new Vector3(0f, 0f, 0f), Quaternion.identity);
+                        currentScore = currentScore - 2;
+                        textScore.text = "Score : " + currentScore; 
+                        // dinoDie.Stop();
                     }
-                    currentScore = currentScore + 3;
-                    textScore.text = "Score : " + currentScore;
-                    // dinoDie.Stop();
-                }
-                if(hit.transform.name == "stars(Clone)"){
-                    if (!dieSound.isPlaying)
-                    {
-                        dieSound.Play();
-                        Debug.Log("sound on");
-                    }
-                    playAudio();
-                    Destroy(hit.transform.gameObject);
-                    float a = Random.Range(-5f, 5f);
-                    float b = Random.Range(-5f, 5f);
-                    Instantiate(starPrefab, new Vector3(a, 0f, b), Quaternion.identity);
-                    currentScore = currentScore - 1;
-                    textScore.text = "Score : " + currentScore;
-                    // dinoDie.Stop();
-                }
-                if(hit.transform.name == "dynamite(Clone)"){
-                    if (!dieSound.isPlaying)
-                    {
-                        dieSound.Play();
-                        Debug.Log("sound on");
-                    }
-                    playAudio();
-                    Destroy(hit.transform.gameObject);
-                    float a = Random.Range(-5f, 5f);
-                    float b = Random.Range(-5f, 5f);
-                    Instantiate(explodeEffect, hit.transform.position, Quaternion.identity);
-                    canShoot = false;
-                    StartCoroutine(Explode());
-                    Instantiate(dynamitePrefab, new Vector3(0f, 0f, 0f), Quaternion.identity);
-                    currentScore = currentScore - 2;
-                    textScore.text = "Score : " + currentScore; 
-                    // dinoDie.Stop();
-                }
+                }   
             }   
-        }   
         }
     }
     IEnumerator playAudio()

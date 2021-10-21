@@ -5,7 +5,8 @@ using UnityEngine.AI;
 
 public class DinosaurScript5 : MonoBehaviour
 {
-    public TimeScript timeScript;
+
+    public float timeLeft;
 
     private Vector3 dinoBounds;
     // public float movementSpeed = 1f;
@@ -13,7 +14,6 @@ public class DinosaurScript5 : MonoBehaviour
     // private bool isWandering = false;
     // private bool isWalking = false;
     
-    public Rigidbody rb;
     float x;
     float y;
 
@@ -38,9 +38,15 @@ public class DinosaurScript5 : MonoBehaviour
 
         transform.position += new Vector3(x* Time.deltaTime,y* Time.deltaTime,0);
 
+        timeLeft -= Time.deltaTime;
+        if (timeLeft <= 0.0f) {
+            float a = Random.Range(-5f, 5f);
+            float b = Random.Range(-5f, 5f);
+            float c = Random.Range(-5f, 5f);
 
-
-               
+            this.transform.position = new Vector3(transform.position.x + a, transform.position.y + b, transform.position.z + c);
+          }
+      
     }
 
 }

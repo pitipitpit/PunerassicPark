@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -469,7 +469,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: -30.00003}
+  m_AnchoredPosition: {x: 0, y: -30}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &271570052
@@ -1223,7 +1223,7 @@ MonoBehaviour:
     type: 3}
   longPrefab: {fileID: 6514142553744219640, guid: 0cc60bef14d7f4a7b87180dcf8043e94,
     type: 3}
-  triPrefab: {fileID: 1567097798912098400, guid: 283f0ab17e602433caa8ee5b11e66bd0,
+  triPrefab: {fileID: 1016743413880008857, guid: 1eaaa778d470a4b4faffd25be4f55279,
     type: 3}
   starPrefab: {fileID: 6259664750807193191, guid: 69fde8a5fa4b2411eb2ee79018a7e80f,
     type: 3}
@@ -1239,7 +1239,7 @@ MonoBehaviour:
   Dinosaurs:
   - {fileID: 6514142553744219640, guid: 0cc60bef14d7f4a7b87180dcf8043e94, type: 3}
   - {fileID: 3618064402224519781, guid: d199192b208e942a2bcc2f242cdaf11d, type: 3}
-  - {fileID: 1567097798912098400, guid: 283f0ab17e602433caa8ee5b11e66bd0, type: 3}
+  - {fileID: 1016743413880008857, guid: 1eaaa778d470a4b4faffd25be4f55279, type: 3}
   counter: 0
   star: {fileID: 6259664750807193191, guid: 69fde8a5fa4b2411eb2ee79018a7e80f, type: 3}
 --- !u!4 &701474755
