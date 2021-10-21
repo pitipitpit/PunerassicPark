@@ -1,8 +1,12 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_FilePath: D:/Google Drive/KMITL/3rd year/Term1/AR/PunerassicPark/Punerassic
       Park/Packages/manifest.json
+=======
+    m_FilePath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Packages/manifest.json
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
     m_FilePath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Packages/manifest.json
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -11,25 +15,34 @@ m_ProjectFiles:
     m_ModificationDate:
       serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       ticks: 637703886635456832
     m_Hash: 4113139236
   m_LockFileStatus:
     m_FilePath: D:/Google Drive/KMITL/3rd year/Term1/AR/PunerassicPark/Punerassic
       Park/Packages/packages-lock.json
 =======
+=======
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
       ticks: 637695388190000000
     m_Hash: 2169644230
   m_LockFileStatus:
     m_FilePath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Packages/packages-lock.json
+<<<<<<< HEAD
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
+=======
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       ticks: 637703886635456832
     m_Hash: 576414183
 =======
+=======
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
       ticks: 637695388190000000
     m_Hash: 2273216993
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -44,8 +57,12 @@ m_PackageAssets:
       version: 1.7.1
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.collab-proxy@1.7.1
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.collab-proxy@1.7.1
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.collab-proxy@1.7.1
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -168,8 +185,12 @@ m_PackageAssets:
       version: 2.0.7
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.ide.rider@2.0.7
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.ide.rider@2.0.7
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.ide.rider@2.0.7
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -280,8 +301,12 @@ m_PackageAssets:
       version: 2.0.11
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.ide.visualstudio@2.0.11
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.ide.visualstudio@2.0.11
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.ide.visualstudio@2.0.11
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -372,8 +397,12 @@ m_PackageAssets:
       version: 1.2.3
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.ide.vscode@1.2.3
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.ide.vscode@1.2.3
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.ide.vscode@1.2.3
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -448,8 +477,12 @@ m_PackageAssets:
       version: 1.1.27
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.test-framework@1.1.27
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.test-framework@1.1.27
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.test-framework@1.1.27
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -547,8 +580,12 @@ m_PackageAssets:
       version: 3.0.6
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.textmeshpro@3.0.6
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.textmeshpro@3.0.6
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.textmeshpro@3.0.6
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -711,8 +748,12 @@ m_PackageAssets:
       version: 1.4.8
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.timeline@1.4.8
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.timeline@1.4.8
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.timeline@1.4.8
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -870,8 +911,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.ugui@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.ugui@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.ugui@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -938,8 +983,12 @@ m_PackageAssets:
       version: 4.1.7
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.xr.arfoundation@4.1.7
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.xr.arfoundation@4.1.7
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.xr.arfoundation@4.1.7
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -1174,8 +1223,12 @@ m_PackageAssets:
       version: 4.1.7
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.xr.arkit@4.1.7
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.xr.arkit@4.1.7
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.xr.arkit@4.1.7
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -1432,8 +1485,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.ai@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.ai@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.ai@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -1485,8 +1542,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.androidjni@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.androidjni@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -1538,8 +1599,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.animation@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.animation@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.animation@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -1591,8 +1656,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.assetbundle@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.assetbundle@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -1644,8 +1713,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.audio@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.audio@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.audio@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -1697,8 +1770,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.cloth@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.cloth@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.cloth@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -1754,8 +1831,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.director@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.director@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.director@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -1815,8 +1896,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.imageconversion@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.imageconversion@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -1869,8 +1954,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.imgui@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.imgui@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.imgui@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -1922,8 +2011,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.jsonserialize@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.jsonserialize@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -1975,8 +2068,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.particlesystem@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.particlesystem@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -2028,8 +2125,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.physics@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.physics@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.physics@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -2081,8 +2182,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.physics2d@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.physics2d@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -2134,8 +2239,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.screencapture@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.screencapture@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -2191,8 +2300,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.terrain@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.terrain@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.terrain@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -2244,8 +2357,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.terrainphysics@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.terrainphysics@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -2305,8 +2422,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.tilemap@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.tilemap@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -2362,8 +2483,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.ui@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.ui@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.ui@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -2415,8 +2540,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.uielements@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.uielements@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.uielements@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -2484,8 +2613,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.umbra@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.umbra@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.umbra@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -2537,8 +2670,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.unityanalytics@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.unityanalytics@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -2598,8 +2735,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.unitywebrequest@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.unitywebrequest@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -2651,8 +2792,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -2712,8 +2857,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.unitywebrequestaudio@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.unitywebrequestaudio@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -2773,8 +2922,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.unitywebrequesttexture@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.unitywebrequesttexture@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -2834,8 +2987,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.unitywebrequestwww@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.unitywebrequestwww@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -2911,8 +3068,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.vehicles@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.vehicles@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -2968,8 +3129,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.video@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.video@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.video@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -3033,8 +3198,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.vr@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.vr@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.vr@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -3100,8 +3269,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.wind@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.wind@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.wind@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -3153,8 +3326,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.xr@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.xr@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.xr@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -3218,8 +3395,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.subsystems@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.subsystems@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -3275,8 +3456,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.uielementsnative@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.modules.uielementsnative@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -3339,8 +3524,12 @@ m_PackageAssets:
       version: 1.0.0
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.editorcoroutines@1.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.editorcoroutines@1.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.editorcoroutines@1.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -3408,8 +3597,12 @@ m_PackageAssets:
       version: 4.1.7
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.xr.arsubsystems@4.1.7
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.xr.arsubsystems@4.1.7
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.xr.arsubsystems@4.1.7
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -3544,8 +3737,12 @@ m_PackageAssets:
       version: 4.0.1
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.xr.management@4.0.1
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.xr.management@4.0.1
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.xr.management@4.0.1
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -3682,8 +3879,12 @@ m_PackageAssets:
       version: 1.0.6
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.ext.nunit@1.0.6
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.ext.nunit@1.0.6
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.ext.nunit@1.0.6
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -3748,8 +3949,12 @@ m_PackageAssets:
       version: 2.0.0
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -3829,8 +4034,12 @@ m_PackageAssets:
       version: 2.1.8
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.8
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.8
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.8
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -3927,8 +4136,12 @@ m_PackageAssets:
       version: 1.1.0
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: D:\Google Drive\KMITL\3rd year\Term1\AR\PunerassicPark\Punerassic
         Park\Library\PackageCache\com.unity.subsystemregistration@1.1.0
+=======
+      resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.subsystemregistration@1.1.0
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
       resolvedPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/PackageCache/com.unity.subsystemregistration@1.1.0
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -3993,8 +4206,12 @@ m_PackageAssets:
   m_LocalPackages:
     m_LocalFileStatus: []
 <<<<<<< HEAD
+<<<<<<< HEAD
 m_ProjectPath: D:/Google Drive/KMITL/3rd year/Term1/AR/PunerassicPark/Punerassic
   Park/Packages
+=======
+m_ProjectPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Packages
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
 m_ProjectPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Packages
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)

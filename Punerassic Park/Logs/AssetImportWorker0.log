@@ -17,7 +17,11 @@ BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, I
 
 COMMAND LINE ARGUMENTS:
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Program Files\Unity\Editor\Unity.exe
+=======
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 =======
 /Applications/Unity/Unity.app/Contents/MacOS/Unity
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
@@ -27,6 +31,7 @@ C:\Program Files\Unity\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< HEAD
 <<<<<<< HEAD
 D:/Google Drive/KMITL/3rd year/Term1/AR/PunerassicPark/Punerassic Park
 -logFile
@@ -92,6 +97,34 @@ Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56234
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+=======
+/Users/gnnchya/Documents/PunerassicPark/Punerassic Park
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60656
+Successfully changed project path to: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park
+/Users/gnnchya/Documents/PunerassicPark/Punerassic Park
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 38.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Assets
+GfxDevice: creating device client; threaded=0
+2021-10-14 19:29:40.536 Unity[72234:4403472] (null) preferred device: Apple M1 (high power)
+2021-10-14 19:29:40.536 Unity[72234:4403472] Metal devices available: 1
+2021-10-14 19:29:40.536 Unity[72234:4403472] 0: Apple M1 (high power)
+2021-10-14 19:29:40.536 Unity[72234:4403472] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56234
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Registered in 0.002141 seconds.
 Native extension for OSXStandalone target not found
@@ -102,11 +135,15 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (2332ms)
 		BeginReloadAssembly (163ms)
+<<<<<<< HEAD
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
+=======
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (332ms)
@@ -133,12 +170,26 @@ Domain Reload Profiling:
 			RebuildScriptCaches (49ms)
 			SetupLoadedEditorAssemblies (579ms)
 				LogAssemblyErrors (0ms)
+=======
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (1006ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (203ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (579ms)
+				LogAssemblyErrors (0ms)
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (34ms)
 				BeforeProcessingInitializeOnLoad (87ms)
 				ProcessInitializeOnLoadAttributes (325ms)
 				ProcessInitializeOnLoadMethodAttributes (118ms)
+<<<<<<< HEAD
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
+=======
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
@@ -146,6 +197,7 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 <<<<<<< HEAD
 Registered in 0.002140 seconds.
 Begin MonoManager ReloadAssembly
@@ -197,6 +249,8 @@ System memory in use after: 77.4 MB.
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2205.
 Total: 2.733500 ms (FindLiveObjects: 0.180900 ms CreateObjectMapping: 0.035600 ms MarkObjects: 2.457100 ms  DeleteObjects: 0.058800 ms)
 =======
+=======
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 Registered in 0.003525 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file data-0x7fe86dbe8e00 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.dll
@@ -504,6 +558,7 @@ Received Import Request.
   artifactKey: Guid(64664d1103c684d89ba0ae64966048dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Materials/HowToPlay.png using Guid(64664d1103c684d89ba0ae64966048dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c7532e658747d5b0ebfe43d6169f71') in 0.016563 seconds 
   Import took 0.019651 seconds .
+<<<<<<< HEAD
 
 ========================================================================
 Received Import Request.
@@ -547,6 +602,51 @@ Start importing Assets/Materials/shootButton.mat using Guid(c14e33f346c14443c9ec
 
 ========================================================================
 Received Import Request.
+=======
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Materials/level1.png
+  artifactKey: Guid(63f8cf091c8a54a4bb2120308b354580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/level1.png using Guid(63f8cf091c8a54a4bb2120308b354580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a227bc211f61014f336f65a76a32bf') in 0.013882 seconds 
+  Import took 0.016461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Materials/levelBox.png
+  artifactKey: Guid(917c3a9b86db04fe985c838c35fc20ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/levelBox.png using Guid(917c3a9b86db04fe985c838c35fc20ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f358ea3fa4e28f0728026d0cb1c01cef') in 0.011501 seconds 
+  Import took 0.014460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Materials/start.png
+  artifactKey: Guid(5ad5778509c11482a91c0b2b1180d8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/start.png using Guid(5ad5778509c11482a91c0b2b1180d8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1e891faba827b6fc8c2651f05e5efc') in 0.009851 seconds 
+  Import took 0.012325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Materials/emoji-icon-glossy-07-16-objects-other-object-hourglass-not-done-variant-72dpi-forPersonalUseOnly.png
+  artifactKey: Guid(3b8cdf546a3074b5b893c4079d7804ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/emoji-icon-glossy-07-16-objects-other-object-hourglass-not-done-variant-72dpi-forPersonalUseOnly.png using Guid(3b8cdf546a3074b5b893c4079d7804ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894c752570edd562bc8117d2044deec2') in 0.025777 seconds 
+  Import took 0.028673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Materials/shootButton.mat
+  artifactKey: Guid(c14e33f346c14443c9eca3047c3bff09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/shootButton.mat using Guid(c14e33f346c14443c9eca3047c3bff09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34d8febfa9771cac9290b7fb752d32c') in 0.007931 seconds 
+  Import took 0.010279 seconds .
+
+========================================================================
+Received Import Request.
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
   Time since last request: 0.578237 seconds.
   path: Assets/Prefabs/dino toon.OBJ
   artifactKey: Guid(bca9f6807f5c24149bf8df3f556499a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -1143,6 +1243,9 @@ System memory in use after: 222.9 MB.
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2334.
 Total: 4.069209 ms (FindLiveObjects: 0.169459 ms CreateObjectMapping: 0.048708 ms MarkObjects: 3.829250 ms  DeleteObjects: 0.020875 ms)
+<<<<<<< HEAD
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
+=======
 >>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1158,6 +1261,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Import Request.
 <<<<<<< HEAD
+<<<<<<< HEAD
   path: Assets/Scenes/Scene 3.unity
   artifactKey: Guid(52822b9dc57c84be7b4554253931fb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/Scene 3.unity using Guid(52822b9dc57c84be7b4554253931fb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125c7fbbe5354bed06c64e70f7d44e67') in 0.014068 seconds 
@@ -1165,6 +1269,8 @@ Start importing Assets/Scenes/Scene 3.unity using Guid(52822b9dc57c84be7b4554253
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 =======
+=======
+>>>>>>> parent of 193eaf1 (finish "howtoplay" scene)
   Time since last request: 275.075639 seconds.
   path: Assets/Scenes/Scene 1.unity
   artifactKey: Guid(5aaf0ffa6d6844473a8f6fe8ea1ab1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
