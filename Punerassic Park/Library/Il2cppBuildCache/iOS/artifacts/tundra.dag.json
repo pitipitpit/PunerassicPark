@@ -20,49 +20,49 @@
       "DebugActionIndex": 0
     },
     {
-      "Annotation": "Il2Cpp /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat",
-      "Action": "\"/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --additional-cpp=\"/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" --additional-cpp=\"/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" --incremental-g-c-time-slice=3 --avoid-dynamic-library-copy --profiler-report --map-file-parser=\"/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Tools/MapFileParser/MapFileParser\" --directory=\"/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed\" --generatedcppdir=\"/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/il2cppOutput\"",
+      "Annotation": "Il2Cpp /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat",
+      "Action": "\"/Applications/Unity/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --additional-cpp=\"/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" --additional-cpp=\"/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" --incremental-g-c-time-slice=3 --avoid-dynamic-library-copy --profiler-report --map-file-parser=\"/Applications/Unity/Unity.app/Contents/Tools/MapFileParser/MapFileParser\" --directory=\"/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed\" --generatedcppdir=\"/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/il2cppOutput\"",
       "Inputs": [
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/Mono.Security.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/System.Configuration.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/System.Core.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/System.Xml.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/System.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/Unity.XR.ARFoundation.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/Unity.XR.ARKit.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/Unity.XR.ARSubsystems.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/Unity.XR.Management.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.ARModule.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.GameCenterModule.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.InputModule.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.SpatialTracking.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.TextCoreModule.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.dll",
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/mscorlib.dll",
-        "\"/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\""
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/Mono.Security.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/System.Configuration.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/System.Core.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/System.Xml.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/System.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/Unity.XR.ARFoundation.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/Unity.XR.ARKit.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/Unity.XR.ARSubsystems.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/Unity.XR.Management.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.ARModule.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.GameCenterModule.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.InputModule.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.SpatialTracking.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.TextCoreModule.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/UnityEngine.dll",
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Temp/StagingArea/Data/Managed/mscorlib.dll",
+        "\"/Applications/Unity/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\""
       ],
       "Outputs": [
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat"
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat"
       ],
       "TargetDirectories": [],
       "PassIndex": 0,
@@ -75,13 +75,13 @@
       "DebugActionIndex": 1
     },
     {
-      "Annotation": "Copy Additional C++ File /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp",
-      "Action": "TMPFILE=$(mktemp \"/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp.tmpXXXXX\") && cp -af \"/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" \"${TMPFILE}\" && touch -h -c \"${TMPFILE}\" && mv -f \"${TMPFILE}\" \"/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp\" ",
+      "Annotation": "Copy Additional C++ File /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp",
+      "Action": "TMPFILE=$(mktemp \"/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp.tmpXXXXX\") && cp -af \"/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" \"${TMPFILE}\" && touch -h -c \"${TMPFILE}\" && mv -f \"${TMPFILE}\" \"/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp\" ",
       "Inputs": [
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp"
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp"
       ],
       "Outputs": [
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp"
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp"
       ],
       "TargetDirectories": [],
       "PassIndex": 0,
@@ -98,13 +98,13 @@
       "DebugActionIndex": 2
     },
     {
-      "Annotation": "Copy Additional C++ File /Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp",
-      "Action": "TMPFILE=$(mktemp \"/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp.tmpXXXXX\") && cp -af \"/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" \"${TMPFILE}\" && touch -h -c \"${TMPFILE}\" && mv -f \"${TMPFILE}\" \"/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp\" ",
+      "Annotation": "Copy Additional C++ File /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp",
+      "Action": "TMPFILE=$(mktemp \"/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp.tmpXXXXX\") && cp -af \"/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" \"${TMPFILE}\" && touch -h -c \"${TMPFILE}\" && mv -f \"${TMPFILE}\" \"/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp\" ",
       "Inputs": [
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp"
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp"
       ],
       "Outputs": [
-        "/Users/pitsinee/Documents/GitHub/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp"
+        "/Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp"
       ],
       "TargetDirectories": [],
       "PassIndex": 0,
@@ -123,7 +123,7 @@
   ],
   "FileSignatures": [
     {
-      "File": "../../../../../../../Library"
+      "File": "../../../../../../Library"
     },
     {
       "File": "../../../Temp/StagingArea/Data/Managed"
