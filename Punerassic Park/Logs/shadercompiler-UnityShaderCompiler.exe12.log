@@ -2,8 +2,5 @@ Base path: 'C:/Program Files/Unity/Editor/Data', plugins path 'C:/Program Files/
 Cmd: initializeCompiler
 
 Cmd: shutdown
-<<<<<<< Updated upstream
 
 Quitting shader compiler process
-=======
->>>>>>> Stashed changes
