@@ -12,11 +12,11 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelSelection.unity
     guid: 02c770b2906344a3ea699c525cb74fcb
   - enabled: 1
-    path: Assets/Scenes/Scene 1.unity
-    guid: 5aaf0ffa6d6844473a8f6fe8ea1ab1af
-  - enabled: 0
     path: Assets/Scenes/HowToPlayScene.unity
     guid: 43eb1df0b98e1449d8aa2001733b842c
+  - enabled: 1
+    path: Assets/Scenes/Scene 1.unity
+    guid: 5aaf0ffa6d6844473a8f6fe8ea1ab1af
   m_configObjects:
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 1418ece6503c24324a2f3c04c052a6bf, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7829d2926899f471bb19fd6c49ebc546, type: 2}
