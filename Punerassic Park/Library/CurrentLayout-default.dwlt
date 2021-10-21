@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 973
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -69,12 +69,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 1920
     height: 923
   m_MinSize: {x: 881, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
   controlID: 107
+=======
+    width: 1280
+    height: 750
+  m_MinSize: {x: 881, y: 492}
+  m_MaxSize: {x: 16006, y: 14042}
+  vertical: 0
+  controlID: 111
+>>>>>>> parent of 3b3008b4 (audio glass break)
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -92,8 +101,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1467
     y: 0
+<<<<<<< HEAD
     width: 453
     height: 923
+=======
+    width: 302
+    height: 750
+>>>>>>> parent of 3b3008b4 (audio glass break)
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
@@ -118,10 +132,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 361
     height: 590
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
+=======
+    width: 240
+    height: 416
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> parent of 3b3008b4 (audio glass break)
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -247,12 +268,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1467
     height: 923
   m_MinSize: {x: 605, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
   controlID: 108
+=======
+    width: 978
+    height: 750
+  m_MinSize: {x: 605, y: 492}
+  m_MaxSize: {x: 12005, y: 14042}
+  vertical: 1
+  controlID: 112
+>>>>>>> parent of 3b3008b4 (audio glass break)
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -273,12 +303,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1467
     height: 590
   m_MinSize: {x: 605, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
   controlID: 59
+=======
+    width: 978
+    height: 416
+  m_MinSize: {x: 605, y: 221}
+  m_MaxSize: {x: 12005, y: 4021}
+  vertical: 0
+  controlID: 113
+>>>>>>> parent of 3b3008b4 (audio glass break)
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -296,10 +335,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 361
     y: 0
+<<<<<<< HEAD
     width: 736
     height: 590
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
+=======
+    width: 491
+    height: 416
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> parent of 3b3008b4 (audio glass break)
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -356,9 +402,15 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: cc420000
     m_LastClickedID: 17100
     m_ExpandedIDs: 00000000ae420000b042000000ca9a3b
+=======
+    m_SelectedIDs: 6a420000
+    m_LastClickedID: 17002
+    m_ExpandedIDs: 00000000524200005442000000ca9a3b
+>>>>>>> parent of 3b3008b4 (audio glass break)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -386,7 +438,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000ae420000b0420000
+=======
+    m_ExpandedIDs: 000000005242000054420000
+>>>>>>> parent of 3b3008b4 (audio glass break)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -507,9 +563,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: e0f9fffff6f9ffff0afaffff20faffffd2faffff
+=======
+      m_SelectedIDs: f6480000
+      m_LastClickedID: 18678
+      m_ExpandedIDs: eef2ffff1af4ffffcef9ffffc0faffff
+>>>>>>> parent of 3b3008b4 (audio glass break)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -571,7 +633,11 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 389.75702, y: 1469.8958, z: 60.897583}
     speed: 2
+<<<<<<< HEAD
     m_Value: {x: 389.75702, y: 1469.8958, z: 60.897583}
+=======
+    m_Value: {x: -30.250422, y: 991.5031, z: 2895.515}
+>>>>>>> parent of 3b3008b4 (audio glass break)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -624,7 +690,11 @@ MonoBehaviour:
   m_Size:
     m_Target: 1444.2126
     speed: 2
+<<<<<<< HEAD
     m_Value: 1443.1302
+=======
+    m_Value: 10.164829
+>>>>>>> parent of 3b3008b4 (audio glass break)
   m_Ortho:
     m_Target: 0
     speed: 2
