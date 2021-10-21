@@ -22,156 +22,100 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50927
+51124
 Successfully changed project path to: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park
 /Users/gnnchya/Documents/PunerassicPark/Punerassic Park
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 38.20 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 36.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Assets
 GfxDevice: creating device client; threaded=0
-2021-10-21 14:03:43.191 Unity[95112:7374777] (null) preferred device: Apple M1 (high power)
-2021-10-21 14:03:43.191 Unity[95112:7374777] Metal devices available: 1
-2021-10-21 14:03:43.191 Unity[95112:7374777] 0: Apple M1 (high power)
-2021-10-21 14:03:43.192 Unity[95112:7374777] Using device Apple M1 (high power)
+2021-10-21 14:23:47.183 Unity[96822:7399987] (null) preferred device: Apple M1 (high power)
+2021-10-21 14:23:47.183 Unity[96822:7399987] Metal devices available: 1
+2021-10-21 14:23:47.183 Unity[96822:7399987] 0: Apple M1 (high power)
+2021-10-21 14:23:47.183 Unity[96822:7399987] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56822
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001660 seconds.
+Registered in 0.001157 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 30.79 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 31.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.100 seconds
+- Completed reload, in  2.306 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2101ms)
-		BeginReloadAssembly (88ms)
+	ReloadAssembly (2307ms)
+		BeginReloadAssembly (92ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (984ms)
-			LoadAssemblies (86ms)
+		EndReloadAssembly (971ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (192ms)
+			SetupTypeCache (191ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (572ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (559ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (31ms)
+				RefreshPlugins (32ms)
 				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (337ms)
-				ProcessInitializeOnLoadMethodAttributes (112ms)
+				ProcessInitializeOnLoadAttributes (320ms)
+				ProcessInitializeOnLoadMethodAttributes (116ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003043 seconds.
+Registered in 0.003027 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0x7fdd7fb05000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd7fb0b600 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fddb01f0000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd7fb05000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdda0048000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fddae148200 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdda0048000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fddb0880000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd7e177590 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.005.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdda00d8000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fddae341000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd7e179270 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd7fb05000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fddb08f8000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fddae148200 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdda01a0000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd7fb07800 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd7fb0a000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fddae341000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdda01d0000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd7fb0f600 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd7fb17a00 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd7fb1b600 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fddb0898000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fddb0898000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd7fb0f600 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd7fb1d000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fddb0898000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 30.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 30.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.734 seconds
+- Completed reload, in  2.663 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2736ms)
-		BeginReloadAssembly (292ms)
+	ReloadAssembly (2666ms)
+		BeginReloadAssembly (269ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (36ms)
+			DisableScriptedObjects (32ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (2345ms)
-			LoadAssemblies (208ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (2281ms)
+			LoadAssemblies (191ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (348ms)
+			SetupTypeCache (347ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (1386ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (1314ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (30ms)
-				BeforeProcessingInitializeOnLoad (218ms)
-				ProcessInitializeOnLoadAttributes (1108ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
+				RefreshPlugins (31ms)
+				BeforeProcessingInitializeOnLoad (197ms)
+				ProcessInitializeOnLoadAttributes (1060ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (37ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.001124 seconds.
+Validating Project structure ... 0.001112 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.012394 seconds.
+Upgrading shader files ...0.011938 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -185,14 +129,14 @@ Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1769 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.3 MB.
-System memory in use after: 171.4 MB.
+Unloading 1788 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.6 MB.
+System memory in use after: 175.7 MB.
 
-Unloading 122 unused Assets to reduce memory usage. Loaded Objects now: 2244.
-Total: 3.637917 ms (FindLiveObjects: 0.138667 ms CreateObjectMapping: 0.037458 ms MarkObjects: 2.910334 ms  DeleteObjects: 0.550500 ms)
+Unloading 128 unused Assets to reduce memory usage. Loaded Objects now: 2263.
+Total: 2.730583 ms (FindLiveObjects: 0.151000 ms CreateObjectMapping: 0.034959 ms MarkObjects: 2.113708 ms  DeleteObjects: 0.430083 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -206,226 +150,16 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/XR/XRGeneralSettings.asset
-  artifactKey: Guid(7829d2926899f471bb19fd6c49ebc546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/XRGeneralSettings.asset using Guid(7829d2926899f471bb19fd6c49ebc546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf86f6580f6fd4d78255335195f34095') in 0.942445 seconds 
-  Import took 0.947821 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003321 seconds.
-  path: Assets/Prefabs/stars.prefab
-  artifactKey: Guid(8f5906ee4ed65434ba919affd877b942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/stars.prefab using Guid(8f5906ee4ed65434ba919affd877b942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026e1963dbeaa7e4d5bdd875af39d30c') in 0.348630 seconds 
-  Import took 0.351798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002050 seconds.
-  path: Assets/Prefabs/tri.prefab
-  artifactKey: Guid(e339f8965f8b93846bcf0fafacab316d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tri.prefab using Guid(e339f8965f8b93846bcf0fafacab316d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8483291f2636038958ba0ca97a83e145') in 0.006276 seconds 
-  Import took 0.008702 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/Prefabs/trex.prefab
-  artifactKey: Guid(d199192b208e942a2bcc2f242cdaf11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/trex.prefab using Guid(d199192b208e942a2bcc2f242cdaf11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de769f3d6cbf0e149ee9a3815e92ae6b') in 0.029701 seconds 
-  Import took 0.032236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Prefabs/trex3.prefab
-  artifactKey: Guid(a7333c518d675ff4da4f96027d5ce41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/trex3.prefab using Guid(a7333c518d675ff4da4f96027d5ce41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52dcddbad4edaf336d4a7ead5e752e8a') in 0.008744 seconds 
-  Import took 0.011264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Prefabs/long.prefab
-  artifactKey: Guid(3b9dd479ab34afa40befb2be3547b5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/long.prefab using Guid(3b9dd479ab34afa40befb2be3547b5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3990a57bb704b66477ebd31c2de6358e') in 0.013384 seconds 
-  Import took 0.019093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Scenes/Scene 2.unity
-  artifactKey: Guid(bd26b3b376019446b8972a2d80b2424f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene 2.unity using Guid(bd26b3b376019446b8972a2d80b2424f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73e90aba9a888da888c6f256af8585b') in 0.000945 seconds 
-  Import took 0.002838 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 88.853053 seconds.
-  path: Assets/SoundEffect/Die fluke-[AudioTrimmer.com].mp3
-  artifactKey: Guid(459d0a7d027214a1ca005acd2c0f9bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SoundEffect/Die fluke-[AudioTrimmer.com].mp3 using Guid(459d0a7d027214a1ca005acd2c0f9bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba721b254c54a106cbc8e5de8b6d568f') in 0.723082 seconds 
-  Import took 0.749730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003837 seconds.
-  path: Assets/SoundEffect/Monkeys-Spinning-Monkeys.mp3
-  artifactKey: Guid(d626ab6e970d273428076976d144bceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SoundEffect/Monkeys-Spinning-Monkeys.mp3 using Guid(d626ab6e970d273428076976d144bceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e095f303b0b3def2239c9723e4c908') in 0.002211 seconds 
-  Import took 0.006964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.765150 seconds.
-  path: Assets/Scripts/Scene2Script.cs
-  artifactKey: Guid(09de5fab0d8ce4917b1fdc13a0e2d816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Scene2Script.cs using Guid(09de5fab0d8ce4917b1fdc13a0e2d816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fda3f2cfa527350f8118050814cd6d') in 0.354274 seconds 
-  Import took 0.366193 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002386 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0x7fdd7ef5c000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd88925600 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fddb0110000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd9dcff600 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd80018000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd9d994c00 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd80018000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fddb01e8000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd7e2758e0 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.005.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fddb0110000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd9d994c00 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fddad673b20 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd8848a200 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fddb0128000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd9d994c00 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd900a0000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd8892b600 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd9d8f0600 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd9d9a2000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdda0290000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd8893e200 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd9d9a3e00 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd88946600 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdda0008000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdda0008000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd8894a800 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd88816800 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fdd80018000 doesn't match image /Users/gnnchya/Documents/PunerassicPark/Punerassic Park/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.137 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3143ms)
-		BeginReloadAssembly (407ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (43ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (2ms)
-			CreateAndSetChildDomain (167ms)
-		EndReloadAssembly (2614ms)
-			LoadAssemblies (276ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (363ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (1575ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (315ms)
-				ProcessInitializeOnLoadAttributes (1225ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (38ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1760 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 200.2 MB.
-System memory in use after: 200.4 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2257.
-Total: 4.942750 ms (FindLiveObjects: 0.232042 ms CreateObjectMapping: 0.043667 ms MarkObjects: 3.703500 ms  DeleteObjects: 0.960584 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 60.534755 seconds.
-  path: Assets/Scripts/Scene2Script.cs
-  artifactKey: Guid(09de5fab0d8ce4917b1fdc13a0e2d816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Scene2Script.cs using Guid(09de5fab0d8ce4917b1fdc13a0e2d816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2c2c93150bc4b39c4181ea879223e7') in 0.015496 seconds 
-  Import took 0.018376 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.602868 seconds.
-  path: Assets/Scenes/Scene 2.unity
-  artifactKey: Guid(bd26b3b376019446b8972a2d80b2424f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene 2.unity using Guid(bd26b3b376019446b8972a2d80b2424f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035a2b1e01a08071287f1467172c5482') in 0.028335 seconds 
-  Import took 0.037174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.134717 seconds.
   path: Assets/Scenes/Scene 3.unity
   artifactKey: Guid(52822b9dc57c84be7b4554253931fb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene 3.unity using Guid(52822b9dc57c84be7b4554253931fb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894772d86db50e131b8b14b0c59220fc') in 0.007967 seconds 
-  Import took 0.020011 seconds .
+Start importing Assets/Scenes/Scene 3.unity using Guid(52822b9dc57c84be7b4554253931fb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03ea874ab46203e3edcfcd478593d25') in 0.017140 seconds 
+  Import took 0.020144 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.216987 seconds.
-  path: Assets/Scripts/Scene3Script.cs
-  artifactKey: Guid(38adbbb225335554e8c39d07ecdd70a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Scene3Script.cs using Guid(38adbbb225335554e8c39d07ecdd70a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da6f3fccde28d038f49f3b1174d50e9') in 0.008554 seconds 
-  Import took 0.025952 seconds .
+  Time since last request: 0.001522 seconds.
+  path: Assets/Scenes/Scene 2.unity
+  artifactKey: Guid(bd26b3b376019446b8972a2d80b2424f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 2.unity using Guid(bd26b3b376019446b8972a2d80b2424f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ba3e9ef19284961ad7dbf0d3456136') in 0.001006 seconds 
+  Import took 0.003051 seconds .
 
