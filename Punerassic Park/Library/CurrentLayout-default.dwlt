@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 973
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 7}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -176,7 +176,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 973
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -343,22 +343,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/gnnchya/Documents/PunerassicPark/Punerassic Park
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1a420000
-    m_LastClickedID: 16922
-    m_ExpandedIDs: 00000000024200000442000000ca9a3b
+    m_SelectedIDs: 54420000
+    m_LastClickedID: 16980
+    m_ExpandedIDs: 00000000524200005442000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -386,7 +386,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000242000004420000
+    m_ExpandedIDs: 000000005242000054420000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -509,7 +509,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 4ae7ffff18e8ffff04e9ffffa4e9ffffeae9fffffae9ffffb8eaffff06ecffff7aedffff50eeffff1cefffff98f1ffff14f2fffffef4ffff0cf6ffff50f6fffff0f7ffff50fbffff04400000be4400003646000082470000f6480000c64a0000364d0000984e00006c500000ce5200004a550000a65600001a580000885b0000145d0000
+      m_ExpandedIDs: befaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -622,9 +622,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.11406056, y: -0.0023871746, z: 0.00027405043, w: -0.993471}
   m_Size:
-    m_Target: 1826.9316
+    m_Target: 2478.6628
     speed: 2
-    m_Value: 1725.9628
+    m_Value: 2476.8052
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -731,7 +731,7 @@ MonoBehaviour:
       width: 1635.854
       height: 2436
     m_MinimalGUI: 1
-  m_defaultScale: 0.22495896
+  m_defaultScale: 0.23357964
   m_LastWindowPixelSize: {x: 368, y: 569}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -758,10 +758,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2249
-    y: 726.5
-    width: 920
-    height: 250
+    x: 0
+    y: 673
+    width: 1466
+    height: 312
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &19
 MonoBehaviour:
