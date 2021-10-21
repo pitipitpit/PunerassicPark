@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -346,7 +346,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &82354128
 Transform:
   m_ObjectHideFlags: 0
@@ -1574,9 +1574,12 @@ MonoBehaviour:
   timerBar: {fileID: 1525167461}
   maxTime: 45
   timesUpText: {fileID: 1792651292}
-  Dinosaurs: []
+  Dinosaurs:
+  - {fileID: 3618064402224519781, guid: d199192b208e942a2bcc2f242cdaf11d, type: 3}
+  - {fileID: 3618064402224519781, guid: d199192b208e942a2bcc2f242cdaf11d, type: 3}
+  - {fileID: 3618064402224519781, guid: d199192b208e942a2bcc2f242cdaf11d, type: 3}
   counter: 0
-  star: {fileID: 0}
+  star: {fileID: 2063196641693306910, guid: 8f5906ee4ed65434ba919affd877b942, type: 3}
 --- !u!4 &1625529401
 Transform:
   m_ObjectHideFlags: 0
