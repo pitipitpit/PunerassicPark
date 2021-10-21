@@ -40,6 +40,7 @@ public class Scene2Script : MonoBehaviour
 
     public void Run()
     {
+        Time.timeScale = 1;
         running = true;
         // timerBar = GetComponent<Image>();
         timeLeft = maxTime;
