@@ -816,7 +816,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &433374138
 GameObject:
@@ -863,7 +863,7 @@ RectTransform:
   - {fileID: 202871769}
   - {fileID: 1679085150}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1147,7 +1147,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &599516990
 GameObject:
@@ -1216,9 +1216,10 @@ MonoBehaviour:
   NextGameButton: {fileID: 202871768}
   ExitButton: {fileID: 1679085149}
   arCamera: {fileID: 347100171}
-  trexPrefab: {fileID: 8090944438066117116, guid: 9b3acf872b476204b8450374dd698c03, type: 3}
-  longPrefab: {fileID: 6514142553744219640, guid: 25eb61574ee5a434cbf9acbea48f0893, type: 3}
+  trexPrefab: {fileID: 3618064402224519781, guid: d199192b208e942a2bcc2f242cdaf11d, type: 3}
+  longPrefab: {fileID: 6514142553744219640, guid: 3b9dd479ab34afa40befb2be3547b5a4, type: 3}
   triPrefab: {fileID: 2359296932365712222, guid: e339f8965f8b93846bcf0fafacab316d, type: 3}
+  starPrefab: {fileID: 2063196641693306910, guid: 8f5906ee4ed65434ba919affd877b942, type: 3}
   dieSound: {fileID: 0}
   currentScore: 0
   textScore: {fileID: 1200729685}
@@ -1226,6 +1227,12 @@ MonoBehaviour:
   timerBar: {fileID: 1138708600}
   maxTime: 45
   timesUpText: {fileID: 834836329}
+  Dinosaurs:
+  - {fileID: 2359296932365712222, guid: e339f8965f8b93846bcf0fafacab316d, type: 3}
+  - {fileID: 3618064402224519781, guid: d199192b208e942a2bcc2f242cdaf11d, type: 3}
+  - {fileID: 6514142553744219640, guid: 3b9dd479ab34afa40befb2be3547b5a4, type: 3}
+  counter: 0
+  star: {fileID: 2063196641693306910, guid: 8f5906ee4ed65434ba919affd877b942, type: 3}
 --- !u!4 &701474755
 Transform:
   m_ObjectHideFlags: 0
@@ -1238,7 +1245,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &715992915
 GameObject:
@@ -2020,7 +2027,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1679085149
 GameObject:
@@ -2349,55 +2356,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Camera: {fileID: 347100175}
---- !u!1 &2137352766
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2137352768}
-  - component: {fileID: 2137352767}
-  m_Layer: 0
-  m_Name: SpawnCharacter
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2137352767
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2137352766}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85d2c44626a35454fa1ed791a6fb72ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoints:
-  - {fileID: 599516991}
-  - {fileID: 715992916}
-  - {fileID: 52649612}
-  Dinosaurs:
-  - {fileID: 2359296932365712222, guid: e339f8965f8b93846bcf0fafacab316d, type: 3}
-  - {fileID: 6514142553744219640, guid: 3b9dd479ab34afa40befb2be3547b5a4, type: 3}
-  - {fileID: 6514142553744219640, guid: 25eb61574ee5a434cbf9acbea48f0893, type: 3}
-  counter: 0
---- !u!4 &2137352768
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2137352766}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 805.16614, y: 1082.645, z: 501.21606}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
