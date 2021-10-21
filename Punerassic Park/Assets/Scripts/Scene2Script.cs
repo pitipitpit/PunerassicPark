@@ -20,6 +20,7 @@ public class Scene2Script : MonoBehaviour
     public GameObject starPrefab;
 
     public AudioSource dieSound;
+    public AudioSource glassSound;
 
     public int currentScore = 0;
     public TMPro.TextMeshProUGUI textScore;
@@ -108,7 +109,6 @@ public class Scene2Script : MonoBehaviour
                         dieSound.Play();
                         Debug.Log("sound on");
                     }
-                    // playAudio();
                     Destroy(hit.transform.gameObject);
                     float a = Random.Range(-5f, 5f);
                     float b = Random.Range(-5f, 5f);
@@ -119,7 +119,11 @@ public class Scene2Script : MonoBehaviour
                 }
 
                 if(hit.transform.name == "stars(Clone)"){
-                    Debug.Log("wowowowowowowoww");
+                    if (!glassSound.isPlaying)
+                    {
+                        glassSound.Play();
+                        Debug.Log("sound on");
+                    }
                     Destroy(hit.transform.gameObject);
                     float a = Random.Range(-5f, 5f);
                     float b = Random.Range(-5f, 5f);

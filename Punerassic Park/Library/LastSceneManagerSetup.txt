@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/StartScene.unity
-=======
-- path: Assets/Scenes/Scene 1.unity
->>>>>>> parent of 00fa99dc (fix star not pop up)
+- path: Assets/Scenes/Scene 3.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -20,6 +20,8 @@ public class Scene3Script : MonoBehaviour
     public GameObject triPrefab;
     public GameObject starPrefab;
     public AudioSource dieSound;
+    public AudioSource glassSound;
+
     public int currentScore = 0;
     public TMPro.TextMeshProUGUI textScore;
     public bool dinoDie;
@@ -156,12 +158,10 @@ public class Scene3Script : MonoBehaviour
                     // dinoDie.Stop();
                 }
                 if(hit.transform.name == "stars(Clone)"){
-                    if (!dieSound.isPlaying)
+                    if (!glassSound.isPlaying)
                     {
-                        dieSound.Play();
-                        Debug.Log("sound on");
+                        glassSound.Play();
                     }
-                    playAudio();
                     Destroy(hit.transform.gameObject);
                     float a = Random.Range(-5f, 5f);
                     float b = Random.Range(-5f, 5f);
