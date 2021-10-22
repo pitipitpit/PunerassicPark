@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - DestroyExplode
     - DinosaurScript
     - DinosaurScript4
     - DinosaurScript5
@@ -10,11 +11,9 @@ ScriptsOnlyBuild:
     - Scene4Script
     - Scene5Script
     - SceneController
+    - SelectLevel
     - SpawnCharacters
     - StartScript
-    - countStars
-    - level1selection
-    - levelSelection
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -72,6 +71,7 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 1626}
     - Class: 114
       Script: {instanceID: 1748}
@@ -97,6 +97,33 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4654}
     - Class: 114
       Script: {instanceID: 5044}
+=======
+      Script: {instanceID: 1706}
+    - Class: 114
+      Script: {instanceID: 1806}
+    - Class: 114
+      Script: {instanceID: 2060}
+    - Class: 114
+      Script: {instanceID: 2742}
+    - Class: 114
+      Script: {instanceID: 2774}
+    - Class: 114
+      Script: {instanceID: 2864}
+    - Class: 114
+      Script: {instanceID: 3074}
+    - Class: 114
+      Script: {instanceID: 3318}
+    - Class: 114
+      Script: {instanceID: 3438}
+    - Class: 114
+      Script: {instanceID: 3630}
+    - Class: 114
+      Script: {instanceID: 3634}
+    - Class: 114
+      Script: {instanceID: 4166}
+    - Class: 114
+      Script: {instanceID: 4480}
+>>>>>>> parent of 09a55226 (bug fixes)
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -131,6 +158,7 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 1626}
     - Class: 114
       Script: {instanceID: 1748}
@@ -166,6 +194,35 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5780}
     - Class: 114
       Script: {instanceID: 6368}
+=======
+      Script: {instanceID: 1706}
+    - Class: 114
+      Script: {instanceID: 1806}
+    - Class: 114
+      Script: {instanceID: 2060}
+    - Class: 114
+      Script: {instanceID: 2742}
+    - Class: 114
+      Script: {instanceID: 2774}
+    - Class: 114
+      Script: {instanceID: 2864}
+    - Class: 114
+      Script: {instanceID: 3074}
+    - Class: 114
+      Script: {instanceID: 3318}
+    - Class: 114
+      Script: {instanceID: 3438}
+    - Class: 114
+      Script: {instanceID: 3630}
+    - Class: 114
+      Script: {instanceID: 3634}
+    - Class: 114
+      Script: {instanceID: 4166}
+    - Class: 114
+      Script: {instanceID: 4480}
+    - Class: 114
+      Script: {instanceID: 5202}
+>>>>>>> parent of 09a55226 (bug fixes)
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -212,6 +269,7 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 1626}
     - Class: 114
       Script: {instanceID: 1748}
@@ -247,6 +305,43 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5044}
     - Class: 114
       Script: {instanceID: 5362}
+=======
+      Script: {instanceID: 1706}
+    - Class: 114
+      Script: {instanceID: 1806}
+    - Class: 114
+      Script: {instanceID: 1982}
+    - Class: 114
+      Script: {instanceID: 2060}
+    - Class: 114
+      Script: {instanceID: 2742}
+    - Class: 114
+      Script: {instanceID: 2774}
+    - Class: 114
+      Script: {instanceID: 2864}
+    - Class: 114
+      Script: {instanceID: 2916}
+    - Class: 114
+      Script: {instanceID: 3074}
+    - Class: 114
+      Script: {instanceID: 3214}
+    - Class: 114
+      Script: {instanceID: 3318}
+    - Class: 114
+      Script: {instanceID: 3438}
+    - Class: 114
+      Script: {instanceID: 3630}
+    - Class: 114
+      Script: {instanceID: 3634}
+    - Class: 114
+      Script: {instanceID: 3744}
+    - Class: 114
+      Script: {instanceID: 4166}
+    - Class: 114
+      Script: {instanceID: 4480}
+    - Class: 114
+      Script: {instanceID: 4730}
+>>>>>>> parent of 09a55226 (bug fixes)
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -301,6 +396,7 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 1626}
     - Class: 114
       Script: {instanceID: 1748}
@@ -334,6 +430,43 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5044}
     - Class: 114
       Script: {instanceID: 5362}
+=======
+      Script: {instanceID: 1706}
+    - Class: 114
+      Script: {instanceID: 1806}
+    - Class: 114
+      Script: {instanceID: 1982}
+    - Class: 114
+      Script: {instanceID: 2060}
+    - Class: 114
+      Script: {instanceID: 2742}
+    - Class: 114
+      Script: {instanceID: 2774}
+    - Class: 114
+      Script: {instanceID: 2864}
+    - Class: 114
+      Script: {instanceID: 2916}
+    - Class: 114
+      Script: {instanceID: 3074}
+    - Class: 114
+      Script: {instanceID: 3318}
+    - Class: 114
+      Script: {instanceID: 3438}
+    - Class: 114
+      Script: {instanceID: 3630}
+    - Class: 114
+      Script: {instanceID: 3634}
+    - Class: 114
+      Script: {instanceID: 3886}
+    - Class: 114
+      Script: {instanceID: 4166}
+    - Class: 114
+      Script: {instanceID: 4404}
+    - Class: 114
+      Script: {instanceID: 4480}
+    - Class: 114
+      Script: {instanceID: 4730}
+>>>>>>> parent of 09a55226 (bug fixes)
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -392,6 +525,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 0}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 1626}
     - Class: 114
       Script: {instanceID: 1748}
@@ -425,6 +559,43 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5044}
     - Class: 114
       Script: {instanceID: 5362}
+=======
+      Script: {instanceID: 1706}
+    - Class: 114
+      Script: {instanceID: 1806}
+    - Class: 114
+      Script: {instanceID: 1982}
+    - Class: 114
+      Script: {instanceID: 2060}
+    - Class: 114
+      Script: {instanceID: 2620}
+    - Class: 114
+      Script: {instanceID: 2742}
+    - Class: 114
+      Script: {instanceID: 2774}
+    - Class: 114
+      Script: {instanceID: 2864}
+    - Class: 114
+      Script: {instanceID: 2916}
+    - Class: 114
+      Script: {instanceID: 3074}
+    - Class: 114
+      Script: {instanceID: 3318}
+    - Class: 114
+      Script: {instanceID: 3438}
+    - Class: 114
+      Script: {instanceID: 3630}
+    - Class: 114
+      Script: {instanceID: 3634}
+    - Class: 114
+      Script: {instanceID: 4166}
+    - Class: 114
+      Script: {instanceID: 4404}
+    - Class: 114
+      Script: {instanceID: 4480}
+    - Class: 114
+      Script: {instanceID: 4730}
+>>>>>>> parent of 09a55226 (bug fixes)
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -481,6 +652,7 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 1626}
     - Class: 114
       Script: {instanceID: 1748}
@@ -514,6 +686,41 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4954}
     - Class: 114
       Script: {instanceID: 5044}
+=======
+      Script: {instanceID: 1706}
+    - Class: 114
+      Script: {instanceID: 1806}
+    - Class: 114
+      Script: {instanceID: 1982}
+    - Class: 114
+      Script: {instanceID: 2060}
+    - Class: 114
+      Script: {instanceID: 2742}
+    - Class: 114
+      Script: {instanceID: 2774}
+    - Class: 114
+      Script: {instanceID: 2864}
+    - Class: 114
+      Script: {instanceID: 2916}
+    - Class: 114
+      Script: {instanceID: 3074}
+    - Class: 114
+      Script: {instanceID: 3308}
+    - Class: 114
+      Script: {instanceID: 3318}
+    - Class: 114
+      Script: {instanceID: 3438}
+    - Class: 114
+      Script: {instanceID: 3630}
+    - Class: 114
+      Script: {instanceID: 3634}
+    - Class: 114
+      Script: {instanceID: 4166}
+    - Class: 114
+      Script: {instanceID: 4404}
+    - Class: 114
+      Script: {instanceID: 4480}
+>>>>>>> parent of 09a55226 (bug fixes)
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -555,15 +762,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
-    - Class: 74
-      Script: {instanceID: 0}
     - Class: 82
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
-    - Class: 91
+    - Class: 90
       Script: {instanceID: 0}
     - Class: 95
       Script: {instanceID: 0}
@@ -574,6 +779,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 0}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 1626}
     - Class: 114
       Script: {instanceID: 1748}
@@ -607,6 +813,45 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5044}
     - Class: 114
       Script: {instanceID: 5220}
+=======
+      Script: {instanceID: 1706}
+    - Class: 114
+      Script: {instanceID: 1806}
+    - Class: 114
+      Script: {instanceID: 1982}
+    - Class: 114
+      Script: {instanceID: 2060}
+    - Class: 114
+      Script: {instanceID: 2474}
+    - Class: 114
+      Script: {instanceID: 2742}
+    - Class: 114
+      Script: {instanceID: 2774}
+    - Class: 114
+      Script: {instanceID: 2864}
+    - Class: 114
+      Script: {instanceID: 2916}
+    - Class: 114
+      Script: {instanceID: 3074}
+    - Class: 114
+      Script: {instanceID: 3318}
+    - Class: 114
+      Script: {instanceID: 3438}
+    - Class: 114
+      Script: {instanceID: 3630}
+    - Class: 114
+      Script: {instanceID: 3634}
+    - Class: 114
+      Script: {instanceID: 4166}
+    - Class: 114
+      Script: {instanceID: 4404}
+    - Class: 114
+      Script: {instanceID: 4480}
+    - Class: 114
+      Script: {instanceID: 4618}
+    - Class: 114
+      Script: {instanceID: 5364}
+>>>>>>> parent of 09a55226 (bug fixes)
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -617,7 +862,9 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
-    - Class: 212
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -651,6 +898,7 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 1626}
     - Class: 114
       Script: {instanceID: 1748}
@@ -690,6 +938,47 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5300}
     - Class: 114
       Script: {instanceID: 5734}
+=======
+      Script: {instanceID: 1706}
+    - Class: 114
+      Script: {instanceID: 1806}
+    - Class: 114
+      Script: {instanceID: 1982}
+    - Class: 114
+      Script: {instanceID: 2060}
+    - Class: 114
+      Script: {instanceID: 2346}
+    - Class: 114
+      Script: {instanceID: 2358}
+    - Class: 114
+      Script: {instanceID: 2742}
+    - Class: 114
+      Script: {instanceID: 2774}
+    - Class: 114
+      Script: {instanceID: 2864}
+    - Class: 114
+      Script: {instanceID: 2916}
+    - Class: 114
+      Script: {instanceID: 3074}
+    - Class: 114
+      Script: {instanceID: 3318}
+    - Class: 114
+      Script: {instanceID: 3438}
+    - Class: 114
+      Script: {instanceID: 3630}
+    - Class: 114
+      Script: {instanceID: 3634}
+    - Class: 114
+      Script: {instanceID: 3962}
+    - Class: 114
+      Script: {instanceID: 4166}
+    - Class: 114
+      Script: {instanceID: 4480}
+    - Class: 114
+      Script: {instanceID: 4684}
+    - Class: 114
+      Script: {instanceID: 5020}
+>>>>>>> parent of 09a55226 (bug fixes)
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -847,19 +1136,13 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
-      Hash: 25fde39d0d307c46917c8d7edb00c2a0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: level1selection
-  - hash:
-      serializedVersion: 2
       Hash: f1d735cc1a21c3704ab52568f4fbfcf8
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner
     className: PlaymodeTestsController
   - hash:
       serializedVersion: 2
-      Hash: f283a2ef13d76d5bba3b79f5d8ebaf0b
+      Hash: 3bea228b2e32557a9fcf818a6a040d75
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DinosaurScript5
@@ -883,7 +1166,7 @@ ScriptsOnlyBuild:
     className: ARParticipantManager
   - hash:
       serializedVersion: 2
-      Hash: 0522078230bdbc18c53c2ba7a7d1a987
+      Hash: a889674d022f2e5058cc52cf17935926
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Scene3Script
@@ -1015,7 +1298,7 @@ ScriptsOnlyBuild:
     className: AROcclusionManager
   - hash:
       serializedVersion: 2
-      Hash: 966132229e71696aaac98290031af1dc
+      Hash: a889674d022f2e5058cc52cf17935926
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Scene4Script
@@ -1111,7 +1394,7 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
-      Hash: 808751403efcbad31e88f5f502ad2db1
+      Hash: ef8c6d2916abcc1a733b8665d3d8b598
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Scene1Script
@@ -1159,7 +1442,7 @@ ScriptsOnlyBuild:
     className: ARTrackedImage
   - hash:
       serializedVersion: 2
-      Hash: 990effd703f27286e1211f422c98ec9e
+      Hash: 958fa46e537916e4b15cce9cdb2747ca
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Scene2Script
@@ -1189,16 +1472,16 @@ ScriptsOnlyBuild:
     className: PlayModeRunnerCallback
   - hash:
       serializedVersion: 2
-      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: AnimationTrack
-  - hash:
-      serializedVersion: 2
       Hash: a4824f5b0e998a3c8255da780e29c3f8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: StartScript
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1285,7 +1568,7 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
-      Hash: 8cf8f0ca8447f3d24b1bb791241e4651
+      Hash: 37f2244761d8eb33900bad5c4ccfb363
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DinosaurScript4
@@ -1333,7 +1616,11 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
+<<<<<<< HEAD
       Hash: 26ff1f39a73ccbe02bc01901e6774d68
+=======
+      Hash: b20bd72f51b0cdc6bd62be3497f463fc
+>>>>>>> parent of 09a55226 (bug fixes)
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Scene5Script
@@ -1351,19 +1638,19 @@ ScriptsOnlyBuild:
     className: RectMask2D
   - hash:
       serializedVersion: 2
-      Hash: 290afc8da8e459e0b8dc7444bfaf5e35
-    assemblyName: Unity.XR.ARFoundation.dll
-    namespaceName: UnityEngine.XR.ARFoundation
-    className: ARHumanBody
-  - hash:
-      serializedVersion: 2
       Hash: 87ad3705a58f19c47136728d4a6e9c47
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Settings
   - hash:
       serializedVersion: 2
-      Hash: c30521680c430aedd3999635f6860535
+      Hash: 290afc8da8e459e0b8dc7444bfaf5e35
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARHumanBody
+  - hash:
+      serializedVersion: 2
+      Hash: 5e030d317ed369cacf4b0642e6506822
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DinosaurScript
@@ -1421,12 +1708,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARPlaneMeshVisualizer
-  - hash:
-      serializedVersion: 2
-      Hash: 322ccb56be249aef17fd4edc54513444
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: levelSelection
   - hash:
       serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
@@ -1505,12 +1786,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: b7f983c8cf66a1596e1eef8606198780
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: countStars
   platform: 9
   scenePathNames:
   - Assets/Scenes/StartScene.unity

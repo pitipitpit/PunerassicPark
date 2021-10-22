@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":5.960464477539063e-8,"y":0.5697633028030396,"z":0.18475961685180665},"rotation":{"x":0.03898380324244499,"y":-0.01798531971871853,"z":0.0007017921889200807,"w":0.9990777969360352},"size":10.0,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":586.9212036132813,"y":1233.538330078125,"z":0.5149915814399719},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":1073.287841796875,"orthographic":false}
+>>>>>>> parent of 09a55226 (bug fixes)

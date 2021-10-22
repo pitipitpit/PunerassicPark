@@ -28,6 +28,7 @@ const Il2CppMetadataRegistration g_MetadataRegistration =
 	g_Il2CppGenericInstTable,
 	13609,
 	g_Il2CppGenericMethodFunctions,
+<<<<<<< HEAD
 	8011,
 	g_Il2CppTypeTable,
 	14481,
@@ -35,6 +36,15 @@ const Il2CppMetadataRegistration g_MetadataRegistration =
 	3002,
 	g_FieldOffsetTable,
 	3002,
+=======
+	8006,
+	g_Il2CppTypeTable,
+	14481,
+	g_Il2CppMethodSpecTable,
+	2998,
+	g_FieldOffsetTable,
+	2998,
+>>>>>>> parent of 09a55226 (bug fixes)
 	g_Il2CppTypeDefinitionSizesTable,
 	0,
 	NULL,
