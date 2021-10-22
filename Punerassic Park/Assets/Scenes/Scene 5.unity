@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -201,7 +201,6 @@ RectTransform:
   - {fileID: 1419762357}
   - {fileID: 777029705}
   - {fileID: 1426419920}
-  - {fileID: 267722972}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -589,7 +588,7 @@ SpriteRenderer:
   m_Size: {x: 12.002931, y: 12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &267722972
@@ -600,11 +599,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 267722969}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: 562.5, y: 1218, z: 0}
+  m_LocalScale: {x: 1.1947148, y: 1.1947148, z: 1.1947148}
   m_Children: []
-  m_Father: {fileID: 45372268}
-  m_RootOrder: 17
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &420252626
 PrefabInstance:
@@ -904,7 +903,7 @@ RectTransform:
   m_GameObject: {fileID: 634376567}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 7}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_Children: []
   m_Father: {fileID: 45372268}
   m_RootOrder: 8
@@ -1043,7 +1042,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Scene 4
+          m_StringArgument: LevelSelection
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &655792817
@@ -1568,7 +1567,7 @@ RectTransform:
   m_GameObject: {fileID: 932254531}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 7, z: 0.7}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_Children: []
   m_Father: {fileID: 45372268}
   m_RootOrder: 7
@@ -1937,9 +1936,6 @@ MonoBehaviour:
   NextGameButton: {fileID: 655792814}
   ExitButton: {fileID: 80814690}
   time: 0
-  trexTime: 0
-  triTime: 0
-  longTime: 0
   arCamera: {fileID: 1363198282}
   dieSound: {fileID: 2043877269}
   currentScore: 0
@@ -1953,7 +1949,6 @@ MonoBehaviour:
   - {fileID: 2017443512}
   - {fileID: 569904875}
   - {fileID: 266301560}
-  counter: 0
   Stars: {fileID: 6259664750807193191, guid: b42b02d338e7047469745ae77d312f9f, type: 3}
   Dynamites: {fileID: 9090838314607647941, guid: c190fe77fac1a456c98d89f4fb7762cc,
     type: 3}
@@ -2352,7 +2347,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1392525142
 GameObject:

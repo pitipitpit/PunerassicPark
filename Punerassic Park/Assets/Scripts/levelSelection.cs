@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 
 public class levelSelection : MonoBehaviour
@@ -15,7 +16,7 @@ public class levelSelection : MonoBehaviour
     
 
     // Start is called before the first frame update
-    void Start()
+    void Update()
     {
         UpdateLevelImage();
         UpdateLevelStatus();
@@ -58,7 +59,7 @@ public class levelSelection : MonoBehaviour
             }
             for (int i = 0; i < PlayerPrefs.GetInt("Lv" + gameObject.name); i++)
             {
-                stars[i].gameObject.GetComponent<SpriteRenderer>().sprite = starSprite;
+                stars[i].GetComponent<Image>().sprite = starSprite;
             }
         }
 
