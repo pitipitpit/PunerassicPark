@@ -541,8 +541,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4142786962897780959}
-  - component: {fileID: 8042881513300794021}
-  - component: {fileID: 8834559850247257231}
   - component: {fileID: 4617908375182687271}
   - component: {fileID: 254656164}
   - component: {fileID: 254656163}
@@ -570,39 +568,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &8042881513300794021
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3618064402224519781}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: e25ac21bc55134b1fa9fd41848eeebed, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 1
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!64 &8834559850247257231
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3618064402224519781}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: -1
-  m_Mesh: {fileID: -6320457817531067941, guid: e25ac21bc55134b1fa9fd41848eeebed, type: 3}
 --- !u!136 &4617908375182687271
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -650,13 +615,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3618064402224519781}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4bb00849de0554b96922aa18caedc0dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   timeLeft: 3
-  rb: {fileID: 0}
 --- !u!1 &3814019342281887996
 GameObject:
   m_ObjectHideFlags: 0

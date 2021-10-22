@@ -6,46 +6,59 @@ using UnityEngine.AI;
 public class DinosaurScript5 : MonoBehaviour
 {
 
-    public float timeLeft;
+    public float timeLeft = 3f;
+    public float timeMove = 1f;
 
-    private Vector3 dinoBounds;
-    // public float movementSpeed = 1f;
-    
-    // private bool isWandering = false;
-    // private bool isWalking = false;
-    
-    float x;
-    float y;
-
-
+    public float rotatePosx;
+    public float rotatePosy;
+    public float rotatePosz;
+    public float movex;
+    public float movey;
 
     // Start is called before the first frame update
     void Start()
     {
-        dinoBounds = gameObject.transform.position;
-
-   
+        rotatePosx = Random.Range(-100f, 100f);
+        rotatePosy = Random.Range(-100f, 100f);
+        rotatePosz = Random.Range(-100f, 100f);
+        movex = Random.Range(gameObject.transform.position.x - 5f, gameObject.transform.position.y + 5f);
+        movey = Random.Range(gameObject.transform.position.x - 5f, gameObject.transform.position.y + 5f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(new Vector3(0f,100f,0f) * Time.deltaTime ); 
         
-
-        x = Random.Range(dinoBounds.x -0.5f, dinoBounds.x + 0.5f);
-        y = Random.Range(dinoBounds.y -0.5f, dinoBounds.y + 0.5f);
-
-        transform.position += new Vector3(x* Time.deltaTime,y* Time.deltaTime,0);
+        transform.Rotate(new Vector3(rotatePosx,rotatePosy,rotatePosz) * Time.deltaTime ); 
+        
+        transform.position += new Vector3(movex * Time.deltaTime ,movey * Time.deltaTime, 0f);
+        timeMove -= Time.deltaTime;
+        if (timeMove <= 0.0f) {
+            movex = movex * -1f;
+            movey = movey * -1f;
+            timeMove = 2f; 
+        }
 
         timeLeft -= Time.deltaTime;
         if (timeLeft <= 0.0f) {
-            float a = Random.Range(-5f, 5f);
-            float b = Random.Range(-5f, 5f);
-            float c = Random.Range(-5f, 5f);
+            this.transform.gameObject.SetActive(false);
+            float a = Random.Range(-10f, 10f);
+            float b = Random.Range(-10f, 10f);
+            int r = Random.Range(1,4);
 
-            this.transform.position = new Vector3(transform.position.x + a, transform.position.y + b, transform.position.z + c);
-          }
+            if (r == 1) {
+                this.transform.position = new Vector3(gameObject.transform.position.x + a, gameObject.transform.position.y + b, 0f);
+            } else if (r == 2) {
+                this.transform.position = new Vector3(gameObject.transform.position.x - a, gameObject.transform.position.y - b, 0f);
+            } else if (r == 3) {
+                this.transform.position = new Vector3(gameObject.transform.position.x - a, gameObject.transform.position.y + b, 0f);
+            } else {
+                this.transform.position = new Vector3(gameObject.transform.position.x + a, gameObject.transform.position.y - b, 0f);
+            }
+            
+            this.transform.gameObject.SetActive(true);
+            timeLeft = 3f;
+        }
       
     }
 
