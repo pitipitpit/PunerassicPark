@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1963,12 +1963,14 @@ MonoBehaviour:
   NextGameButton: {fileID: 332484992}
   ExitButton: {fileID: 718210168}
   arCamera: {fileID: 116193752}
-  dinosaurPrefab: {fileID: 3618064402224519781, guid: d199192b208e942a2bcc2f242cdaf11d, type: 3}
+  Dinosaurs: {fileID: 3618064402224519781, guid: d199192b208e942a2bcc2f242cdaf11d,
+    type: 3}
   dieSound: {fileID: 443913721}
   currentScore: 0
   textScore: {fileID: 1042219411}
   timerBar: {fileID: 1947124734}
   maxTime: 45
+  levelIndex: 1
 --- !u!4 &1043041041
 Transform:
   m_ObjectHideFlags: 0

@@ -107,11 +107,9 @@ public class Scene1Script : MonoBehaviour
         if (timeLeft > 0){
             if(Physics.Raycast(arCamera.transform.position, arCamera.transform.forward, out hit)){
                 if(hit.transform.name == "trex(Clone)"){
-                   Debug.Log("trex5 got hit");
                         if (!dieSound.isPlaying)
                             {
                                 dieSound.Play();
-                                Debug.Log("sound on");
                             }
                         hit.transform.gameObject.SetActive(false);
                         float a = Random.Range(-5f, 5f);
@@ -119,9 +117,7 @@ public class Scene1Script : MonoBehaviour
                         hit.transform.position = new Vector3(a, b, 0f);
                         hit.transform.gameObject.SetActive(true);
                         currentScore = currentScore + 1;
-                        textScore.text = "Score : " + currentScore;
-                        // dinoDie.Stop();
-                    
+                        textScore.text = "Score : " + currentScore;                    
                 }
             }   
         }   

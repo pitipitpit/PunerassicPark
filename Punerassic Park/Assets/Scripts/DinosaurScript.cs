@@ -19,8 +19,8 @@ public class DinosaurScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        transform.Rotate(new Vector3(rotatePosx,rotatePosy,rotatePosz) * Time.deltaTime ); 
-      
+
+        transform.Rotate(new Vector3(rotatePosx, rotatePosy, rotatePosz) * Time.deltaTime);
+
     }
 }

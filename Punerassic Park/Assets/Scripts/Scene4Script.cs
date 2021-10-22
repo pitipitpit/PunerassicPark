@@ -114,130 +114,119 @@ public class Scene4Script : MonoBehaviour
         }
     }
 
-    public void Shoot() {
-        if (canShoot) {
+    public void Shoot()
+    {
+        if (canShoot)
+        {
             RaycastHit hit;
-            if (timeLeft > 0){
-                if(Physics.Raycast(arCamera.transform.position, arCamera.transform.forward, out hit)){
-                    if(hit.transform.name == "trex4"){
-                        Debug.Log("trex5 got hit");
+            if (timeLeft > 0)
+            {
+                if (Physics.Raycast(arCamera.transform.position, arCamera.transform.forward, out hit))
+                {
+                    if (hit.transform.name == "trex4")
+                    {
                         if (!dieSound.isPlaying)
-                            {
-                                dieSound.Play();
-                                Debug.Log("sound on");
-                            }
-                        playAudio();
+                        {
+                            dieSound.Play();
+                        }
                         hit.transform.gameObject.SetActive(false);
                         float a = Random.Range(-5f, 5f);
                         float b = Random.Range(-5f, 5f);
-                        hit.transform.position = new Vector3(0f, 1f, 0f);
+                        hit.transform.position = new Vector3(a, b, 0f);
                         hit.transform.gameObject.SetActive(true);
                         currentScore = currentScore + 1;
                         textScore.text = "Score : " + currentScore;
                         // dinoDie.Stop();
                     }
-                    
-                    if(hit.transform.name == "tri4"){
-                        Debug.Log("tri5 got hit");
+
+                    if (hit.transform.name == "tri4")
+                    {
                         if (!dieSound.isPlaying)
-                            {
-                                dieSound.Play();
-                                Debug.Log("sound on");
-                            }
-                        playAudio();
+                        {
+                            dieSound.Play();
+                        }
                         hit.transform.gameObject.SetActive(false);
                         float a = Random.Range(-5f, 5f);
                         float b = Random.Range(-5f, 5f);
-                        hit.transform.position = new Vector3(0f, 1f, 0f);
+                        hit.transform.position = new Vector3(a, b, 0f);
                         hit.transform.gameObject.SetActive(true);
 
-                        if (timeLeft > 2){
+                        if (timeLeft > 2)
+                        {
                             timeLeft = timeLeft - 2;
-                        } else {
+                        }
+                        else
+                        {
                             timeLeft = 0;
                         }
-                        
+
                         currentScore = currentScore + 2;
                         textScore.text = "Score : " + currentScore;
-                        // dinoDie.Stop();
                     }
-                    if(hit.transform.name == "long4"){
-                        Debug.Log("long5 got hit");
+                    if (hit.transform.name == "long4")
+                    {
                         if (!dieSound.isPlaying)
-                            {
-                                dieSound.Play();
-                                Debug.Log("sound on");
-                            }
-                        playAudio();
+                        {
+                            dieSound.Play();
+                        }
                         hit.transform.gameObject.SetActive(false);
                         float a = Random.Range(-5f, 5f);
                         float b = Random.Range(-5f, 5f);
-                        hit.transform.position = new Vector3(0f, 1f, 0f);
+                        hit.transform.position = new Vector3(a, b, 0f);
                         hit.transform.gameObject.SetActive(true);
 
-                        if (timeLeft > 3){
+                        if (timeLeft > 3)
+                        {
                             timeLeft = timeLeft - 3;
-                        } else {
+                        }
+                        else
+                        {
                             timeLeft = 0;
                         }
                         currentScore = currentScore + 3;
                         textScore.text = "Score : " + currentScore;
-                        // dinoDie.Stop();
                     }
-                    if(hit.transform.name == "stars4(Clone)"){
-                        Debug.Log("stars5 got hit");
-                        if (!dieSound.isPlaying)
-                            {
-                                dieSound.Play();
-                                Debug.Log("sound on");
-                            }
-                        playAudio();
+                    if (hit.transform.name == "stars4(Clone)")
+                    {
+                        if (!glassSound.isPlaying)
+                        {
+                            glassSound.Play();
+                        }
                         hit.transform.gameObject.SetActive(false);
                         float a = Random.Range(-5f, 5f);
                         float b = Random.Range(-5f, 5f);
-                        hit.transform.position = new Vector3(0f, 1f, 0f);
+                        hit.transform.position = new Vector3(a, b, 0f);
                         hit.transform.gameObject.SetActive(true);
 
                         currentScore = currentScore - 1;
                         textScore.text = "Score : " + currentScore;
-                        // dinoDie.Stop();
                     }
-                }   
-            }   
+                }
+            }
         }
-    }
-    IEnumerator playAudio()
-    {
-        //Play Audio
-        dieSound.Play();
-
-        //Wait until it's done playing
-        while (dieSound.isPlaying)
-            yield return null;
-        Debug.Log("sound on");
     }
 
     IEnumerator StartSpawning()
     {
 
         yield return new WaitForSeconds(1);
-        
-            for (int i = 0; i < Dinosaurs.Length; i++)
-            {
-                float a = Random.Range(-5f, 5f);
-                float b = Random.Range(-5f, 5f);
-                Dinosaurs[i].SetActive(true);
-                Dinosaurs[i].transform.position = new Vector3(a, 0f, b);    
-            }
-                        
-            for (int i =0; i < Dinosaurs.Length*2; i++) 
-            {
-                float c = Random.Range(-10f, 10f);
-                float d = Random.Range(-10f, 10f);
-                Instantiate(Stars, new Vector3(c, 0f, d), Quaternion.identity);
-            }
-        
- 
+
+        for (int i = 0; i < Dinosaurs.Length; i++)
+        {
+            float a = Random.Range(-5f, 5f);
+            float b = Random.Range(-5f, 5f);
+            Dinosaurs[i].SetActive(true);
+            Dinosaurs[i].transform.position = new Vector3(a, b, 0f);
+        }
+
+        for (int i = 0; i < Dinosaurs.Length * 2; i++)
+        {
+            float c = Random.Range(-10f, 10f);
+            float d = Random.Range(-10f, 10f);
+            Instantiate(Stars, new Vector3(c, d, 0f), Quaternion.identity);
+        }
+
+
     }
 
     public void rerun()

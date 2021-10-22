@@ -1311,7 +1311,7 @@ MonoBehaviour:
   Dinosaurs:
   - {fileID: 202215732}
   - {fileID: 1438106254}
-  - {fileID: 0}
+  - {fileID: 1816154730}
   Stars: {fileID: 6259664750807193191, guid: 69fde8a5fa4b2411eb2ee79018a7e80f, type: 3}
   levelIndex: 3
 --- !u!4 &701474755
@@ -1386,7 +1386,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 459d0a7d027214a1ca005acd2c0f9bdc, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -2683,6 +2683,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 283f0ab17e602433caa8ee5b11e66bd0, type: 3}
+--- !u!1 &1816154730 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9109220277202042719, guid: 283f0ab17e602433caa8ee5b11e66bd0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1816154729}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1847345454
 GameObject:
   m_ObjectHideFlags: 0
@@ -2906,7 +2912,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 97c58400ddcc54d8cbb30fccddcbee44, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

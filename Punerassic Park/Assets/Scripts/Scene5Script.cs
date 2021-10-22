@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Scene5Script : MonoBehaviour
 {
-     public GameObject goodComplete;
+    public GameObject goodComplete;
     public GameObject failMission;
     public GameObject greatComplete;
     public GameObject perfectComplete;
@@ -16,8 +16,10 @@ public class Scene5Script : MonoBehaviour
     public float time;
 
     public GameObject arCamera;
-    
+
     public AudioSource dieSound;
+    public AudioSource glassSound;
+    public AudioSource bombSound;
     public int currentScore = 0;
     public TMPro.TextMeshProUGUI textScore;
     public bool dinoDie;
@@ -40,7 +42,7 @@ public class Scene5Script : MonoBehaviour
 
 
     public void Run()
-    {   
+    {
         Time.timeScale = 1;
         canRun = true;
         canShoot = true;
@@ -60,35 +62,46 @@ public class Scene5Script : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (canRun) {
-            if (timeLeft > 0) {
+        if (canRun)
+        {
+            if (timeLeft > 0)
+            {
                 timeLeft -= Time.deltaTime;
                 timerBar.fillAmount = timeLeft / maxTime;
-                
-            } else {
+
+            }
+            else
+            {
                 Time.timeScale = 0;
-                if (currentScore >= 30) {
+                if (currentScore >= 30)
+                {
                     UpdateStar(3);
                     perfectComplete.SetActive(true);
                     replayButton.SetActive(true);
                     NextGameButton.SetActive(true);
                     ExitButton.SetActive(true);
 
-                } else if (currentScore >= 20) {
+                }
+                else if (currentScore >= 20)
+                {
                     UpdateStar(2);
                     greatComplete.SetActive(true);
                     replayButton.SetActive(true);
                     NextGameButton.SetActive(true);
                     ExitButton.SetActive(true);
 
-                } else if ( currentScore >= 10) {
+                }
+                else if (currentScore >= 10)
+                {
                     UpdateStar(1);
                     goodComplete.SetActive(true);
                     replayButton.SetActive(true);
                     NextGameButton.SetActive(true);
                     ExitButton.SetActive(true);
 
-                } else if (currentScore < 10) {
+                }
+                else if (currentScore < 10)
+                {
                     UpdateStar(0);
                     failMission.SetActive(true);
                     replayButton.SetActive(true);
@@ -97,23 +110,25 @@ public class Scene5Script : MonoBehaviour
                 canRun = false;
                 canShoot = false;
             }
-        }  
-       
+        }
+
     }
 
-    public void Shoot() {
-        if (canShoot) {
+    public void Shoot()
+    {
+        if (canShoot)
+        {
             RaycastHit hit;
-            if (timeLeft > 0){
-                if(Physics.Raycast(arCamera.transform.position, arCamera.transform.forward, out hit)){
-                    if(hit.transform.name == "trex5"){
-                        Debug.Log("trex5 got hit");
+            if (timeLeft > 0)
+            {
+                if (Physics.Raycast(arCamera.transform.position, arCamera.transform.forward, out hit))
+                {
+                    if (hit.transform.name == "trex5")
+                    {
                         if (!dieSound.isPlaying)
-                            {
-                                dieSound.Play();
-                                Debug.Log("sound on");
-                            }
-                        playAudio();
+                        {
+                            dieSound.Play();
+                        }
                         hit.transform.gameObject.SetActive(false);
                         float a = Random.Range(-5f, 5f);
                         float b = Random.Range(-5f, 5f);
@@ -123,62 +138,60 @@ public class Scene5Script : MonoBehaviour
                         textScore.text = "Score : " + currentScore;
                         // dinoDie.Stop();
                     }
-                    
-                    if(hit.transform.name == "tri5"){
-                        Debug.Log("tri5 got hit");
+
+                    if (hit.transform.name == "tri5")
+                    {
                         if (!dieSound.isPlaying)
-                            {
-                                dieSound.Play();
-                                Debug.Log("sound on");
-                            }
-                        playAudio();
+                        {
+                            dieSound.Play();
+                        }
                         hit.transform.gameObject.SetActive(false);
                         float a = Random.Range(-5f, 5f);
                         float b = Random.Range(-5f, 5f);
                         hit.transform.position = new Vector3(a, b, 0f);
                         hit.transform.gameObject.SetActive(true);
 
-                        if (timeLeft > 2){
+                        if (timeLeft > 2)
+                        {
                             timeLeft = timeLeft - 2;
-                        } else {
+                        }
+                        else
+                        {
                             timeLeft = 0;
                         }
-                        
+
                         currentScore = currentScore + 2;
                         textScore.text = "Score : " + currentScore;
-                        // dinoDie.Stop();
                     }
-                    if(hit.transform.name == "long5"){
-                        Debug.Log("long5 got hit");
+                    if (hit.transform.name == "long5")
+                    {
                         if (!dieSound.isPlaying)
-                            {
-                                dieSound.Play();
-                                Debug.Log("sound on");
-                            }
-                        playAudio();
+                        {
+                            dieSound.Play();
+                        }
                         hit.transform.gameObject.SetActive(false);
                         float a = Random.Range(-5f, 5f);
                         float b = Random.Range(-5f, 5f);
                         hit.transform.position = new Vector3(a, b, 0f);
                         hit.transform.gameObject.SetActive(true);
 
-                        if (timeLeft > 3){
+                        if (timeLeft > 3)
+                        {
                             timeLeft = timeLeft - 3;
-                        } else {
+                        }
+                        else
+                        {
                             timeLeft = 0;
                         }
                         currentScore = currentScore + 3;
                         textScore.text = "Score : " + currentScore;
-                        // dinoDie.Stop();
                     }
-                    if(hit.transform.name == "stars5(Clone)"){
-                        Debug.Log("stars5 got hit");
-                        if (!dieSound.isPlaying)
-                            {
-                                dieSound.Play();
-                                Debug.Log("sound on");
-                            }
-                        playAudio();
+                    if (hit.transform.name == "stars5(Clone)")
+                    {
+                        if (!glassSound.isPlaying)
+                        {
+                            glassSound.Play(); 
+                        }
                         hit.transform.gameObject.SetActive(false);
                         float a = Random.Range(-5f, 5f);
                         float b = Random.Range(-5f, 5f);
@@ -187,73 +200,56 @@ public class Scene5Script : MonoBehaviour
 
                         currentScore = currentScore - 1;
                         textScore.text = "Score : " + currentScore;
-                        // dinoDie.Stop();
                     }
-                    if(hit.transform.name == "dynamite5(Clone)"){
-                        Debug.Log("dynamite5 got hit");
-                        if (!dieSound.isPlaying)
-                            {
-                                dieSound.Play();
-                                Debug.Log("sound on");
-                            }
-                        playAudio();
+                    if (hit.transform.name == "dynamite5(Clone)")
+                    {
+                        if (!bombSound.isPlaying)
+                        {
+                            bombSound.Play();
+                        }
                         hit.transform.gameObject.SetActive(false);
-                        explodeEffect.transform.position = hit.transform.position;
                         float a = Random.Range(-5f, 5f);
                         float b = Random.Range(-5f, 5f);
                         hit.transform.position = new Vector3(a, b, 0f);
                         hit.transform.gameObject.SetActive(true);
 
                         canShoot = false;
-                        
+
                         explodeEffect.SetActive(true);
 
                         currentScore = currentScore - 2;
-                        textScore.text = "Score : " + currentScore; 
+                        textScore.text = "Score : " + currentScore;
 
                         StartCoroutine(Explode());
-                        
-                        
-                        // dinoDie.Stop();
                     }
-                }   
-            }   
+                }
+            }
         }
-    }
-    IEnumerator playAudio()
-    {
-        //Play Audio
-        dieSound.Play();
-
-        //Wait until it's done playing
-        while (dieSound.isPlaying)
-            yield return null;
-        Debug.Log("sound on");
     }
 
     IEnumerator StartSpawning()
     {
 
         yield return new WaitForSeconds(1);
-        
-            for (int i = 0; i < Dinosaurs.Length; i++)
-            {
-                float a = Random.Range(-5f, 5f);
-                float b = Random.Range(-5f, 5f);
-                Dinosaurs[i].SetActive(true);
-                Dinosaurs[i].transform.position = new Vector3(a, 0f, b);    
-            }
-                        
-            for (int i =0; i < Dinosaurs.Length*2; i++) 
-            {
-                float c = Random.Range(-10f, 10f);
-                float d = Random.Range(-10f, 10f);
-                Instantiate(Stars, new Vector3(c, 0f, d), Quaternion.identity);
-                float e = Random.Range(-10f, 10f);
-                float f = Random.Range(-10f, 10f);
-                Instantiate(Dynamites, new Vector3(e, 0f, f), Quaternion.identity);
-            }
-        
+
+        for (int i = 0; i < Dinosaurs.Length; i++)
+        {
+            float a = Random.Range(-5f, 5f);
+            float b = Random.Range(-5f, 5f);
+            Dinosaurs[i].SetActive(true);
+            Dinosaurs[i].transform.position = new Vector3(a, b, 0f);
+        }
+
+        for (int i = 0; i < Dinosaurs.Length * 2; i++)
+        {
+            float c = Random.Range(-10f, 10f);
+            float d = Random.Range(-10f, 10f);
+            Instantiate(Stars, new Vector3(c, d, 0f), Quaternion.identity);
+            float e = Random.Range(-10f, 10f);
+            float f = Random.Range(-10f, 10f);
+            Instantiate(Dynamites, new Vector3(e, f, 0f), Quaternion.identity);
+        }
+
     }
 
     public void rerun()
