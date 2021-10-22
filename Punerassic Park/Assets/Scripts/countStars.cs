@@ -16,7 +16,7 @@ public class countStars : MonoBehaviour
     private void UpdateStarsUI()
     {
         int sum = 0;
-        for(int i=1; i<=5; i++)
+        for(int i=0; i<5; i++)
         {
             sum += PlayerPrefs.GetInt("Lv" + i.ToString());
         }
