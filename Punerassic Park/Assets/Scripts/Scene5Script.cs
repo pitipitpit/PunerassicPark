@@ -14,10 +14,6 @@ public class Scene5Script : MonoBehaviour
     public GameObject NextGameButton;
     public GameObject ExitButton;
     public float time;
-    
-    public float trexTime;
-    public float triTime;
-    public float longTime;
 
     public GameObject arCamera;
     
@@ -34,7 +30,6 @@ public class Scene5Script : MonoBehaviour
     public GameObject ok;
 
     public GameObject[] Dinosaurs;
-    public int counter;
     public GameObject Stars;
     public GameObject Dynamites;
     public GameObject explodeEffect;
@@ -46,7 +41,6 @@ public class Scene5Script : MonoBehaviour
 
     public void Run()
     {   
-        trexTime = 3;
         Time.timeScale = 1;
         canRun = true;
         canShoot = true;
@@ -101,6 +95,7 @@ public class Scene5Script : MonoBehaviour
                     ExitButton.SetActive(true);
                 }
                 canRun = false;
+                canShoot = false;
             }
         }  
        
@@ -122,7 +117,7 @@ public class Scene5Script : MonoBehaviour
                         hit.transform.gameObject.SetActive(false);
                         float a = Random.Range(-5f, 5f);
                         float b = Random.Range(-5f, 5f);
-                        hit.transform.position = new Vector3(0f, 1f, 0f);
+                        hit.transform.position = new Vector3(a, b, 0f);
                         hit.transform.gameObject.SetActive(true);
                         currentScore = currentScore + 1;
                         textScore.text = "Score : " + currentScore;
@@ -140,7 +135,7 @@ public class Scene5Script : MonoBehaviour
                         hit.transform.gameObject.SetActive(false);
                         float a = Random.Range(-5f, 5f);
                         float b = Random.Range(-5f, 5f);
-                        hit.transform.position = new Vector3(0f, 1f, 0f);
+                        hit.transform.position = new Vector3(a, b, 0f);
                         hit.transform.gameObject.SetActive(true);
 
                         if (timeLeft > 2){
@@ -164,7 +159,7 @@ public class Scene5Script : MonoBehaviour
                         hit.transform.gameObject.SetActive(false);
                         float a = Random.Range(-5f, 5f);
                         float b = Random.Range(-5f, 5f);
-                        hit.transform.position = new Vector3(0f, 1f, 0f);
+                        hit.transform.position = new Vector3(a, b, 0f);
                         hit.transform.gameObject.SetActive(true);
 
                         if (timeLeft > 3){
@@ -187,7 +182,7 @@ public class Scene5Script : MonoBehaviour
                         hit.transform.gameObject.SetActive(false);
                         float a = Random.Range(-5f, 5f);
                         float b = Random.Range(-5f, 5f);
-                        hit.transform.position = new Vector3(0f, 1f, 0f);
+                        hit.transform.position = new Vector3(a, b, 0f);
                         hit.transform.gameObject.SetActive(true);
 
                         currentScore = currentScore - 1;
@@ -206,7 +201,7 @@ public class Scene5Script : MonoBehaviour
                         explodeEffect.transform.position = hit.transform.position;
                         float a = Random.Range(-5f, 5f);
                         float b = Random.Range(-5f, 5f);
-                        hit.transform.position = new Vector3(0f, 1f, 0f);
+                        hit.transform.position = new Vector3(a, b, 0f);
                         hit.transform.gameObject.SetActive(true);
 
                         canShoot = false;

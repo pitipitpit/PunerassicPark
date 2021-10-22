@@ -17,7 +17,7 @@ public class Scene1Script : MonoBehaviour
     [SerializeField] GameObject ExitButton;
 
     [SerializeField] GameObject arCamera;
-    [SerializeField] GameObject dinosaurPrefab;
+    [SerializeField] GameObject Dinosaurs;
     [SerializeField] AudioSource dieSound;
     [SerializeField] int currentScore = 0;
     [SerializeField] TMPro.TextMeshProUGUI textScore;
@@ -99,6 +99,7 @@ public class Scene1Script : MonoBehaviour
         replayButton.SetActive(false);
         NextGameButton.SetActive(false);
         ExitButton.SetActive(false);
+        StartCoroutine(StartSpawning());
     }
 
     public void Shoot() {
@@ -106,22 +107,39 @@ public class Scene1Script : MonoBehaviour
         if (timeLeft > 0){
             if(Physics.Raycast(arCamera.transform.position, arCamera.transform.forward, out hit)){
                 if(hit.transform.name == "trex(Clone)"){
-                    if (!dieSound.isPlaying)
-                    {
-                        dieSound.Play();
-                        Debug.Log("sound on");
-                    }
-                    //playAudio();
-                    Destroy(hit.transform.gameObject);
-                    float a = Random.Range(-5f, 5f);
-                    float b = Random.Range(-5f, 5f);
-                    Instantiate(dinosaurPrefab, new Vector3(a, 0f, b), Quaternion.identity);
-                    currentScore = currentScore + 1;
-                    textScore.text = "Score : " + currentScore;
+                   Debug.Log("trex5 got hit");
+                        if (!dieSound.isPlaying)
+                            {
+                                dieSound.Play();
+                                Debug.Log("sound on");
+                            }
+                        hit.transform.gameObject.SetActive(false);
+                        float a = Random.Range(-5f, 5f);
+                        float b = Random.Range(-5f, 5f);
+                        hit.transform.position = new Vector3(a, b, 0f);
+                        hit.transform.gameObject.SetActive(true);
+                        currentScore = currentScore + 1;
+                        textScore.text = "Score : " + currentScore;
+                        // dinoDie.Stop();
                     
                 }
             }   
         }   
+    }
+
+    
+    IEnumerator StartSpawning()
+    {
+
+        yield return new WaitForSeconds(1);
+        
+            for (int i = 0; i < 3; i++)
+            {
+                float a = Random.Range(-5f, 5f);
+                float b = Random.Range(-5f, 5f);
+                Instantiate(Dinosaurs, new Vector3(a, 0f, b), Quaternion.identity);     
+            }
+                        
     }
 
     private void UpdateStar(int _starsNum)

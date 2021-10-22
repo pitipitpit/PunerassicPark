@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2057,8 +2057,6 @@ MonoBehaviour:
   NextGameButton: {fileID: 35386375}
   ExitButton: {fileID: 433011285}
   arCamera: {fileID: 483090537}
-  dinosaurPrefab: {fileID: 3618064402224519781, guid: d199192b208e942a2bcc2f242cdaf11d, type: 3}
-  starPrefab: {fileID: 6259664750807193191, guid: 69fde8a5fa4b2411eb2ee79018a7e80f, type: 3}
   dieSound: {fileID: 655380080}
   glassSound: {fileID: 1010722467}
   currentScore: 0
@@ -2066,15 +2064,13 @@ MonoBehaviour:
   dinoDie: 0
   timerBar: {fileID: 1525167461}
   maxTime: 45
-  Dinosaurs:
-  - {fileID: 3618064402224519781, guid: d199192b208e942a2bcc2f242cdaf11d, type: 3}
-  - {fileID: 3618064402224519781, guid: d199192b208e942a2bcc2f242cdaf11d, type: 3}
-  - {fileID: 3618064402224519781, guid: d199192b208e942a2bcc2f242cdaf11d, type: 3}
-  counter: 0
-  star: {fileID: 6259664750807193191, guid: 69fde8a5fa4b2411eb2ee79018a7e80f, type: 3}
+  Dinosaurs: {fileID: 3618064402224519781, guid: d199192b208e942a2bcc2f242cdaf11d,
+    type: 3}
+  Stars: {fileID: 6259664750807193191, guid: 69fde8a5fa4b2411eb2ee79018a7e80f, type: 3}
   criteria: {fileID: 1270993235}
   OK: {fileID: 1381775103}
   running: 0
+  levelIndex: 2
 --- !u!4 &1625529401
 Transform:
   m_ObjectHideFlags: 0

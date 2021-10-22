@@ -16,9 +16,6 @@ public class Scene2Script : MonoBehaviour
 
     public GameObject arCamera;
 
-    public GameObject dinosaurPrefab;
-    public GameObject starPrefab;
-
     public AudioSource dieSound;
     public AudioSource glassSound;
 
@@ -30,9 +27,8 @@ public class Scene2Script : MonoBehaviour
     public float maxTime = 45f;
     float timeLeft;
 
-    public GameObject[] Dinosaurs;
-    public int counter;
-    public GameObject star;
+    public GameObject Dinosaurs;
+    public GameObject Stars;
 
     public GameObject criteria;
     public GameObject OK;
@@ -108,37 +104,41 @@ public class Scene2Script : MonoBehaviour
             
             if(Physics.Raycast(arCamera.transform.position, arCamera.transform.forward, out hit)){
                 if(hit.transform.name == "trex(Clone)"){
-                    Debug.Log("hit");
-                    if (!dieSound.isPlaying)
-                    {
-                        dieSound.Play();
-                        Debug.Log("sound on");
+                        Debug.Log("trex5 got hit");
+                        if (!dieSound.isPlaying)
+                            {
+                                dieSound.Play();
+                                Debug.Log("sound on");
+                            }
+                        playAudio();
+                        hit.transform.gameObject.SetActive(false);
+                        float a = Random.Range(-5f, 5f);
+                        float b = Random.Range(-5f, 5f);
+                        hit.transform.position = new Vector3(a, b, 0f);
+                        hit.transform.gameObject.SetActive(true);
+                        currentScore = currentScore + 1;
+                        textScore.text = "Score : " + currentScore;
+                        // dinoDie.Stop();
                     }
-                    Destroy(hit.transform.gameObject);
-                    float a = Random.Range(-5f, 5f);
-                    float b = Random.Range(-5f, 5f);
-                    Instantiate(dinosaurPrefab, new Vector3(a, 0f, b), Quaternion.identity);
-                    currentScore = currentScore + 1;
-                    textScore.text = "Score : " + currentScore;
-                    // dinoDie.Stop();
-                }
 
-                if(hit.transform.name == "stars(Clone)"){
-                    if (!glassSound.isPlaying)
-                    {
-                        glassSound.Play();
-                        Debug.Log("sound on");
+                 if(hit.transform.name == "stars(Clone)"){
+                        Debug.Log("stars5 got hit");
+                        if (!dieSound.isPlaying)
+                            {
+                                dieSound.Play();
+                                Debug.Log("sound on");
+                            }
+                        playAudio();
+                        hit.transform.gameObject.SetActive(false);
+                        float a = Random.Range(-5f, 5f);
+                        float b = Random.Range(-5f, 5f);
+                        hit.transform.position = new Vector3(a, b, 0f);
+                        hit.transform.gameObject.SetActive(true);
+
+                        currentScore = currentScore - 1;
+                        textScore.text = "Score : " + currentScore;
+                        // dinoDie.Stop();
                     }
-                    Destroy(hit.transform.gameObject);
-                    float a = Random.Range(-5f, 5f);
-                    float b = Random.Range(-5f, 5f);
-                    Instantiate(starPrefab, new Vector3(a, 0f, b), Quaternion.identity);
-                    currentScore = currentScore - 1;
-                    if(currentScore < 0){
-                        currentScore = 0;
-                    }
-                    textScore.text = "Score : " + currentScore;
-                }
 
             }   
         }   
@@ -154,28 +154,25 @@ public class Scene2Script : MonoBehaviour
         Debug.Log("sound on");
     }
     
-    IEnumerator StartSpawning()
+     IEnumerator StartSpawning()
     {
 
         yield return new WaitForSeconds(1);
-            
-            for (int i =0; i < Dinosaurs.Length; i++)
+        
+            for (int i = 0; i < 3; i++)
             {
                 float a = Random.Range(-5f, 5f);
                 float b = Random.Range(-5f, 5f);
-                Instantiate(Dinosaurs[i], new Vector3(a, 0f, b), Quaternion.identity); //spawn each dinosaur at each position
-                float c = Random.Range(-5f, 5f);
-                float d = Random.Range(-5f, 5f);
-                Instantiate(star, new Vector3(c, 0f, d), Quaternion.identity);
-                counter++;
-                
+                Instantiate(Dinosaurs, new Vector3(a, 0f, b), Quaternion.identity);    
+            }
+                        
+            for (int i =0; i < 6; i++) 
+            {
+                float c = Random.Range(-10f, 10f);
+                float d = Random.Range(-10f, 10f);
+                Instantiate(Stars, new Vector3(c, 0f, d), Quaternion.identity);
             }
         
-        while(counter < 3){ //only spawn 3 dinosaurs
-            StartCoroutine(StartSpawning());
-        }
-        
- 
     }
 
     public void rerun()
