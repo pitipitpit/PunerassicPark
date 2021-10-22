@@ -10,10 +10,10 @@ public class DestroyExplode : MonoBehaviour
 
     private Vector3 dinoBounds;
     // public float movementSpeed = 1f;
-    
+
     // private bool isWandering = false;
     // private bool isWalking = false;
-    
+
     public Rigidbody rb;
     float x;
     float y;
@@ -25,13 +25,15 @@ public class DestroyExplode : MonoBehaviour
     {
         dinoBounds = gameObject.transform.position;
 
-   
+
     }
 
-     void Update() {
-          timeLeft -= Time.deltaTime;
-          if (timeLeft <= 0.0f) {
-              Destroy(this.gameObject);
-          }
-     }
+    void Update()
+    {
+        timeLeft -= Time.deltaTime;
+        if (timeLeft <= 0.0f)
+        {
+            Destroy(this.gameObject);
+        }
+    }
 }

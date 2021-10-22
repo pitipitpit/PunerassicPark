@@ -26,6 +26,7 @@ public class Scene1Script : MonoBehaviour
     [SerializeField] float maxTime = 5f;
     float timeLeft;
     private bool canRun = false;
+    public int levelIndex = 1;
 
     // Update is called once per frame
     void Update()
@@ -43,6 +44,7 @@ public class Scene1Script : MonoBehaviour
                 Time.timeScale = 0;
                 if (currentScore >= 30)
                 {
+                    UpdateStar(3);
                     perfectComplete.SetActive(true);
                     replayButton.SetActive(true);
                     NextGameButton.SetActive(true);
@@ -51,6 +53,7 @@ public class Scene1Script : MonoBehaviour
                 }
                 else if (currentScore >= 20)
                 {
+                    UpdateStar(2);
                     greatComplete.SetActive(true);
                     replayButton.SetActive(true);
                     NextGameButton.SetActive(true);
@@ -59,6 +62,7 @@ public class Scene1Script : MonoBehaviour
                 }
                 else if (currentScore >= 10)
                 {
+                    UpdateStar(1);
                     goodComplete.SetActive(true);
                     replayButton.SetActive(true);
                     NextGameButton.SetActive(true);
@@ -67,6 +71,7 @@ public class Scene1Script : MonoBehaviour
                 }
                 else if (currentScore < 10)
                 {
+                    UpdateStar(0);
                     failMission.SetActive(true);
                     replayButton.SetActive(true);
                     ExitButton.SetActive(true);
@@ -117,7 +122,16 @@ public class Scene1Script : MonoBehaviour
                 }
             }   
         }   
-    } 
+    }
+
+    private void UpdateStar(int _starsNum)
+    {
+        if(_starsNum > PlayerPrefs.GetInt("Lv" + levelIndex))
+        {
+            PlayerPrefs.SetInt("Lv" + levelIndex, _starsNum);
+        }
+
+    }
     
 
 

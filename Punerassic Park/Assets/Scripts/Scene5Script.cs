@@ -45,6 +45,7 @@ public class Scene5Script : MonoBehaviour
 
     private bool canRun = false;
     private bool canShoot = false;
+    public int levelIndex = 5;
 
 
     public void Run()
@@ -77,24 +78,28 @@ public class Scene5Script : MonoBehaviour
             } else {
                 Time.timeScale = 0;
                 if (currentScore >= 30) {
+                    UpdateStar(3);
                     perfectComplete.SetActive(true);
                     replayButton.SetActive(true);
                     NextGameButton.SetActive(true);
                     ExitButton.SetActive(true);
 
                 } else if (currentScore >= 20) {
+                    UpdateStar(2);
                     greatComplete.SetActive(true);
                     replayButton.SetActive(true);
                     NextGameButton.SetActive(true);
                     ExitButton.SetActive(true);
 
                 } else if ( currentScore >= 10) {
+                    UpdateStar(1);
                     goodComplete.SetActive(true);
                     replayButton.SetActive(true);
                     NextGameButton.SetActive(true);
                     ExitButton.SetActive(true);
 
                 } else if (currentScore < 10) {
+                    UpdateStar(0);
                     failMission.SetActive(true);
                     replayButton.SetActive(true);
                     ExitButton.SetActive(true);
@@ -259,5 +264,15 @@ public class Scene5Script : MonoBehaviour
     {
         yield return new WaitForSeconds(3);
         canShoot = true;
+    }
+
+
+    private void UpdateStar(int _starsNum)
+    {
+        if (_starsNum > PlayerPrefs.GetInt("Lv" + levelIndex))
+        {
+            PlayerPrefs.SetInt("Lv" + levelIndex, _starsNum);
+        }
+
     }
 }

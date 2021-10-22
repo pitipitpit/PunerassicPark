@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1345,7 +1345,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: -30}
+  m_AnchoredPosition: {x: 0, y: -30.00003}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &962014321
@@ -1577,7 +1577,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 935bcbeb75c40ed4cb075fa7f7b63e9a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: db2131fd3c22a4ab78087e5dd9cd2ff0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1640,11 +1640,11 @@ MonoBehaviour:
     type: 3}
   longPrefab: {fileID: 6514142553744219640, guid: 0865a0ccab70b7a45bd7a86d5cfaff56,
     type: 3}
-  triPrefab: {fileID: 1016743413880008857, guid: 88fb7377a43252d41bce6733d24f2eb1,
+  triPrefab: {fileID: 404110898390338612, guid: 3d08556d88b5b4ecdb61deea39a22840,
     type: 3}
   starPrefab: {fileID: 6259664750807193191, guid: b42b02d338e7047469745ae77d312f9f,
     type: 3}
-  dynamitePrefab: {fileID: 6080862179643617572, guid: 74e99a5d7467db7439a052dda6ca7dc4,
+  dynamitePrefab: {fileID: 9090838314607647941, guid: c190fe77fac1a456c98d89f4fb7762cc,
     type: 3}
   explodeEffect: {fileID: 1121192042590650, guid: e1b08032bec16ba4eb1ae23cbd572664,
     type: 3}
@@ -1658,7 +1658,7 @@ MonoBehaviour:
   ok: {fileID: 1419762353}
   Dinosaurs:
   - {fileID: 3618064402224519781, guid: a66ed78582f6c704ebb3c2027b8deacf, type: 3}
-  - {fileID: 1016743413880008857, guid: 88fb7377a43252d41bce6733d24f2eb1, type: 3}
+  - {fileID: 404110898390338612, guid: 3d08556d88b5b4ecdb61deea39a22840, type: 3}
   - {fileID: 6514142553744219640, guid: 0865a0ccab70b7a45bd7a86d5cfaff56, type: 3}
   counter: 0
   star: {fileID: 6259664750807193191, guid: b42b02d338e7047469745ae77d312f9f, type: 3}

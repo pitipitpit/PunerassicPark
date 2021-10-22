@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4388947112716342}
   - component: {fileID: 198917022394846920}
   - component: {fileID: 199630755385234010}
-  - component: {fileID: -425974216177056758}
+  - component: {fileID: 5833042751641104790}
   m_Layer: 0
   m_Name: BigExplosion
   m_TagString: Untagged
@@ -4917,7 +4917,7 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
---- !u!114 &-425974216177056758
+--- !u!114 &5833042751641104790
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
