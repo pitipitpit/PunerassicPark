@@ -104,10 +104,13 @@ public class Scene2Script : MonoBehaviour
             
             if(Physics.Raycast(arCamera.transform.position, arCamera.transform.forward, out hit)){
                 if(hit.transform.name == "trex(Clone)"){
+                        Debug.Log("trex5 got hit");
                         if (!dieSound.isPlaying)
                             {
                                 dieSound.Play();
+                                Debug.Log("sound on");
                             }
+                        playAudio();
                         hit.transform.gameObject.SetActive(false);
                         float a = Random.Range(-5f, 5f);
                         float b = Random.Range(-5f, 5f);
@@ -119,10 +122,13 @@ public class Scene2Script : MonoBehaviour
                     }
 
                  if(hit.transform.name == "stars(Clone)"){
-                        if (!glassSound.isPlaying)
+                        Debug.Log("stars5 got hit");
+                        if (!dieSound.isPlaying)
                             {
-                                glassSound.Play();
+                                dieSound.Play();
+                                Debug.Log("sound on");
                             }
+                        playAudio();
                         hit.transform.gameObject.SetActive(false);
                         float a = Random.Range(-5f, 5f);
                         float b = Random.Range(-5f, 5f);
@@ -136,6 +142,16 @@ public class Scene2Script : MonoBehaviour
 
             }   
         }   
+    }
+    IEnumerator playAudio()
+    {
+        //Play Audio
+        dieSound.Play();
+
+        //Wait until it's done playing
+        while (dieSound.isPlaying)
+            yield return null;
+        Debug.Log("sound on");
     }
     
      IEnumerator StartSpawning()

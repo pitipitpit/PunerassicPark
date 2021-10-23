@@ -72,30 +72,35 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 114
 <<<<<<< HEAD
+<<<<<<< HEAD
       Script: {instanceID: 1626}
+=======
+      Script: {instanceID: 1736}
+>>>>>>> parent of 02269fb4 (bug fixes and finalize)
     - Class: 114
-      Script: {instanceID: 1748}
+      Script: {instanceID: 1858}
     - Class: 114
-      Script: {instanceID: 2052}
+      Script: {instanceID: 2162}
     - Class: 114
-      Script: {instanceID: 2894}
+      Script: {instanceID: 3004}
     - Class: 114
-      Script: {instanceID: 2938}
+      Script: {instanceID: 3048}
     - Class: 114
-      Script: {instanceID: 3062}
+      Script: {instanceID: 3172}
     - Class: 114
-      Script: {instanceID: 3308}
+      Script: {instanceID: 3418}
     - Class: 114
-      Script: {instanceID: 3594}
+      Script: {instanceID: 3704}
     - Class: 114
-      Script: {instanceID: 3740}
+      Script: {instanceID: 3850}
     - Class: 114
-      Script: {instanceID: 3976}
+      Script: {instanceID: 4086}
     - Class: 114
-      Script: {instanceID: 3986}
+      Script: {instanceID: 4096}
     - Class: 114
-      Script: {instanceID: 4654}
+      Script: {instanceID: 4764}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 5044}
 =======
       Script: {instanceID: 1706}
@@ -124,6 +129,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4480}
 >>>>>>> parent of 09a55226 (bug fixes)
+=======
+      Script: {instanceID: 5154}
+>>>>>>> parent of 02269fb4 (bug fixes and finalize)
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -159,40 +167,45 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 114
 <<<<<<< HEAD
+<<<<<<< HEAD
       Script: {instanceID: 1626}
+=======
+      Script: {instanceID: 1736}
+>>>>>>> parent of 02269fb4 (bug fixes and finalize)
     - Class: 114
-      Script: {instanceID: 1748}
+      Script: {instanceID: 1858}
     - Class: 114
-      Script: {instanceID: 1968}
+      Script: {instanceID: 2078}
     - Class: 114
-      Script: {instanceID: 2052}
+      Script: {instanceID: 2162}
     - Class: 114
-      Script: {instanceID: 2490}
+      Script: {instanceID: 2600}
     - Class: 114
-      Script: {instanceID: 2894}
+      Script: {instanceID: 3004}
     - Class: 114
-      Script: {instanceID: 2938}
+      Script: {instanceID: 3048}
     - Class: 114
-      Script: {instanceID: 3062}
+      Script: {instanceID: 3172}
     - Class: 114
-      Script: {instanceID: 3116}
+      Script: {instanceID: 3226}
     - Class: 114
-      Script: {instanceID: 3308}
+      Script: {instanceID: 3418}
     - Class: 114
-      Script: {instanceID: 3594}
+      Script: {instanceID: 3704}
     - Class: 114
-      Script: {instanceID: 3740}
+      Script: {instanceID: 3850}
     - Class: 114
-      Script: {instanceID: 3976}
+      Script: {instanceID: 4086}
     - Class: 114
-      Script: {instanceID: 3986}
+      Script: {instanceID: 4096}
     - Class: 114
-      Script: {instanceID: 4654}
+      Script: {instanceID: 4764}
     - Class: 114
-      Script: {instanceID: 5044}
+      Script: {instanceID: 5154}
     - Class: 114
-      Script: {instanceID: 5780}
+      Script: {instanceID: 5890}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 6368}
 =======
       Script: {instanceID: 1706}
@@ -223,6 +236,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5202}
 >>>>>>> parent of 09a55226 (bug fixes)
+=======
+      Script: {instanceID: 6478}
+>>>>>>> parent of 02269fb4 (bug fixes and finalize)
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -270,40 +286,45 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 114
 <<<<<<< HEAD
+<<<<<<< HEAD
       Script: {instanceID: 1626}
+=======
+      Script: {instanceID: 1736}
+>>>>>>> parent of 02269fb4 (bug fixes and finalize)
     - Class: 114
-      Script: {instanceID: 1748}
+      Script: {instanceID: 1858}
     - Class: 114
-      Script: {instanceID: 1968}
+      Script: {instanceID: 2078}
     - Class: 114
-      Script: {instanceID: 2052}
+      Script: {instanceID: 2162}
     - Class: 114
-      Script: {instanceID: 2894}
+      Script: {instanceID: 3004}
     - Class: 114
-      Script: {instanceID: 2938}
+      Script: {instanceID: 3048}
     - Class: 114
-      Script: {instanceID: 3062}
+      Script: {instanceID: 3172}
     - Class: 114
-      Script: {instanceID: 3116}
+      Script: {instanceID: 3226}
     - Class: 114
-      Script: {instanceID: 3308}
+      Script: {instanceID: 3418}
     - Class: 114
-      Script: {instanceID: 3478}
+      Script: {instanceID: 3588}
     - Class: 114
-      Script: {instanceID: 3594}
+      Script: {instanceID: 3704}
     - Class: 114
-      Script: {instanceID: 3740}
+      Script: {instanceID: 3850}
     - Class: 114
-      Script: {instanceID: 3976}
+      Script: {instanceID: 4086}
     - Class: 114
-      Script: {instanceID: 3986}
+      Script: {instanceID: 4096}
     - Class: 114
-      Script: {instanceID: 4132}
+      Script: {instanceID: 4242}
     - Class: 114
-      Script: {instanceID: 4654}
+      Script: {instanceID: 4764}
     - Class: 114
-      Script: {instanceID: 5044}
+      Script: {instanceID: 5154}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 5362}
 =======
       Script: {instanceID: 1706}
@@ -342,6 +363,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4730}
 >>>>>>> parent of 09a55226 (bug fixes)
+=======
+      Script: {instanceID: 5472}
+>>>>>>> parent of 02269fb4 (bug fixes and finalize)
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -397,38 +421,43 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 114
 <<<<<<< HEAD
+<<<<<<< HEAD
       Script: {instanceID: 1626}
+=======
+      Script: {instanceID: 1736}
+>>>>>>> parent of 02269fb4 (bug fixes and finalize)
     - Class: 114
-      Script: {instanceID: 1748}
+      Script: {instanceID: 1858}
     - Class: 114
-      Script: {instanceID: 1968}
+      Script: {instanceID: 2078}
     - Class: 114
-      Script: {instanceID: 2052}
+      Script: {instanceID: 2162}
     - Class: 114
-      Script: {instanceID: 2894}
+      Script: {instanceID: 3004}
     - Class: 114
-      Script: {instanceID: 2938}
+      Script: {instanceID: 3048}
     - Class: 114
-      Script: {instanceID: 3062}
+      Script: {instanceID: 3172}
     - Class: 114
-      Script: {instanceID: 3116}
+      Script: {instanceID: 3226}
     - Class: 114
-      Script: {instanceID: 3308}
+      Script: {instanceID: 3418}
     - Class: 114
-      Script: {instanceID: 3594}
+      Script: {instanceID: 3704}
     - Class: 114
-      Script: {instanceID: 3740}
+      Script: {instanceID: 3850}
     - Class: 114
-      Script: {instanceID: 3976}
+      Script: {instanceID: 4086}
     - Class: 114
-      Script: {instanceID: 3986}
+      Script: {instanceID: 4096}
     - Class: 114
-      Script: {instanceID: 4314}
+      Script: {instanceID: 4424}
     - Class: 114
-      Script: {instanceID: 4654}
+      Script: {instanceID: 4764}
     - Class: 114
-      Script: {instanceID: 5044}
+      Script: {instanceID: 5154}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 5362}
 =======
       Script: {instanceID: 1706}
@@ -467,6 +496,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4730}
 >>>>>>> parent of 09a55226 (bug fixes)
+=======
+      Script: {instanceID: 5472}
+>>>>>>> parent of 02269fb4 (bug fixes and finalize)
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -526,38 +558,43 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 114
 <<<<<<< HEAD
+<<<<<<< HEAD
       Script: {instanceID: 1626}
+=======
+      Script: {instanceID: 1736}
+>>>>>>> parent of 02269fb4 (bug fixes and finalize)
     - Class: 114
-      Script: {instanceID: 1748}
+      Script: {instanceID: 1858}
     - Class: 114
-      Script: {instanceID: 1968}
+      Script: {instanceID: 2078}
     - Class: 114
-      Script: {instanceID: 2052}
+      Script: {instanceID: 2162}
     - Class: 114
-      Script: {instanceID: 2742}
+      Script: {instanceID: 2852}
     - Class: 114
-      Script: {instanceID: 2894}
+      Script: {instanceID: 3004}
     - Class: 114
-      Script: {instanceID: 2938}
+      Script: {instanceID: 3048}
     - Class: 114
-      Script: {instanceID: 3062}
+      Script: {instanceID: 3172}
     - Class: 114
-      Script: {instanceID: 3116}
+      Script: {instanceID: 3226}
     - Class: 114
-      Script: {instanceID: 3308}
+      Script: {instanceID: 3418}
     - Class: 114
-      Script: {instanceID: 3594}
+      Script: {instanceID: 3704}
     - Class: 114
-      Script: {instanceID: 3740}
+      Script: {instanceID: 3850}
     - Class: 114
-      Script: {instanceID: 3976}
+      Script: {instanceID: 4086}
     - Class: 114
-      Script: {instanceID: 3986}
+      Script: {instanceID: 4096}
     - Class: 114
-      Script: {instanceID: 4654}
+      Script: {instanceID: 4764}
     - Class: 114
-      Script: {instanceID: 5044}
+      Script: {instanceID: 5154}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 5362}
 =======
       Script: {instanceID: 1706}
@@ -596,6 +633,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4730}
 >>>>>>> parent of 09a55226 (bug fixes)
+=======
+      Script: {instanceID: 5472}
+>>>>>>> parent of 02269fb4 (bug fixes and finalize)
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -653,38 +693,43 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 114
 <<<<<<< HEAD
+<<<<<<< HEAD
       Script: {instanceID: 1626}
+=======
+      Script: {instanceID: 1736}
+>>>>>>> parent of 02269fb4 (bug fixes and finalize)
     - Class: 114
-      Script: {instanceID: 1748}
+      Script: {instanceID: 1858}
     - Class: 114
-      Script: {instanceID: 1968}
+      Script: {instanceID: 2078}
     - Class: 114
-      Script: {instanceID: 2052}
+      Script: {instanceID: 2162}
     - Class: 114
-      Script: {instanceID: 2894}
+      Script: {instanceID: 3004}
     - Class: 114
-      Script: {instanceID: 2938}
+      Script: {instanceID: 3048}
     - Class: 114
-      Script: {instanceID: 3062}
+      Script: {instanceID: 3172}
     - Class: 114
-      Script: {instanceID: 3116}
+      Script: {instanceID: 3226}
     - Class: 114
-      Script: {instanceID: 3308}
+      Script: {instanceID: 3418}
     - Class: 114
-      Script: {instanceID: 3582}
+      Script: {instanceID: 3692}
     - Class: 114
-      Script: {instanceID: 3594}
+      Script: {instanceID: 3704}
     - Class: 114
-      Script: {instanceID: 3740}
+      Script: {instanceID: 3850}
     - Class: 114
-      Script: {instanceID: 3976}
+      Script: {instanceID: 4086}
     - Class: 114
-      Script: {instanceID: 3986}
+      Script: {instanceID: 4096}
     - Class: 114
-      Script: {instanceID: 4654}
+      Script: {instanceID: 4764}
     - Class: 114
-      Script: {instanceID: 4954}
+      Script: {instanceID: 5064}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 5044}
 =======
       Script: {instanceID: 1706}
@@ -721,6 +766,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4480}
 >>>>>>> parent of 09a55226 (bug fixes)
+=======
+      Script: {instanceID: 5154}
+>>>>>>> parent of 02269fb4 (bug fixes and finalize)
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -780,38 +828,43 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 114
 <<<<<<< HEAD
+<<<<<<< HEAD
       Script: {instanceID: 1626}
+=======
+      Script: {instanceID: 1736}
+>>>>>>> parent of 02269fb4 (bug fixes and finalize)
     - Class: 114
-      Script: {instanceID: 1748}
+      Script: {instanceID: 1858}
     - Class: 114
-      Script: {instanceID: 1968}
+      Script: {instanceID: 2078}
     - Class: 114
-      Script: {instanceID: 2052}
+      Script: {instanceID: 2162}
     - Class: 114
-      Script: {instanceID: 2552}
+      Script: {instanceID: 2662}
     - Class: 114
-      Script: {instanceID: 2894}
+      Script: {instanceID: 3004}
     - Class: 114
-      Script: {instanceID: 2938}
+      Script: {instanceID: 3048}
     - Class: 114
-      Script: {instanceID: 3062}
+      Script: {instanceID: 3172}
     - Class: 114
-      Script: {instanceID: 3116}
+      Script: {instanceID: 3226}
     - Class: 114
-      Script: {instanceID: 3308}
+      Script: {instanceID: 3418}
     - Class: 114
-      Script: {instanceID: 3594}
+      Script: {instanceID: 3704}
     - Class: 114
-      Script: {instanceID: 3740}
+      Script: {instanceID: 3850}
     - Class: 114
-      Script: {instanceID: 3976}
+      Script: {instanceID: 4086}
     - Class: 114
-      Script: {instanceID: 3986}
+      Script: {instanceID: 4096}
     - Class: 114
-      Script: {instanceID: 4654}
+      Script: {instanceID: 4764}
     - Class: 114
-      Script: {instanceID: 5044}
+      Script: {instanceID: 5064}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 5220}
 =======
       Script: {instanceID: 1706}
@@ -852,6 +905,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5364}
 >>>>>>> parent of 09a55226 (bug fixes)
+=======
+      Script: {instanceID: 5154}
+    - Class: 114
+      Script: {instanceID: 5330}
+>>>>>>> parent of 02269fb4 (bug fixes and finalize)
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -899,44 +957,49 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 114
 <<<<<<< HEAD
+<<<<<<< HEAD
       Script: {instanceID: 1626}
+=======
+      Script: {instanceID: 1736}
+>>>>>>> parent of 02269fb4 (bug fixes and finalize)
     - Class: 114
-      Script: {instanceID: 1748}
+      Script: {instanceID: 1858}
     - Class: 114
-      Script: {instanceID: 1968}
+      Script: {instanceID: 2078}
     - Class: 114
-      Script: {instanceID: 2052}
+      Script: {instanceID: 2162}
     - Class: 114
-      Script: {instanceID: 2410}
+      Script: {instanceID: 2520}
     - Class: 114
-      Script: {instanceID: 2416}
+      Script: {instanceID: 2526}
     - Class: 114
-      Script: {instanceID: 2894}
+      Script: {instanceID: 3004}
     - Class: 114
-      Script: {instanceID: 2938}
+      Script: {instanceID: 3048}
     - Class: 114
-      Script: {instanceID: 3062}
+      Script: {instanceID: 3172}
     - Class: 114
-      Script: {instanceID: 3116}
+      Script: {instanceID: 3226}
     - Class: 114
-      Script: {instanceID: 3308}
+      Script: {instanceID: 3418}
     - Class: 114
-      Script: {instanceID: 3594}
+      Script: {instanceID: 3704}
     - Class: 114
-      Script: {instanceID: 3740}
+      Script: {instanceID: 3850}
     - Class: 114
-      Script: {instanceID: 3976}
+      Script: {instanceID: 4086}
     - Class: 114
-      Script: {instanceID: 3986}
+      Script: {instanceID: 4096}
     - Class: 114
-      Script: {instanceID: 4414}
+      Script: {instanceID: 4524}
     - Class: 114
-      Script: {instanceID: 4654}
+      Script: {instanceID: 4764}
     - Class: 114
-      Script: {instanceID: 5044}
+      Script: {instanceID: 5154}
     - Class: 114
-      Script: {instanceID: 5300}
+      Script: {instanceID: 5410}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 5734}
 =======
       Script: {instanceID: 1706}
@@ -979,6 +1042,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5020}
 >>>>>>> parent of 09a55226 (bug fixes)
+=======
+      Script: {instanceID: 5844}
+>>>>>>> parent of 02269fb4 (bug fixes and finalize)
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1617,10 +1683,14 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       Hash: 26ff1f39a73ccbe02bc01901e6774d68
 =======
       Hash: b20bd72f51b0cdc6bd62be3497f463fc
 >>>>>>> parent of 09a55226 (bug fixes)
+=======
+      Hash: c96b9eb15195a1886a90b5725881f202
+>>>>>>> parent of 02269fb4 (bug fixes and finalize)
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Scene5Script

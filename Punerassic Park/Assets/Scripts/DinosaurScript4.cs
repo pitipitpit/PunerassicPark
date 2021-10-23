@@ -19,25 +19,24 @@ public class DinosaurScript4 : MonoBehaviour
         rotatePosx = Random.Range(-100f, 100f);
         rotatePosy = Random.Range(-100f, 100f);
         rotatePosz = Random.Range(-100f, 100f);
-        movex = Random.Range(gameObject.transform.position.x - 5f, gameObject.transform.position.x + 5f);
-        movey = Random.Range(gameObject.transform.position.y - 5f, gameObject.transform.position.y + 5f);
+        movex = Random.Range(gameObject.transform.position.x - 5f, gameObject.transform.position.y + 5f);
+        movey = Random.Range(gameObject.transform.position.x - 5f, gameObject.transform.position.y + 5f);
     }
 
     // Update is called once per frame
     void Update()
     {
-
-        transform.Rotate(new Vector3(rotatePosx, rotatePosy, rotatePosz) * Time.deltaTime);
-
-        transform.position += new Vector3(movex * Time.deltaTime, movey * Time.deltaTime, 0f);
+        
+        transform.Rotate(new Vector3(rotatePosx,rotatePosy,rotatePosz) * Time.deltaTime ); 
+        
+        transform.position += new Vector3(movex * Time.deltaTime ,movey * Time.deltaTime, 0f);
         timeMove -= Time.deltaTime;
-        if (timeMove <= 0.0f)
-        {
+        if (timeMove <= 0.0f) {
             movex = movex * -1f;
             movey = movey * -1f;
-            timeMove = 2f;
+            timeMove = 2f; 
         }
-
+      
     }
 
 }

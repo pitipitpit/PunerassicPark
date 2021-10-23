@@ -3015,10 +3015,18 @@ extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2998;
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2999;
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3000;
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3001;
+<<<<<<< HEAD
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes* g_Il2CppTypeDefinitionSizesTable[3002] = 
 =======
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes* g_Il2CppTypeDefinitionSizesTable[2998] = 
 >>>>>>> parent of 09a55226 (bug fixes)
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3002;
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3003;
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3004;
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3005;
+IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes* g_Il2CppTypeDefinitionSizesTable[3006] = 
+>>>>>>> parent of 02269fb4 (bug fixes and finalize)
 {
 	(&g_typeDefinitionSize0),
 	(&g_typeDefinitionSize1),
@@ -6023,6 +6031,13 @@ IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes* g_Il2CppTypeDefinitionSizesTabl
 	(&g_typeDefinitionSize2999),
 	(&g_typeDefinitionSize3000),
 	(&g_typeDefinitionSize3001),
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 09a55226 (bug fixes)
+=======
+	(&g_typeDefinitionSize3002),
+	(&g_typeDefinitionSize3003),
+	(&g_typeDefinitionSize3004),
+	(&g_typeDefinitionSize3005),
+>>>>>>> parent of 02269fb4 (bug fixes and finalize)
 };

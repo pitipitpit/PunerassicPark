@@ -29,12 +29,17 @@ const Il2CppMetadataRegistration g_MetadataRegistration =
 	13609,
 	g_Il2CppGenericMethodFunctions,
 <<<<<<< HEAD
+<<<<<<< HEAD
 	8011,
+=======
+	8015,
+>>>>>>> parent of 02269fb4 (bug fixes and finalize)
 	g_Il2CppTypeTable,
 	14481,
 	g_Il2CppMethodSpecTable,
-	3002,
+	3006,
 	g_FieldOffsetTable,
+<<<<<<< HEAD
 	3002,
 =======
 	8006,
@@ -45,6 +50,9 @@ const Il2CppMetadataRegistration g_MetadataRegistration =
 	g_FieldOffsetTable,
 	2998,
 >>>>>>> parent of 09a55226 (bug fixes)
+=======
+	3006,
+>>>>>>> parent of 02269fb4 (bug fixes and finalize)
 	g_Il2CppTypeDefinitionSizesTable,
 	0,
 	NULL,
