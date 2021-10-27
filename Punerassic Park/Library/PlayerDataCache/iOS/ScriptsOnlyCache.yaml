@@ -50,7 +50,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
-    - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/HowToPlayScene.unity:
     - Class: 1
@@ -644,6 +643,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -661,15 +664,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2412}
     - Class: 114
-      Script: {instanceID: 2418}
-    - Class: 114
       Script: {instanceID: 2896}
     - Class: 114
       Script: {instanceID: 2940}
     - Class: 114
       Script: {instanceID: 3064}
-    - Class: 114
-      Script: {instanceID: 3118}
     - Class: 114
       Script: {instanceID: 3310}
     - Class: 114
@@ -705,6 +704,10 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 328
+      Script: {instanceID: 0}
+    - Class: 329
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -1195,7 +1198,7 @@ ScriptsOnlyBuild:
     className: AnimationTrack
   - hash:
       serializedVersion: 2
-      Hash: a4824f5b0e998a3c8255da780e29c3f8
+      Hash: 255e8ea7d617e70762bf5356e35b9d6e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: StartScript

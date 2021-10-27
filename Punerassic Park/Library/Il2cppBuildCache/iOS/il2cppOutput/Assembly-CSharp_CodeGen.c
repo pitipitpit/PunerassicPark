@@ -232,45 +232,55 @@ extern void U3CStartSpawningU3Ed__5_System_Collections_Generic_IEnumeratorU3CSys
 extern void U3CStartSpawningU3Ed__5_System_Collections_IEnumerator_Reset_m5D4E94B8D483A1C68244C6E5A3208340245360D0 (void);
 // 0x0000006E System.Object StarSpawn/<StartSpawning>d__5::System.Collections.IEnumerator.get_Current()
 extern void U3CStartSpawningU3Ed__5_System_Collections_IEnumerator_get_Current_m69AF8D21E799D4D6A528DBBB88AB5AE30539D084 (void);
-// 0x0000006F System.Void StartScript::Start()
-extern void StartScript_Start_m599D2AE1C1F78DFF6220E992A793E86D504FA4E7 (void);
-// 0x00000070 System.Void StartScript::Update()
-extern void StartScript_Update_m6726E5C6C750FF59F47E1025D83DD19FF553303D (void);
-// 0x00000071 System.Void StartScript::hide()
+// 0x0000006F System.Void StartScript::hide()
 extern void StartScript_hide_m754CBF973327528B040A0DDC2BC6AF63EDAAB6B0 (void);
-// 0x00000072 System.Void StartScript::.ctor()
+// 0x00000070 System.Collections.IEnumerator StartScript::PlayVid()
+extern void StartScript_PlayVid_m7AAEBA95D59967507B6D20AB0C4CF61EAAD3E41D (void);
+// 0x00000071 System.Void StartScript::.ctor()
 extern void StartScript__ctor_mDF141128AA36862055F7C221E2E2CD97B7C5756B (void);
-// 0x00000073 System.Void TimeScript::Start()
+// 0x00000072 System.Void StartScript/<PlayVid>d__8::.ctor(System.Int32)
+extern void U3CPlayVidU3Ed__8__ctor_m35D41E976E99F9A341DDB6E88D18957545B1EBDC (void);
+// 0x00000073 System.Void StartScript/<PlayVid>d__8::System.IDisposable.Dispose()
+extern void U3CPlayVidU3Ed__8_System_IDisposable_Dispose_m97BA4F1C5D574C907426939838A2CC37E2D6ABD4 (void);
+// 0x00000074 System.Boolean StartScript/<PlayVid>d__8::MoveNext()
+extern void U3CPlayVidU3Ed__8_MoveNext_m2239F6643D3144F5708958BD032507288D145EB8 (void);
+// 0x00000075 System.Object StartScript/<PlayVid>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CPlayVidU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCBEB7D68848C1D4F2F80A04CB770A77E9B0452EB (void);
+// 0x00000076 System.Void StartScript/<PlayVid>d__8::System.Collections.IEnumerator.Reset()
+extern void U3CPlayVidU3Ed__8_System_Collections_IEnumerator_Reset_m60E63D933FCEAFDF7D9D5BDDF612F169ED148ACF (void);
+// 0x00000077 System.Object StartScript/<PlayVid>d__8::System.Collections.IEnumerator.get_Current()
+extern void U3CPlayVidU3Ed__8_System_Collections_IEnumerator_get_Current_m3EE7FB246F8006C02CFF65BF7300A7536616EF7D (void);
+// 0x00000078 System.Void TimeScript::Start()
 extern void TimeScript_Start_mF7847ED3A02F35E6AFEF50C0836AA3FA87487A5F (void);
-// 0x00000074 System.Void TimeScript::Update()
+// 0x00000079 System.Void TimeScript::Update()
 extern void TimeScript_Update_m0F1C0F69A4315029F6FD9CDA7E104AD88D2FAF90 (void);
-// 0x00000075 System.Void TimeScript::.ctor()
+// 0x0000007A System.Void TimeScript::.ctor()
 extern void TimeScript__ctor_mEECE46AE4380BD458995AAF8DB8C06F0B2C49E25 (void);
-// 0x00000076 System.Void countStars::Start()
+// 0x0000007B System.Void countStars::Start()
 extern void countStars_Start_m8D1C9C5A15C35A3C8A7F63E97DC076AC8B2A2875 (void);
-// 0x00000077 System.Void countStars::UpdateStarsUI()
+// 0x0000007C System.Void countStars::UpdateStarsUI()
 extern void countStars_UpdateStarsUI_m61457C969CB57D27929B3B97A98B99B4DA47937C (void);
-// 0x00000078 System.Void countStars::.ctor()
+// 0x0000007D System.Void countStars::.ctor()
 extern void countStars__ctor_m148B33F0CA3349505E79993484C0800BD4ABE022 (void);
-// 0x00000079 System.Void level1selection::Update()
+// 0x0000007E System.Void level1selection::Update()
 extern void level1selection_Update_mCF33E6FA72E6FBC9EB0D6384DF59BEB599C02A46 (void);
-// 0x0000007A System.Void level1selection::UpdateLevelImage()
+// 0x0000007F System.Void level1selection::UpdateLevelImage()
 extern void level1selection_UpdateLevelImage_mB85812D35754D79915011739C44C711DCC82898D (void);
-// 0x0000007B System.Void level1selection::PressSelection(System.String)
+// 0x00000080 System.Void level1selection::PressSelection(System.String)
 extern void level1selection_PressSelection_mD78FFFB5325E6A710BD220251E4526B87F0CEF3D (void);
-// 0x0000007C System.Void level1selection::.ctor()
+// 0x00000081 System.Void level1selection::.ctor()
 extern void level1selection__ctor_mC276ABAABD0FCD7E1D7B39301DC8A491D38ED565 (void);
-// 0x0000007D System.Void levelSelection::Update()
+// 0x00000082 System.Void levelSelection::Update()
 extern void levelSelection_Update_m278E3DE84462EDF30FC68060CF58172B8A04D5B6 (void);
-// 0x0000007E System.Void levelSelection::UpdateLevelStatus()
+// 0x00000083 System.Void levelSelection::UpdateLevelStatus()
 extern void levelSelection_UpdateLevelStatus_m01CA4C083C1FE8D080891A3BBB8CB7FB641C20E0 (void);
-// 0x0000007F System.Void levelSelection::UpdateLevelImage()
+// 0x00000084 System.Void levelSelection::UpdateLevelImage()
 extern void levelSelection_UpdateLevelImage_mD34332A5CADBEFD1A68B50F715BE6A6B1C3886DF (void);
-// 0x00000080 System.Void levelSelection::PressSelection(System.String)
+// 0x00000085 System.Void levelSelection::PressSelection(System.String)
 extern void levelSelection_PressSelection_m1590C1A5C3E45CBCBF91D31A7C7FD228F6BAC752 (void);
-// 0x00000081 System.Void levelSelection::.ctor()
+// 0x00000086 System.Void levelSelection::.ctor()
 extern void levelSelection__ctor_m09CFEEEE2F3E3499DFF08A397E65BFACC5144950 (void);
-static Il2CppMethodPointer s_methodPointers[129] = 
+static Il2CppMethodPointer s_methodPointers[134] = 
 {
 	DestroyExplode_Start_mD628086DEA38BFC80FBBB868B8C0F87A497FB682,
 	DestroyExplode_Update_m70C8DB16E919A5147D133CA62C233300C83BA0AC,
@@ -382,10 +392,15 @@ static Il2CppMethodPointer s_methodPointers[129] =
 	U3CStartSpawningU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC0C06CA5B662E36EC382F4E52FA1571B16F4118C,
 	U3CStartSpawningU3Ed__5_System_Collections_IEnumerator_Reset_m5D4E94B8D483A1C68244C6E5A3208340245360D0,
 	U3CStartSpawningU3Ed__5_System_Collections_IEnumerator_get_Current_m69AF8D21E799D4D6A528DBBB88AB5AE30539D084,
-	StartScript_Start_m599D2AE1C1F78DFF6220E992A793E86D504FA4E7,
-	StartScript_Update_m6726E5C6C750FF59F47E1025D83DD19FF553303D,
 	StartScript_hide_m754CBF973327528B040A0DDC2BC6AF63EDAAB6B0,
+	StartScript_PlayVid_m7AAEBA95D59967507B6D20AB0C4CF61EAAD3E41D,
 	StartScript__ctor_mDF141128AA36862055F7C221E2E2CD97B7C5756B,
+	U3CPlayVidU3Ed__8__ctor_m35D41E976E99F9A341DDB6E88D18957545B1EBDC,
+	U3CPlayVidU3Ed__8_System_IDisposable_Dispose_m97BA4F1C5D574C907426939838A2CC37E2D6ABD4,
+	U3CPlayVidU3Ed__8_MoveNext_m2239F6643D3144F5708958BD032507288D145EB8,
+	U3CPlayVidU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCBEB7D68848C1D4F2F80A04CB770A77E9B0452EB,
+	U3CPlayVidU3Ed__8_System_Collections_IEnumerator_Reset_m60E63D933FCEAFDF7D9D5BDDF612F169ED148ACF,
+	U3CPlayVidU3Ed__8_System_Collections_IEnumerator_get_Current_m3EE7FB246F8006C02CFF65BF7300A7536616EF7D,
 	TimeScript_Start_mF7847ED3A02F35E6AFEF50C0836AA3FA87487A5F,
 	TimeScript_Update_m0F1C0F69A4315029F6FD9CDA7E104AD88D2FAF90,
 	TimeScript__ctor_mEECE46AE4380BD458995AAF8DB8C06F0B2C49E25,
@@ -402,144 +417,149 @@ static Il2CppMethodPointer s_methodPointers[129] =
 	levelSelection_PressSelection_m1590C1A5C3E45CBCBF91D31A7C7FD228F6BAC752,
 	levelSelection__ctor_m09CFEEEE2F3E3499DFF08A397E65BFACC5144950,
 };
-static const int32_t s_InvokerIndices[129] = 
+static const int32_t s_InvokerIndices[134] = 
 {
-	2440,
-	2440,
-	2440,
-	2440,
-	2440,
-	2440,
-	2440,
-	2440,
-	2440,
-	2440,
-	2440,
-	2440,
-	2440,
-	2440,
-	2440,
-	2440,
-	2440,
-	2392,
-	1986,
-	2440,
-	1986,
-	2440,
-	2415,
-	2392,
-	2440,
-	2392,
-	2440,
-	2440,
-	2440,
-	2392,
-	2440,
-	1986,
-	2440,
-	1986,
-	2440,
-	2415,
-	2392,
-	2440,
-	2392,
-	2440,
-	2440,
-	2440,
-	2392,
-	2440,
-	1986,
-	2440,
-	1986,
-	2440,
-	2415,
-	2392,
-	2440,
-	2392,
-	2440,
-	2440,
-	2440,
-	2392,
-	2440,
-	1986,
-	2440,
-	1986,
-	2440,
-	2415,
-	2392,
-	2440,
-	2392,
-	2440,
-	2440,
-	2440,
-	2392,
-	2440,
-	2392,
-	1986,
-	2440,
-	1986,
-	2440,
-	2415,
-	2392,
-	2440,
-	2392,
-	1986,
-	2440,
-	2415,
-	2392,
-	2440,
-	2392,
-	2002,
-	2440,
-	2440,
-	2002,
-	2440,
-	2440,
-	2392,
-	2440,
-	1986,
-	2440,
-	2415,
-	2392,
-	2440,
-	2392,
-	2440,
-	2440,
-	2392,
-	2440,
-	2440,
-	1986,
-	2440,
-	2415,
-	2392,
-	2440,
-	2392,
-	2440,
-	2440,
-	2440,
-	2440,
-	2440,
-	2440,
-	2440,
-	2440,
-	2440,
-	2440,
-	2440,
-	2440,
-	2002,
-	2440,
-	2440,
-	2440,
-	2440,
-	2002,
-	2440,
+	2443,
+	2443,
+	2443,
+	2443,
+	2443,
+	2443,
+	2443,
+	2443,
+	2443,
+	2443,
+	2443,
+	2443,
+	2443,
+	2443,
+	2443,
+	2443,
+	2443,
+	2395,
+	1989,
+	2443,
+	1989,
+	2443,
+	2418,
+	2395,
+	2443,
+	2395,
+	2443,
+	2443,
+	2443,
+	2395,
+	2443,
+	1989,
+	2443,
+	1989,
+	2443,
+	2418,
+	2395,
+	2443,
+	2395,
+	2443,
+	2443,
+	2443,
+	2395,
+	2443,
+	1989,
+	2443,
+	1989,
+	2443,
+	2418,
+	2395,
+	2443,
+	2395,
+	2443,
+	2443,
+	2443,
+	2395,
+	2443,
+	1989,
+	2443,
+	1989,
+	2443,
+	2418,
+	2395,
+	2443,
+	2395,
+	2443,
+	2443,
+	2443,
+	2395,
+	2443,
+	2395,
+	1989,
+	2443,
+	1989,
+	2443,
+	2418,
+	2395,
+	2443,
+	2395,
+	1989,
+	2443,
+	2418,
+	2395,
+	2443,
+	2395,
+	2005,
+	2443,
+	2443,
+	2005,
+	2443,
+	2443,
+	2395,
+	2443,
+	1989,
+	2443,
+	2418,
+	2395,
+	2443,
+	2395,
+	2443,
+	2443,
+	2395,
+	2443,
+	2443,
+	1989,
+	2443,
+	2418,
+	2395,
+	2443,
+	2395,
+	2443,
+	2395,
+	2443,
+	1989,
+	2443,
+	2418,
+	2395,
+	2443,
+	2395,
+	2443,
+	2443,
+	2443,
+	2443,
+	2443,
+	2443,
+	2443,
+	2443,
+	2005,
+	2443,
+	2443,
+	2443,
+	2443,
+	2005,
+	2443,
 };
 extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	129,
+	134,
 	s_methodPointers,
 	0,
 	NULL,
