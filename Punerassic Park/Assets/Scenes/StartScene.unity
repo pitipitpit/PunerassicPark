@@ -402,7 +402,11 @@ RectTransform:
   m_Father: {fileID: 1465792758}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 1
+=======
+  m_RootOrder: 2
+>>>>>>> parent of a08678d8 (update cut scene)
 =======
   m_RootOrder: 2
 >>>>>>> parent of a08678d8 (update cut scene)
@@ -709,7 +713,10 @@ MonoBehaviour:
 --- !u!222 &864238202
 CanvasRenderer:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of a08678d8 (update cut scene)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -718,12 +725,16 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 --- !u!224 &864238203
 RectTransform:
+<<<<<<< HEAD
+>>>>>>> parent of a08678d8 (update cut scene)
+=======
 >>>>>>> parent of a08678d8 (update cut scene)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 864238200}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_CullTransparentMesh: 1
 --- !u!224 &864238203
@@ -733,6 +744,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 864238200}
+=======
+>>>>>>> parent of a08678d8 (update cut scene)
 =======
 >>>>>>> parent of a08678d8 (update cut scene)
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -742,7 +755,11 @@ RectTransform:
   m_Father: {fileID: 1465792758}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 2
+=======
+  m_RootOrder: 3
+>>>>>>> parent of a08678d8 (update cut scene)
 =======
   m_RootOrder: 3
 >>>>>>> parent of a08678d8 (update cut scene)
@@ -787,7 +804,11 @@ RectTransform:
   m_Father: {fileID: 1465792758}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 0
+=======
+  m_RootOrder: 1
+>>>>>>> parent of a08678d8 (update cut scene)
 =======
   m_RootOrder: 1
 >>>>>>> parent of a08678d8 (update cut scene)
@@ -1075,7 +1096,10 @@ RectTransform:
   m_Children:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of a08678d8 (update cut scene)
 =======
 >>>>>>> parent of a08678d8 (update cut scene)
   - {fileID: 1499839733}
