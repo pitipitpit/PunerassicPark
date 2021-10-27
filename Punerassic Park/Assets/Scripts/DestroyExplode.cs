@@ -5,7 +5,9 @@ using UnityEngine;
 public class DestroyExplode : MonoBehaviour
 {
     public float timeLeft;
-    
+
+    public TimeScript timeScript;
+
     private Vector3 dinoBounds;
     // public float movementSpeed = 1f;
 

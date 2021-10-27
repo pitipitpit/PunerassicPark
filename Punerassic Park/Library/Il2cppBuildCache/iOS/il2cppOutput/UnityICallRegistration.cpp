@@ -2704,6 +2704,14 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.UnityLogWriter
 
+	//Start Registrations for type : UnityEngine.Video.VideoPlayer
+
+		//System.Void UnityEngine.Video.VideoPlayer::Play()
+		void Register_UnityEngine_Video_VideoPlayer_Play();
+		Register_UnityEngine_Video_VideoPlayer_Play();
+
+	//End Registrations for type : UnityEngine.Video.VideoPlayer
+
 	//Start Registrations for type : UnityEngine.XR.InputDevices
 
 		//System.Boolean UnityEngine.XR.InputDevices::TryGetFeatureValue_Quaternionf(System.UInt64,System.String,UnityEngine.Quaternion&)
