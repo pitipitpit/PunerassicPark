@@ -403,7 +403,11 @@ RectTransform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 1
+=======
+  m_RootOrder: 2
+>>>>>>> parent of a08678d8 (update cut scene)
 =======
   m_RootOrder: 2
 >>>>>>> parent of a08678d8 (update cut scene)
@@ -714,7 +718,10 @@ MonoBehaviour:
 CanvasRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of a08678d8 (update cut scene)
 =======
 >>>>>>> parent of a08678d8 (update cut scene)
   m_ObjectHideFlags: 0
@@ -726,6 +733,9 @@ CanvasRenderer:
 --- !u!224 &864238203
 RectTransform:
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of a08678d8 (update cut scene)
+=======
 >>>>>>> parent of a08678d8 (update cut scene)
 =======
 >>>>>>> parent of a08678d8 (update cut scene)
@@ -736,6 +746,7 @@ RectTransform:
   m_GameObject: {fileID: 864238200}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_CullTransparentMesh: 1
 --- !u!224 &864238203
 RectTransform:
@@ -744,6 +755,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 864238200}
+=======
+>>>>>>> parent of a08678d8 (update cut scene)
 =======
 >>>>>>> parent of a08678d8 (update cut scene)
 =======
@@ -756,7 +769,11 @@ RectTransform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 2
+=======
+  m_RootOrder: 3
+>>>>>>> parent of a08678d8 (update cut scene)
 =======
   m_RootOrder: 3
 >>>>>>> parent of a08678d8 (update cut scene)
@@ -805,7 +822,11 @@ RectTransform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 0
+=======
+  m_RootOrder: 1
+>>>>>>> parent of a08678d8 (update cut scene)
 =======
   m_RootOrder: 1
 >>>>>>> parent of a08678d8 (update cut scene)
@@ -1097,7 +1118,10 @@ RectTransform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of a08678d8 (update cut scene)
 =======
 >>>>>>> parent of a08678d8 (update cut scene)
 =======
