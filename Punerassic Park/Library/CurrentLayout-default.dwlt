@@ -15,7 +15,10 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of a08678d8 (update cut scene)
     x: 239.48828
     y: 276.1797
     width: 630
@@ -48,8 +51,13 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Project
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
+=======
+  m_RootView: {fileID: 10}
+  m_MinSize: {x: 875, y: 542}
+>>>>>>> parent of a08678d8 (update cut scene)
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -128,8 +136,11 @@ MonoBehaviour:
     y: 0
     width: 373
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 565
 =======
+=======
+>>>>>>> parent of a08678d8 (update cut scene)
     height: 528
 >>>>>>> parent of a08678d8 (update cut scene)
   m_MinSize: {x: 202, y: 221}
@@ -164,9 +175,12 @@ MonoBehaviour:
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 158
 --- !u!114 &4
 =======
+=======
+>>>>>>> parent of a08678d8 (update cut scene)
   controlID: 139
 --- !u!114 &7
 >>>>>>> parent of a08678d8 (update cut scene)
@@ -271,8 +285,13 @@ MonoBehaviour:
     y: 0
     width: 1920
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 1037
   m_MinSize: {x: 875, y: 300}
+=======
+    height: 973
+  m_MinSize: {x: 875, y: 542}
+>>>>>>> parent of a08678d8 (update cut scene)
 =======
     height: 973
   m_MinSize: {x: 875, y: 542}
@@ -353,9 +372,12 @@ MonoBehaviour:
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 69
 --- !u!114 &11
 =======
+=======
+>>>>>>> parent of a08678d8 (update cut scene)
   controlID: 140
 --- !u!114 &14
 >>>>>>> parent of a08678d8 (update cut scene)
@@ -384,9 +406,12 @@ MonoBehaviour:
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 70
 --- !u!114 &12
 =======
+=======
+>>>>>>> parent of a08678d8 (update cut scene)
   controlID: 141
 --- !u!114 &15
 >>>>>>> parent of a08678d8 (update cut scene)
@@ -408,8 +433,11 @@ MonoBehaviour:
     y: 0
     width: 595
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 565
 =======
+=======
+>>>>>>> parent of a08678d8 (update cut scene)
     height: 528
 >>>>>>> parent of a08678d8 (update cut scene)
   m_MinSize: {x: 202, y: 221}
@@ -449,8 +477,11 @@ MonoBehaviour:
     m_IsLocked: 0
   m_LastSelectedObjectID: 71514
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &14
 =======
+=======
+>>>>>>> parent of a08678d8 (update cut scene)
 --- !u!114 &18
 >>>>>>> parent of a08678d8 (update cut scene)
 MonoBehaviour:
@@ -506,9 +537,15 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedIDs: 62480000
     m_LastClickedID: 18530
     m_ExpandedIDs: 00000000404800004248000000ca9a3b
+=======
+    m_SelectedIDs: 2e480000
+    m_LastClickedID: 18478
+    m_ExpandedIDs: 00000000084800000a48000000ca9a3b
+>>>>>>> parent of a08678d8 (update cut scene)
 =======
     m_SelectedIDs: 2e480000
     m_LastClickedID: 18478
@@ -542,7 +579,11 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 000000004048000042480000
+=======
+    m_ExpandedIDs: 00000000084800000a480000
+>>>>>>> parent of a08678d8 (update cut scene)
 =======
     m_ExpandedIDs: 00000000084800000a480000
 >>>>>>> parent of a08678d8 (update cut scene)
@@ -669,9 +710,15 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_SelectedIDs: 7c480000
       m_LastClickedID: 0
       m_ExpandedIDs: eaf7fffffef7ffffdef8ffffbaf9ffffccf9ffff4efbffff
+=======
+      m_SelectedIDs: 48480000
+      m_LastClickedID: 0
+      m_ExpandedIDs: c4f0ffffd8f0ffffecf0fffffef0ffff12f1ffff26f1ffff3ef1ffffb0f6ffffc6f6ffffdaf6ffffeef6ffff02f7ffffe0f7fffff4f7ffff10f8ffffc8f9ffff50fbffffa4480000
+>>>>>>> parent of a08678d8 (update cut scene)
 =======
       m_SelectedIDs: 48480000
       m_LastClickedID: 0
@@ -846,10 +893,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1063
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 73
     width: 371
     height: 544
 =======
+=======
+>>>>>>> parent of a08678d8 (update cut scene)
     y: 83
     width: 371
     height: 507
@@ -899,9 +949,15 @@ MonoBehaviour:
       y: 21
       width: 371
 <<<<<<< HEAD
+<<<<<<< HEAD
       height: 523
     m_Scale: {x: 0.22331691, y: 0.2233169}
     m_Translation: {x: 185.5, y: 261.5}
+=======
+      height: 486
+    m_Scale: {x: 0.19950739, y: 0.19950739}
+    m_Translation: {x: 185.5, y: 243}
+>>>>>>> parent of a08678d8 (update cut scene)
 =======
       height: 486
     m_Scale: {x: 0.19950739, y: 0.19950739}
@@ -914,6 +970,7 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       x: -830.6581
       y: -1170.9817
       width: 1661.3162
@@ -922,6 +979,8 @@ MonoBehaviour:
   m_defaultScale: 0.22331691
   m_LastWindowPixelSize: {x: 371, y: 544}
 =======
+=======
+>>>>>>> parent of a08678d8 (update cut scene)
       x: -929.79016
       y: -1218
       width: 1859.5803
@@ -929,6 +988,9 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 0.20812808
   m_LastWindowPixelSize: {x: 371, y: 507}
+<<<<<<< HEAD
+>>>>>>> parent of a08678d8 (update cut scene)
+=======
 >>>>>>> parent of a08678d8 (update cut scene)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1

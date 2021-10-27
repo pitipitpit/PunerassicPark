@@ -401,7 +401,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1465792758}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 1
+=======
+  m_RootOrder: 2
+>>>>>>> parent of a08678d8 (update cut scene)
 =======
   m_RootOrder: 2
 >>>>>>> parent of a08678d8 (update cut scene)
@@ -704,6 +708,8 @@ MonoBehaviour:
   m_Text: 
 --- !u!222 &864238202
 CanvasRenderer:
+<<<<<<< HEAD
+=======
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -712,18 +718,34 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 --- !u!224 &864238203
 RectTransform:
+>>>>>>> parent of a08678d8 (update cut scene)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 864238200}
+<<<<<<< HEAD
+  m_CullTransparentMesh: 1
+--- !u!224 &864238203
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864238200}
+=======
+>>>>>>> parent of a08678d8 (update cut scene)
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 1465792758}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 2
+=======
+  m_RootOrder: 3
+>>>>>>> parent of a08678d8 (update cut scene)
 =======
   m_RootOrder: 3
 >>>>>>> parent of a08678d8 (update cut scene)
@@ -764,7 +786,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1465792758}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 0
+=======
+  m_RootOrder: 1
+>>>>>>> parent of a08678d8 (update cut scene)
 =======
   m_RootOrder: 1
 >>>>>>> parent of a08678d8 (update cut scene)
@@ -1048,7 +1074,10 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of a08678d8 (update cut scene)
   - {fileID: 1499839733}
 >>>>>>> parent of a08678d8 (update cut scene)
   - {fileID: 1305884156}
